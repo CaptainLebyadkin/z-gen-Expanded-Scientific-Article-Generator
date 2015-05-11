@@ -12,12 +12,17 @@ Nevertheless, words that are 'too funny' can easily be replaced with your own re
 'The problems of the world, ultimately, come down to a lack of nouns. Do your part, and buy a new noun for a friend you love.' 
 
 Licenses: 
+
 -Main core code based on scigen and mathgen, under the GNU General Public License. 
+
 -'z-gen' retains the GNU General Public License, and all associated content is publicly available and freely distributable. 
 
 Content from other users: 
+
 -Tikz Gantt chart based on http://jldiaz.wikidot.com contributor 'JL Diaz', http://jldiaz.wikidot.com/en-tikz-example:gantt
+
 -Tikz pie chart based on texample.net contributor 'Henri Menke': http://www.texample.net/tikz/examples/pie-chart-color/
+
 -Tikz 3d doughnut chart based on tex.stackexchange.com contributor 'Alain Matthes': http://tex.stackexchange.com/questions/56254/how-to-design-a-3d-donut-pie-chart-with-pgf-plot
 
 
@@ -26,26 +31,46 @@ Content from other users:
 Date: 2014-2015
 
 Instructions: 
+
 -Requires perl, latex and bibtex installed
+
 -to run, type: 
 ./make-latex.pl
+
 -options: 
+
 --pdf (outputs as a pdf)
+
 --nsec n (make the document n sections long; otherwise randomly generated.)
+
 --author 'name' (a name of your choice; otherwise empty)
+
 --sysname 'system' (a title of your new piece of technology; otherwise randomly generated)
 
 My opto-awesome added functionality includes: 
+
 -length specification options
+
 -table of contents past a certain length
+
 -more volatile word choices, sentence choices, paragraph length and section titles
+
 -random section rolls
+
 -maths and proofs
+
 -meaningful tables
+
 -multi-coloured and annotated random graphs/plots and diagrams with arrows and believable labels to impress even the most cynical board member
+
 -2d and 3d pie charts populated with cool nouns and random percentages
+
 -random Gantt charts with random noun choices, bar lengths and captions 
+
 -footnotes
+
 -dot points
+
 -occasional wildcard words weaved in there, taken from an encyclopaedia, to keep things fresh
+
 -many more easter eggs you will find
