@@ -11,12 +11,14 @@ Disclaimer: occasional wildly inappropriate sarcastic side-comments, overtly hea
 Nevertheless, words that are 'too funny' can easily be replaced with your own respected field's special and exclusive index of wank terminology. My only wish is that I could add more contempt to it. 
 'The problems of the world, ultimately, come down to a lack of nouns. Do your part, and buy a new noun for a friend you love.' 
 
+________
 Licenses: 
 
 -Main core code based on scigen and mathgen, under the GNU General Public License. 
 
 -'z-gen' retains the GNU General Public License, and all associated content is publicly available and freely distributable. 
 
+________
 Content from other users: 
 
 -Tikz Gantt chart based on http://jldiaz.wikidot.com contributor 'JL Diaz', http://jldiaz.wikidot.com/en-tikz-example:gantt
@@ -25,11 +27,13 @@ Content from other users:
 
 -Tikz 3d doughnut chart based on tex.stackexchange.com contributor 'Alain Matthes': http://tex.stackexchange.com/questions/56254/how-to-design-a-3d-donut-pie-chart-with-pgf-plot
 
-
+________
 @Author: Dr 'CaptainLebyadkin' (GitHub alias), with a very large number of letters after my name (depending on how I feel; and on how fat the person to whom I am speaking is)
 
+________
 Date: 2014-2015
 
+________
 Instructions: 
 
 -Requires perl, latex and bibtex installed
@@ -37,7 +41,7 @@ Instructions:
 -to run, type: 
 ./make-latex.pl
 
--options: 
+-Options: 
 
 --pdf (outputs as a pdf)
 
@@ -47,6 +51,8 @@ Instructions:
 
 --sysname 'system' (a title of your new piece of technology; otherwise randomly generated)
 
+
+________
 My opto-awesome added functionality includes: 
 
 -length specification options
