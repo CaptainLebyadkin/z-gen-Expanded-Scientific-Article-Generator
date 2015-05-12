@@ -40,13 +40,13 @@ Instructions:
 -Requires perl, latex and bibtex installed
 
 -to run, type: 
-./make-latex.pl
+perl make-latex.pl
 
--Options: 
+Cool options: 
 
 --pdf (outputs as a pdf)
 
---nsec n (make the document n sections long; otherwise randomly generated.)
+--nsec n (make the document n sections long; otherwise randomly generated)
 
 --author 'name' (a name of your choice; otherwise empty)
 
@@ -80,4 +80,4 @@ My opto-awesome added functionality includes:
 
 -occasional wildcard words weaved in there, taken from an encyclopaedia, to keep things fresh
 
--many more easter eggs you will find
+-many more easter eggs you will find.
