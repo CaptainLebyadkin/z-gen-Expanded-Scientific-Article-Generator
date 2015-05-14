@@ -2,7 +2,7 @@ Title:
 'z-gen' Article Generator
 
 Description:
-The robust, relevant, juicy and humorously functional interdisciplinary science article generator, "z-gen", combines the best parts of scigen and mathgen, adding ever-volatile random rolls, in accordance with the ethos of the original author's intention- for the aid of amusement rather than strict believability (although, if you read a genuine government report, with its trendy-smarmy buzzwords, and happy and meaningless pictures and graphs, and overall bankruptcy of content, meaning, and sorts of honourable things sensible people care about, the line is actually really shockingly, scarily thin though, isn't it.)
+The robust, relevant, juicy and humorously functional interdisciplinary science article generator, "z-gen", combines the best parts of SCIgen and Mathgen, adding ever-volatile random rolls, in accordance with the ethos of the original author's intention- for the aid of amusement rather than strict believability (although, if you read a genuine government report, with its trendy-smarmy buzzwords, and happy and meaningless pictures and graphs, and overall bankruptcy of content, meaning, and sorts of honourable things sensible people care about, the line is actually really shockingly, scarily thin though, isn't it.)
 
 This code was originally designed as an emergency bureaucracy-defence so that, if pressed, I could attach an inappropriately long and entirely science-hogwash-sounding document to forms I might have to submit that require inordinately unnecessary and blatantly interfering progress reports that no one would ever bother to read (but I wish they would try- I would enjoy that very much); but this code has now been put 'out to pasture' for the general public. 
 
@@ -15,12 +15,14 @@ Nevertheless, words that are 'too funny' can easily be replaced with your own re
 ________
 Licenses: 
 
--Main core code based on scigen and mathgen, under the GNU General Public License. 
+-Main core code based on SCIgen and Mathgen, under the GNU General Public License. 
 
 -'z-gen' retains the GNU General Public License, and all associated content is publicly available and freely distributable. 
 
 ________
 Content from other users: 
+
+-Core code based on that of SCIgen (authors: Jeremy Stribling, Max Krohn, and Dan Aguayo) and Mathgen (author: Nate Eldredge). 
 
 -Tikz Gantt chart based on http://jldiaz.wikidot.com contributor 'JL Diaz', http://jldiaz.wikidot.com/en-tikz-example:gantt
 
