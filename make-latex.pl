@@ -23,14 +23,10 @@ use IO::File;
 use Getopt::Long;
 use IO::Socket;
 
-my $tmp_dir = "/tmp/ztmp.$$";
-my $tmp_pre = "$tmp_dir/zmakelatex.";
-my $tex_prefix = "zmakelatex.$$";
-my $tex_file = "$tmp_pre$$.tex";
-my $dvi_file = "$tmp_pre$$.dvi";
-my $ps_file = "$tmp_pre$$.ps";
-my $pdf_file = "$tmp_pre$$.pdf";
-my $bib_file = "$tmp_dir/scigenbibfile.bib";
+
+use File::Temp qw/ tempfile tempdir /;
+
+
 my $class_files = "IEEEtran.cls IEEE.bst";
 my @authors;
 my $seed;
@@ -59,7 +55,7 @@ $0 [options]
     --sysname <name>          Set the system name
     --save                    Do not automatically delete
     --pdf                     Open the pdf file instead of the dvi file
-    --nsec <nsec>               Number of sections
+    --nsec <nsec>             Number of sections
 EOUsage
 
     exit(1);
@@ -100,9 +96,7 @@ my $name_RE = undef;
 my $tex_dat = {};
 my $tex_RE = undef;
 
-if( !-d $tmp_dir ) {
-    system( "mkdir -p $tmp_dir" ) and die( "Couldn't make $tmp_dir" );
-}
+
 
 my $sysname;
 if( defined $options{"sysname"} ) {
@@ -111,6 +105,10 @@ if( defined $options{"sysname"} ) {
     $sysname = &get_system_name();
 }
 
+
+my $template = "zmakelatexXXXX";
+my $tmp_dir = tempdir( ); 
+my ($fhtex, $tex_file) = tempfile($template, DIR => $tmp_dir);
 
 
 
@@ -134,6 +132,7 @@ if($nit > $sectol && $partbool == 0) {
  $text_tr = $text_tr . " SCI_TOC ";
 }
 $text_tr = $text_tr . " SCI_INTRO ";
+
 
 my $counter = 1;
 for( my $i = 1; $i <= $nit; $i++ ) {
@@ -220,12 +219,13 @@ if( defined $title ) {
     $tex_dat->{"SCI_TITLE"} = \@a;
 }
 my $tex = scigen::generate ($tex_dat, $start_rule, $tex_RE, 0, 1); 
-open( TEX, ">$tex_file" ) or die( "Couldn't open $tex_file for writing" );
+open( TEX, ">$tex_file.tex" ) or die( "Couldn't open $tex_file for writing" );
 print TEX $tex;
 close( TEX );
 
+
 # for every figure you find in the file, generate a figure
-open( TEX, "<$tex_file" ) or die( "Couldn't read $tex_file" );
+open( TEX, "<$tex_file.tex" ) or die( "Couldn't read $tex_file" );
 my %citelabels = ();
 my @figures = ();
 while( <TEX> ) {
@@ -241,7 +241,7 @@ while( <TEX> ) {
 	    if( defined $options{"talk"} ) {
 		$color = "--color"
 	    }
-	    system( "perl make-graph.pl --file $figfile --seed $newseed --color $color" ) 
+	    system( "./make-graph.pl --file $figfile --seed $newseed --color $color" ) 
 		or $done=1;
 	}
 	push @figures, $figfile;
@@ -253,12 +253,12 @@ while( <TEX> ) {
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
 	    if( `which neato` ) {
-		(system( "perl make-diagram.pl --sys \"$sysname\" " . 
+		(system( "./make-diagram.pl --sys \"$sysname\" " . 
 			 "--file $figfile --seed $newseed" ) or 
 		 !(-f $figfile)) 
 		    or $done=1;
 	    } else {
-		system( "perl make-graph.pl --file $figfile --seed $newseed" ) 
+		system( "./make-graph.pl --file $figfile --seed $newseed" ) 
 		    or $done=1;
 	    }
 	}
@@ -271,7 +271,7 @@ while( <TEX> ) {
 	my $done = 0;
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
-	    system( "perl make-talk-figure.pl --file $figfile --seed $newseed --type $type" ) 
+	    system( "./make-talk-figure.pl --file $figfile --seed $newseed --type $type" ) 
 		or $done=1;
 	}
 	push @figures, $figfile;
@@ -296,7 +296,7 @@ foreach my $author (@authors) {
 	push @{$tex_dat->{"SCI_SOURCE"}}, $author;
     }
 }
-open( BIB, ">$bib_file" ) or die( "Couldn't open $bib_file for writing" );
+open( BIB, ">$tex_file.bib" ) or die( "Couldn't open $tex_file.bib for writing" );
 foreach my $clabel (keys(%citelabels)) {
     my $sysname_cite = &get_system_name();
     @a = ($sysname_cite);
@@ -310,6 +310,8 @@ foreach my $clabel (keys(%citelabels)) {
 }
 close( BIB );
 
+system("cp $tex_file.bib $tmp_dir/scigenbibfile.bib");
+
 if( !defined $options{"savedir"} ) {
 
     my $land = "";
@@ -317,27 +319,27 @@ if( !defined $options{"savedir"} ) {
 	$land = "-t landscape";
     }
 
-    system( "cp $class_files $tmp_dir; cd $tmp_dir; latex $tex_prefix; bibtex $tex_prefix; latex $tex_prefix; latex $tex_prefix; rm $class_files; " . 
-	    "dvips $land -o $ps_file $dvi_file; " . 
-	    "dvipdf $dvi_file")
+    system( "cp $class_files $tmp_dir; cd $tmp_dir; latex $tex_file; bibtex $tex_file; latex $tex_file; latex $tex_file; rm $class_files; " . 
+	    "dvips $land -o $tex_file.ps $tex_file.dvi; " . 
+	    "dvipdf $tex_file.dvi")
 	and die( "Couldn't latex nothing." );
 
     if( defined $options{"file"} ) {
 	my $f = $options{"file"};
 	if( defined $options{"talk"} ) {
-	    system( "ps2pdf $ps_file $pdf_file; cp $pdf_file $f" ) 
-		and die( "Couldn't ps2pdf/cp $pdf_file" );
+	    system( "ps2pdf $tex_file.ps $tex_file.pdf; cp $tex_file.pdf $f" ) 
+		and die( "Couldn't ps2pdf/cp $tex_file.pdf" );
 	} else {
-	    system( "cp $ps_file $f" ) and die( "Couldn't cp to $f" );
+	    system( "cp $tex_file.ps $f" ) and die( "Couldn't cp to $f" );
 	}
     } elsif( defined $options{"talk"} ) {
-	system( "ps2pdf $ps_file $pdf_file; acroread $pdf_file" ) 
-	    and die( "Couldn't ps2pdf/acroread $ps_file" );
+	system( "ps2pdf $tex_file.ps $tex_file.pdf; acroread $tex_file.pdf" ) 
+	    and die( "Couldn't ps2pdf/acroread $tex_file.ps" );
     } else {
 	if( defined $options{"pdf"} ) {
-	    system( "acroread $pdf_file" ) and die( "Couldn't acroread $pdf_file" );
+	    system( "acroread $tex_file.pdf" ) and die( "Couldn't acroread $tex_file.pdf" );
 	} else {
-	    system( "gv $ps_file" ) and die( "Couldn't gv $ps_file" );
+	    system( "gv $tex_file.ps" ) and die( "Couldn't gv $tex_file.ps" );
 	}
     }
 
@@ -351,16 +353,16 @@ foreach my $author (@authors) {
 if( defined $options{"tar"} or defined $options{"savedir"} ) {
     my $f = $options{"tar"};
     my $tartmp = "$tmp_dir/tartmp.$$";
-    my $all_files = "$tex_file $class_files @figures $bib_file";
-    system( "mkdir $tartmp; cp $all_files $tartmp/;" ) and 
+    my $all_files = "$tex_file.* @figures";
+    system( "mkdir $tartmp; cp $all_files $tartmp/; cd $tmp_dir;" ) and 
 	die( "Couldn't mkdir $tartmp" );
-    $all_files =~ s/$tmp_dir\///g;
-    system( "echo $seedstring > $tartmp/seed.txt" ) and 
-	die( "Couldn't cat to $tartmp/seed.txt" );
-    $all_files .= " seed.txt";
+    #$all_files =~ s/$tmp_dir\///g;
+    #system( "echo $seedstring > $tartmp/seed.txt" ) and 
+#	die( "Couldn't cat to $tartmp/seed.txt" );
+#    $all_files .= " seed.txt";
 
     if( defined $options{"tar"} ) {
-	system( "cd $tartmp; tar -czf $$.tgz $all_files; cd -; " . 
+	system( "tar -czf $$.tgz $tartmp.$$; " . 
 		"cp $tartmp/$$.tgz $f; rm -rf $tartmp" ) and 
 		    die( "Couldn't tar to $f" );
     } else {
@@ -377,13 +379,10 @@ if( defined $options{"tar"} or defined $options{"savedir"} ) {
     print "$seedstring\n";
 }
 
-
-system( "rm $tmp_pre*" ) and die( "Couldn't rm" );
-unlink( @figures );
-unlink( "$bib_file" );
 if( !defined $options{"save"} ) {
-system( "rm -f $tmp_dir/dia*.tmp; rmdir $tmp_dir" );
-}
+    system("rm -rf $tmp_dir");}
+
+
 sub get_system_name {
 
     if( $remote ) {
