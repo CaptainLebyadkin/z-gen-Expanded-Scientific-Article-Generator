@@ -23,7 +23,7 @@ use IO::File;
 use Getopt::Long;
 use IO::Socket;
 
-my $tmp_dir = "~/ztmp.$$";
+my $tmp_dir = "/tmp/ztmp.$$";
 my $tmp_pre = "$tmp_dir/zmakelatex.";
 my $tex_prefix = "zmakelatex.$$";
 my $tex_file = "$tmp_pre$$.tex";
