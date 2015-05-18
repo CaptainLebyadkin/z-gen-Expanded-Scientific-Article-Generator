@@ -48,15 +48,15 @@ Cool options (which can be appended to the command above):
 
 --pdf (outputs as a pdf)
 
---nsec <n> (make the document n sections long; otherwise randomly generated)
+--nsec [n] (make the document n sections long; otherwise randomly generated)
 
---author <name> (a name of your choice; otherwise empty)
+--author [name] (a name of your choice; otherwise empty)
 
---sysname <system> (a title of your new piece of technology; otherwise randomly generated)
+--sysname [system] (a title of your new piece of technology; otherwise randomly generated)
 
 --save (save the files you have produced- otherwise it will autodelete, if you want to reroll)
 
---savedir <dir> (save the files to a directory of your choice)
+--savedir [dir] (save the files to a directory of your choice)
 
 ________
 My opto-awesome added functionality includes: 
