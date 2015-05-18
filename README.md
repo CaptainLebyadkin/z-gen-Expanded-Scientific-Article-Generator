@@ -41,8 +41,10 @@ Instructions:
 
 -Requires perl, latex and bibtex installed
 
--to run, type in a unix command line: 
+-To run, type in a unix command line: >>
+
 perl make-latex.pl
+
 
 Cool options (which can be appended to the command above): 
 
