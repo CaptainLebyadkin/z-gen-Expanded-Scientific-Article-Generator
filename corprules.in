@@ -824,6 +824,7 @@ POSSIBLE_NV+5 proper
 POSSIBLE_NV+5 sensible
 POSSIBLE_V understandable
 POSSIBLE_NV+5 valid
+POSSIBLE_NV trans-plausible
 
 TRACE_UNIT_LONG	week
 TRACE_UNIT_LONG	month
@@ -2009,7 +2010,8 @@ MATTERS		matters
 MATTERS		SCI_MAY cause us consternation
 
 CONSTRAINT_TYPEX		performance
-CONSTRAINT_TYPEX		security
+CONSTRAINT_TYPEX		security 
+CONSTRAINT_TYPEX		accountability
 CONSTRAINT_TYPEX		usability
 CONSTRAINT_TYPEX		utility
 CONSTRAINT_TYPEX		computability
@@ -2386,6 +2388,7 @@ EXP_TREK		chronoton
 EXP_TREK		temporal
 EXP_TREK		focused
 EXP_TREK		sonic
+EXP_TREK		PREFIX-regenerative
 
 #EXP_ADJ+1000 `GOOD_ADJ'
 EXP_ADJ+30		`GOOD_ADJ'
@@ -4276,7 +4279,7 @@ LIT_MIDDLE	Similarly,
 LIT_MIDDLE	On a similar note,
 LIT_MIDDLE	In a similar tone,
 LIT_MIDDLE	While we think of it,
-LIT_MIDDLE	SCI_PROBLEM_PL aside,
+LIT_MIDDLE	Setting SCI_PROBLEM_PL aside,
 LIT_MIDDLE	For example,
 LIT_MIDDLE	To develop this idea even further,
 LIT_MIDDLE	To go one step further,
@@ -4285,24 +4288,23 @@ LIT_MIDDLE	Additionally,
 LIT_MIDDLE	As an additional aside, 
 LIT_MIDDLE	As an additional point,
 LIT_MIDDLE	Developing this idea further,
-LIT_MIDDLE	DISREGARDING BIAS FORNOWX,
-LIT_MIDDLE	Consider, FORNOW, that
-LIT_MIDDLE	TAKE_NOTE_THAT FORNOW,	
+LIT_MIDDLE	DISREGARDING BIAS FORNOWX
+LIT_MIDDLE	Consider FORNOW that
+LIT_MIDDLE	Now TAKE_NOTE_THAT FORNOW	
 LIT_MIDDLE	Given that LITTLE research into SCI_THING_MOD
 
 DISREGARDING Disregarding
 DISREGARDING Laying aside
 DISREGARDING Putting aside
+DISREGARDING Setting aside
 
-FORNOW for the time-being
-#FORNOW now
-#FORNOW just now
-FORNOW for now
-FORNOW for the moment
-FORNOW momentarily
-FORNOW for a brief second
-FORNOW briefly
-FORNOW presently
+FORNOW for the time-being, 
+FORNOW for the moment, 
+FORNOW momentarily, 
+FORNOW for a brief second, 
+FORNOW briefly, 
+FORNOW presently, 
+FORNOW+5
 
 FORNOWX+10 FORNOW
 FORNOWX FORNOW (we will RETURN to this point SCI_NOW)
@@ -4328,12 +4330,11 @@ LIT_LEADIN	without a doubt,
 LIT_LEADIN	in the opinion of SCI_PEOPLE, 
 LIT_LEADIN	predictably, 
 LIT_LEADIN	remarkably,
-LIT_LEADIN	LIT_REVERSAL
+LIT_LEADIN	LIT_REVERSAL, 
 LIT_LEADIN	LREV, 
 LIT_LEADIN	by comparison, 
 LIT_LEADIN	in the opinions of many, 
 LIT_LEADIN	certainly, 
-LIT_LEADIN+7	LIT_MIDDLE
 LIT_LEADIN+20	 
 
 LIT_FIRST+20	First,
@@ -4916,7 +4917,7 @@ XXX+10		CITATION.
 XXX+10		CITATION_MULTI.
 XXX+7		. FILLER_SENTENCE.
 XXX+5		$\!$\footnote{FILLER_SENTENCE.}.
-XXX+5		$\!$\footnote{SCI_INTRO_FILLER}. 
+XXX+5		$\!$\footnote{LIT_MIDDLE SCI_INTRO_FILLER.}. 
 
 SCI_MAY might
 SCI_MAY may
@@ -5666,7 +5667,7 @@ TAMIL_LASTNAME Vivek
 ######### Units/Graphs ##########
 #############################################################################
 
-SCI_CAPTION see Figure~\ref{LATEX_FIG_LABEL_REF}.
+SCI_CAPTION see Figure~\ref{LATEX_FIG_LABEL_REF}. 
 
 SCI_GRAPH_CAPTION+33 The STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, as a function of EVAL_MEASUREMENT_UM.
 SCI_GRAPH_CAPTION+33 The STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, compared with the other SCI_SYSTEM_PL.
@@ -5685,6 +5686,7 @@ EXTRA_SENTENCE It is LIT_OFTEN the case that SCI_COMPLEXNOUN ARISEs due to the L
 EXTRA_SENTENCE This CLEARLY SCI_DIAGRAM_VERBS the SCI_STATUS_ADJ LIT_INCREASING behaviour.
 EXTRA_SENTENCE By MAXIMIZING our SCI_SYSTEM's EVAL_MEASUREMENT_UM at the \textit{PREFIX} level, we successfully SCI_ACHIEVED a POSSIBLE_NV SOFTWARE_ADJ EVALUATION.
 EXTRA_SENTENCE We were able to SCI_GOAL_ACHIEVE an POSSIBLE_V SOFTWARE_ADJ EVALUATION by MULTIPLE_VERBING the PROP_OR_MEASUREMENT_NO_SYSTEM.
+EXTRA_SENTENCE LAME_OBSERVATION
 
 SCI_CLARITY+5 the sake of accuracy
 SCI_CLARITY+1 transparency
@@ -6486,7 +6488,7 @@ PIEFANCY {
 \begin{figure*}[TABPOSp] 
 \begin{center}{\begin{tikzpicture} 
 \def\data{PIEFANCYLIST}    
-\piechartthreed[scale=0.PSC, background color=white!50, mix color= darkgray, shift=SHIFTDIG.DIGIT] {PIEFANCYLIST} 
+\piechartthreed[scale=0.PSCDIGIT, background color=white!50, mix color= darkgray, shift=SHIFTDIG.DIGIT] {PIEFANCYLIST} 
 \end{tikzpicture}}
 \end{center}\vspace{-2mm}\captionof{figure}{SCI_PIE_CAPTION}\label{LATEX_PIE_LABEL}\end{figure*}
 }
@@ -6531,9 +6533,10 @@ COORD -2
 COORD 3
 COORD -3
 
+PSC 3
 PSC 4
 PSC 5
-PSC 6
+
 
 
 NSDIR north
@@ -6981,7 +6984,7 @@ SCI_ANT+10 	previously discussed
 
 ASSENDER   (our notation)
 ASSENDER   (by convention)
-ASSENDER   , as SCI_ANT
+ASSENDER    as SCI_ANT
 ASSENDER   thusly
 ASSENDER   like so
 ASSENDER   , in order to SCI_GOAL_ACHIEVE our SCI_GOAL
@@ -6994,7 +6997,7 @@ ASSENDER   , which, SCI_ADV, represents the CRUX here
 ASSENDER   , which will be METAVERBED SCI_NOW
 ASSENDER   , which we METAVERB SCI_NOW
 ASSENDER+5 , which ISCLEAR
-#ASSENDER+5 , SCI_ADV
+#ASSENDER+5  SCI_ADV
 ASSENDER (SCI_ADV)
 ASSENDER (LREV enough) 
 ASSENDER (this ISCLEAR)
@@ -7159,7 +7162,7 @@ PROOFENDER+20
 PROOFENDER+15 ; CONNECT SOSEEM, SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE represents an SCI_IMPORTANTV part of the proof
 PROOFENDER+15 ; CONNECT SOSEEM, SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE represents a SCI_MAIN portion of the proof
 PROOFENDER+15 ; CONNECT SOSEEM, SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE represents the CRUX 
-PROOFENDER+15 . LIT_ALTHOUGH similar SCI_BUZZWORD_NOUN have been NOTED for their IMPACT AREA, we SCI_SOLVE_CLAUSE without OVERVERBING MATHNOUNS 
+PROOFENDER+15 . LIT_ALTHOUGH similar SCI_GOAL_PL have been NOTED for their IMPACT AREA, we SCI_SOLVE_CLAUSE without OVERVERBING MATHNOUNS 
 PROOFENDER , LIT_ALTHOUGH a similar SCI_MODEL_TYPE CITATION SCI_CAN EVAL_WHY_VERB MATHNOUNS 
 PROOFENDER+15 LIT_ALTHOUGH RELATED solutions to this SCI_PROBLEM are LIT_GOOD, none has taken the EXP_ADJ SCI_APPROACH we propose here
 PROOFENDER+15 , which PROVES that AREAADJ MNOUNS are PROPPHRASE
@@ -7297,7 +7300,7 @@ SDISCUSS in CITATION, it is SCI_PROVE_VERBED that ASSERTION XXX
 SDISCUSS+15 recently, there has been LITTLE interest in the METANOUN of OBJECTS XXX 
 DISCUSS a {}useful survey of the subject can be found in CITATION; RELWORK_FILLER  
 DISCUSS+15 LIT_LEADIN it is essential to consider that $VAR$ may be PROPERTY XXX
-SDISCUSS+15 it was FAMOUS who first asked whether OBJECTS can be METAVERBED XXX
+SDISCUSS+15 it was FAMOUSLAST who first asked whether OBJECTS can be METAVERBED XXX
 DISCUSS+15 this could shed vital light on a conjecture of FAMOUS XXX
 SDISCUSS we wish to extend the results of CITATION to OBJECTS XXX
 DISCUSS+15 unfortunately, we cannot assume that ASSERTION; although, we can certainly SCI_TRY XXX
@@ -7384,6 +7387,9 @@ THISREL \supset
 THISREL \to
 THISREL \in
 THISREL \ni
+THISREL	\rightarrow
+THISREL	\longrightarrow
+THISREL \leftrightarrow
 
 SHORTEQ FVAR\,THISREL\,FVAR
 SHORTEQ FVAR\,THISREL\,CONST
@@ -7816,6 +7822,7 @@ PROPNOUN separability
 PROPNOUN injectivity
 PROPNOUN surjectivity
 PROPNOUN uncountability
+
 
 CONCEPT+20 the PROPNOUN of OBJECTS
 CONCEPT+20 OBJECTS
