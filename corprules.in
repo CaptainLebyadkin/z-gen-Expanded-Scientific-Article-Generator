@@ -674,6 +674,8 @@ SCI_MODEL_TYPE	methodology
 SCI_MODEL_TYPE	strategy
 SCI_MODEL_TYPE	archetype
 SCI_MODEL_TYPE	morphology
+SCI_MODEL_TYPE	viewpoint
+SCI_MODEL_TYPE	standpoint
 SCI_MODEL_TYPE_P	models
 SCI_MODEL_TYPE_P	constructions
 SCI_MODEL_TYPE_P	delineations
@@ -691,6 +693,8 @@ SCI_MODEL_TYPE_P	strategies
 SCI_MODEL_TYPE_P	practices
 SCI_MODEL_TYPE_P	archetypes
 SCI_MODEL_TYPE_P	morphologies
+SCI_MODEL_TYPE_P	viewpoints
+SCI_MODEL_TYPE_P	standpoints
 
 MODEL_XXX+30	XXX
 MODEL_XXX+5	. MODEL_FILLER.
@@ -1619,10 +1623,20 @@ RELWORK_MID_X instead of SCI_VERBING SCI_GENERIC_NOUN RELWORK_CITATION, we SCI_S
 RELWORK_MID_X the choice of SCI_THING_MOD in CITATION differs from ours in that we SCI_VERB only SCI_ADJ SCI_BUZZWORD_NOUN in SCI_OUR_SYSTEM
 RELWORK_MID_X SCI_BY_WHO RELWORK_CITATION originally articulated the need for SCI_GENERIC_NOUN
 RELWORK_MID_X the original approach to this SCI_PROBLEM SCI_BY_WHO_SOMETIMES was SCI_REACTION; LIT_REVERSAL, WHAT did not completely SCI_SOLVE_CLAUSE
-RELWORK_MID_X SCI_BY_WHO RELWORK_CITATION suggested a scheme for SCI_VERBING SCI_GENERIC_NOUN, but did not fully realise the implications of SCI_GENERIC_NOUN at the time
-RELWORK_MID_X SCI_OUR_SYSTEM is broadly related to work in the field of SCI_FIELD SCI_BY_WHO_SOMETIMES, but we view it from a new perspective: SCI_GENERIC_NOUN
+RELWORK_MID_X SCI_BY_WHO RELWORK_CITATION suggested a scheme for SCI_VERBING SCI_GENERIC_NOUN, but did not fully VIEW the FINDINGs of SCI_GENERIC_NOUN at the time
+RELWORK_MID_X SCI_OUR_SYSTEM is broadly related to work in the field of SCI_FIELD SCI_BY_WHO_SOMETIMES, but we VIEW it from a new SCI_MODEL_TYPE: SCI_GENERIC_NOUN
 RELWORK_MID_X SCI_BY_WHO RELWORK_CITATION developed a similar SCI_SYSTEM CITATION, and LIT_REVERSAL, we SCI_PROVE_VERBED that SCI_OUR_SYSTEM SCI_PROOF_PROP 
 RELWORK_MID_X a litany of RELATED work supports our use of SCI_GENERIC_NOUN
+
+VIEW view
+VIEW see
+VIEW approach
+VIEW pursue
+VIEW realise
+VIEW appreciate
+VIEW comprehend
+VIEW apprehend
+VIEW PROBE_VERB
 
 SCI_FAIR+3	ill-conceived
 SCI_FAIR	astute
@@ -3518,10 +3532,14 @@ WHAT			this FINDING
 WHAT			such a THISIDEA
 WHAT			such a hypothesis
 
-FINDING			result
-FINDING			finding
-FINDING			outcome
-FINDING			technique
+FINDING+5			result
+FINDING+5			finding
+FINDING+5			outcome
+FINDING+5			technique
+FINDING+5			implication
+FINDING				knock-on effect
+FINDING+2			enhancement
+FINDING+2			achievement
 
 
 SCI_THING_HAS	SCI_THING_S has
@@ -5037,7 +5055,7 @@ FILLER_SENTENCE+15		SCI_B_LEADIN_C it is CLEAR that SYSNAME is a SCI_IDEAL_NV SC
 FILLER_SENTENCE+15		SCI_B_LEADIN_C we SCI_ASSUME in this WORK that our SCI_MANNER of SCI_IDEAL CONSTRAINT_P SCI_VERBS the ability to METAVERB CONCEPT
 FILLER_SENTENCE+15		Several SCI_PROBLEM_PL with CONCEPT gives us reason to think otherwise
 FILLER_SENTENCE+15		Several SCI_PROBLEM_PL with CONCEPT raise a few eyebrows
-FILLER_SENTENCE+15		SCI_B_LEADIN_C OVERVERBING SCI_THING_P always raises a few eyebrows
+FILLER_SENTENCE+10		SCI_B_LEADIN_C OVERVERBING SCI_THING_P always raises a few eyebrows
 FILLER_SENTENCE+15		Directly SCI_USING AMBITIOUS SCI_MODEL_TYPE_P is both DIFFICULT_X and AMBITIOUS, however, this SCI_PROBLEM can be SCI_PROBLEM_SOLVED using the CONSTRAINT_TYPE aspect of SCI_OUR_SYSTEM
 FILLER_SENTENCE+1		Recall that our SCI_GOAL is only to SCI_VERB \textit{SOFTWARE_ADJ} SCI_MODEL_TYPE_P
 FILLER_SENTENCE+15		Recall that, SCI_TOGETHERWITH research into EXP_WHEREs, our SCI_GOAL is to SCI_VERB \textit{SOFTWARE_ADJ} SCI_MODEL_TYPE_P
@@ -5056,9 +5074,10 @@ FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_
 
 FILLER_SENTENCE LAME_OBSERVATION
 
-LAME_OBSERVATION It CLEARLY remains to be SCI_VERBED whether OBS_END
-LAME_OBSERVATION SCI_B_LEADIN_C TAKE_NOTE_THAT if OBS_END, it SCI_MAY cause SCI_ADJ_ADV BAD EXP_ADJ FINDINGs
-LAME_OBSERVATION We openly admit that, LIT_ALTHOUGH similar SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN are NOTED for their IMPACT AREA, OVERVERBING SCI_THING_P can be SCI_EXPENSIVE, which is not SCI_ADJ_ADV quite as SCI_FAIR as it might sound FUNNEND
+LAME_OBSERVATION After all, `Rome wasn't built in a day'. 
+LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
+LAME_OBSERVATION+5 SCI_B_LEADIN_C TAKE_NOTE_THAT if OBS_END, it SCI_MAY cause SCI_ADJ_ADV BAD EXP_ADJ FINDINGs
+LAME_OBSERVATION+5 We openly admit that, LIT_ALTHOUGH similar SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN are NOTED for their IMPACT AREA, OVERVERBING SCI_THING_P can be SCI_EXPENSIVE, which is not SCI_ADJ_ADV quite as SCI_FAIR as it might sound FUNNEND
 LAME_OBSERVATION By adopting a POSSIBLE_NV SCI_APPROACH, SCI_ADJ_ADV LIT_GOOD POSSIBILITY_PL are likely to ARISE
 
 OBS_END EXP_ADJ CONSTRAINT_TYPE is as AMBITIOUS as PEOPLE_SAY
@@ -5113,7 +5132,7 @@ SCI_RESPONSE	no, but in some ways yes XXX
 SCI_RESPONSE	yes and no XXX
 SCI_RESPONSE	yes and no (it's complicated). 
 SCI_RESPONSE	that's complicated. 
-SCI_RESPONSE	this is a tricky issue. 
+SCI_RESPONSEX	this is a tricky issue
 SCI_RESPONSE	somehow not XXX
 SCI_RESPONSE	we think so XXX
 SCI_RESPONSE	we think not XXX
@@ -5130,13 +5149,13 @@ SCI_RESPONSE	to attempt to answer this, we adopt the following posture: PROPOSIT
 SCI_RESPONSE	only our colleagues abroad have a chance of answering this SCI_ADJ_NV question XXX
 SCI_RESPONSE	the answer may surprise you XXX
 SCI_RESPONSE	we can scarcely imagine XXX
-SCI_RESPONSE	the reader may be pleasantly surprised XXX
-SCI_RESPONSE	we leave this as an exercise to the reader. 
+SCI_RESPONSEX	the reader may be pleasantly surprised
+SCI_RESPONSEX	we leave this as an exercise to the reader
 SCI_RESPONSE	not unless something BAD has happened XXX
 SCI_RESPONSE	not unless something BAD has befallen XXX
 SCI_RESPONSE	no way!
 SCI_RESPONSE	never!
-SCI_RESPONSE	it seems \textit{highly} unlikely XXX
+SCI_RESPONSEX	it seems \textit{highly} unlikely
 SCI_RESPONSE	it is not important here XXX
 SCI_RESPONSE	it is not relevant here XXX
 SCI_RESPONSE	the \textit{real} question is: what now?
@@ -5145,21 +5164,21 @@ SCI_RESPONSE	we must cut our losses and move on XXX
 SCI_RESPONSE	anyway, that SCI_STAGE is complete, which is all that matters for this investigation  XXX
 SCI_RESPONSE	yes, but let us never speak of this again XXX
 SCI_RESPONSE	no; now let us never speak of this again XXX
-SCI_RESPONSE	our rivals may wish to argue on this point XXX
-SCI_RESPONSE	our creditors may argue on this point XXX
+SCI_RESPONSEX	our rivals may wish to argue on this point
+SCI_RESPONSEX	our creditors may argue on this point
 SCI_RESPONSE	it may seem PERVERSE, but SCI_RESPONSE 
-SCI_RESPONSE	even LOWLY_PEOPLE know the answer to this question XXX
+SCI_RESPONSEX	even LOWLY_PEOPLE know the answer to this question
 SCI_RESPONSE	it would be inappropriate to divulge this at this time, especially to LOWLY_PEOPLE XXX	
 SCI_RESPONSE	it would be inappropriate to divulge this at this time XXX
-SCI_RESPONSE	we are only able to sketch out a rough THISIDEA of this XXX
+SCI_RESPONSEX	we are only able to sketch out a rough THISIDEA of this
 SCI_RESPONSE	the results are classified XXX
-SCI_RESPONSE	departmental conflicts have yet to resolve this issue at present XXX 
-SCI_RESPONSE	political conflicts have hamstrung our efforts into the near future XXX
+SCI_RESPONSEX	departmental conflicts have yet to resolve this issue at present
+SCI_RESPONSEX	political conflicts have hamstrung our efforts into the near future
 SCI_RESPONSE	to this date, the answer has been lost in an inadequate doctoral thesis that was sadly misfiled XXX
 SCI_RESPONSE	our partner companies have yet to reply XXX
 SCI_RESPONSE	we are awaiting the response from our creditors XXX
 SCI_RESPONSE	our best graduate student thinks so XXX
-SCI_RESPONSE	we are inclined to debate the issue tooth and nail XXX
+SCI_RESPONSEX	we are inclined to debate the issue tooth and nail 
 SCI_RESPONSE	only LOWLY_PEOPLE would ask such a BAD_NV question XXX
 SCI_RESPONSE	only LOWLY_PEOPLE would ask such an BAD_V question XXX
 SCI_RESPONSE	in answering this question, rest assured that WNUM people have been fired accordingly XXX
@@ -5167,11 +5186,15 @@ SCI_RESPONSE	in answering this question, rest assured that LOWLY_PEOPLE have bee
 SCI_RESPONSE	LREV, our sponsors will not let this issue rest XXX
 SCI_RESPONSE	LREV, it has not occured to us to inquire too closely XXX
 SCI_RESPONSE	Well, \textit{some} SCI_PEOPLE this so. In our opinion, is that so? SCI_RESPONSE 
-SCI_RESPONSE	we grant that some explanations are required  XXX
+SCI_RESPONSEX	we grant that some explanations are required
 SCI_RESPONSE	our records are mysteriously silent on the subject XXX
-SCI_RESPONSE	we caution the reader to tread carefully here. SCI_RESPONSE 
+SCI_RESPONSEX	we caution the reader to tread carefully here
 SCI_RESPONSE	it was a different time, and standards were different back then XXX
-SCI_RESPONSE	As BAD as it seems, our sponsor just will not keep silent on the subject XXX
+SCI_RESPONSEX	As BAD as it seems, our sponsor just will not keep silent on the subject
+SCI_RESPONSE 	we are quite innocent in this matter, quite frankly XXX
+
+SCI_RESPONSE+14	SCI_RESPONSEX. 
+
 
 SCI_EFFECT	made SCI_VERBING and possibly SCI_VERBING SCI_THING a reality 
 SCI_EFFECT	would allow for further study into SCI_THING 
@@ -5251,6 +5274,7 @@ SCC_EXPR_EXP	n
 PROPENDER+30 
 PROPENDER+10 (LREV enough)
 PROPENDER (FILLER_SENTENCE)
+PROPENDER (no PUN intended)
 
 SCI_PROOF_PROP is LIT_GREAT_ADV_NV SCI_ADJ PROPENDER
 SCI_PROOF_PROP SCI_VERBS the implications of SCI_VERBING SCI_THING PROPENDER
@@ -7154,19 +7178,30 @@ REASON because ASSERTION,
 REASON since ASSERTION,
 REASON of course,
 
-CONNECT thus,
-CONNECT so,
-CONNECT therefore,
-CONNECT hence
-CONNECT now,
-CONNECT next,
-CONNECT moreover,
-CONNECT on the other hand,
-CONNECT in contrast,
-CONNECT as such,
-CONNECT incidentally,
-CONNECT in particular,
-CONNECT LIT_REVERSAL,
+CONNECT+7 thus,
+CONNECT+7 so,
+CONNECT+7 therefore,
+CONNECT+7 hence
+CONNECT+7 now,
+CONNECT+7 next,
+CONNECT+7 moreover,
+CONNECT+7 on the other hand,
+CONNECT+7 in contrast,
+CONNECT+7 as such,
+CONNECT+7 incidentally,
+CONNECT+7 in particular,
+CONNECT+7 LIT_REVERSAL,
+CONNECT quite frankly,
+CONNECT \emph{quite frankly},
+CONNECT not to put too fine a point on it,
+CONNECT not to be rude, but  
+CONNECT no PUN intended, but 
+CONNECT far be it of us to mock, but 
+CONNECT SCI_RESPONSEX, but
+
+PUN pun
+PUN offense
+PUN 
 
 CREASON REASON
 CREASON CONNECT
