@@ -5998,6 +5998,7 @@ LATEX_CITEPACK
 \usepackage{smartref}
 \usepackage{caption}
 \usepackage{tikz}
+\usepackage{color}
 \usetikzlibrary{calc}
 \usetikzlibrary{fadings}
 
@@ -6148,7 +6149,7 @@ LATEX_TABLE {
 \begin{tabular}{lllll}
 \hline
 \hline
-\T\B MYTABROW & MYTABROW & MYTABROW & MYTABROW & MYTABROW   \\
+\T\B \color{COLOUR}\bfseries{MYTABROW}\color{black} & MYTABROW & MYTABROW & MYTABROW & MYTABROW   \\
 \hline TABLINES
 \hline
 \end{tabular}
