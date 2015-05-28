@@ -692,10 +692,10 @@ SCI_MODEL_TYPE_P	practices
 SCI_MODEL_TYPE_P	archetypes
 SCI_MODEL_TYPE_P	morphologies
 
-MODEL_XXX+10	XXX
+MODEL_XXX+30	XXX
 MODEL_XXX+5	. MODEL_FILLER.
 MODEL_XXX	{
-$\!$
+$\hspace{-1.5mm}$
 \footnote{
 MODEL_FILLER.}.
 }
@@ -2616,13 +2616,14 @@ EVAL_SEC_FILLER+3	EVAL_DONE_DIFFERENT
 
 EVAL_DONE_DIFFERENT Had we EMULATED our EXP_WHERE, as opposed to EMULATING_IT, we would have seen DIFFERENT FINDINGs
 
-EVAL_MOD_XXX+10	XXX
+EVAL_MOD_XXX+30	XXX
 EVAL_MOD_XXX+5	.  EVAL_SEC_FILLER.
 EVAL_MOD_XXX	{
-$\!$
+$\hspace{-1.5mm}$
 \footnote{
 EVAL_SEC_FILLER.}.
 }
+
 
 EMULATING	emulating
 EMULATING	simulating
@@ -4921,17 +4922,17 @@ PROBE_CONSIDERED discovered to be
 ####### Phrases and fillers #######
 #############################################################################
 
-XXX+220		.
+XXX+180		.
 XXX+10		CITATION.
 XXX+10		CITATION_MULTI.
 XXX+7		. FILLER_SENTENCE.
 XXX+5		{
-$\!$
+$\hspace{-1.5mm}$
 \footnote{
 FILLER_SENTENCE.}.
 }
 XXX+5		{
-$\!$
+$\hspace{-1.5mm}$
 \footnote{
 SCI_INTRO_FILLER.}. 
 }
