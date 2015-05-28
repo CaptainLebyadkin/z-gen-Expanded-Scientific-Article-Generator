@@ -133,7 +133,6 @@ if($nit > $sectol && $partbool == 0) {
 }
 $text_tr = $text_tr . " SCI_INTRO ";
 
-
 my $counter = 1;
 for( my $i = 1; $i <= $nit; $i++ ) {
     $selector = int rand 100; 
