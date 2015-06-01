@@ -39,7 +39,7 @@ Date: 2014-2015
 ________
 Instructions: 
 
--Requires perl, latex and bibtex installed
+-Requires perl, latex, bibtex and gnuplot installed
 
 -To run, type in a unix command line: >>
 
