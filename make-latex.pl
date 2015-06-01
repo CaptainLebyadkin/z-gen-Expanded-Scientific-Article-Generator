@@ -240,7 +240,7 @@ while( <TEX> ) {
 	    if( defined $options{"talk"} ) {
 		$color = "--color"
 	    }
-	    system( "./make-graph.pl --file $figfile --seed $newseed --color $color" ) 
+	    system( "perl make-graph.pl --file $figfile --seed $newseed --color $color" ) 
 		or $done=1;
 	}
 	push @figures, $figfile;
@@ -252,12 +252,12 @@ while( <TEX> ) {
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
 	    if( `which neato` ) {
-		(system( "./make-diagram.pl --sys \"$sysname\" " . 
+		(system( "perl make-diagram.pl --sys \"$sysname\" " . 
 			 "--file $figfile --seed $newseed" ) or 
 		 !(-f $figfile)) 
 		    or $done=1;
 	    } else {
-		system( "./make-graph.pl --file $figfile --seed $newseed" ) 
+		system( "perl make-graph.pl --file $figfile --seed $newseed" ) 
 		    or $done=1;
 	    }
 	}
