@@ -4939,16 +4939,16 @@ PROBE_CONSIDERED discovered to be
 ####### Phrases and fillers #######
 #############################################################################
 
-XXX+180		.
+XXX+200		.
 XXX+10		CITATION.
 XXX+10		CITATION_MULTI.
 XXX+7		. FILLER_SENTENCE.
-XXX+3		{
+XXX		{
 $\hspace{-1.5mm}$
 \footnote{
 FILLER_SENTENCE.}.
 }
-XXX+3		{
+XXX		{
 $\hspace{-1.5mm}$
 \footnote{
 SCI_INTRO_FILLER.}. 
