@@ -8,7 +8,7 @@ This code was originally designed as an emergency bureaucracy-defence so that, i
 
 Amaze and repulse your friends and family with this exciting package of *highly* meaningful corporate nounisms, exasperating facile manageability, and paradigm-shifting incorporativity (sic) all couched cleverly in context with the out-of-date work in the key topic area of *your (or its) choice*. Catch it quick before it is buried under a heap of other people's unsuccessful grant applications and inferior quality doctoral theses, sadly misfiled, and long forgotten by the important and sexy funny people of the department.
 Disclaimer: occasional wildly inappropriate sarcastic side-comments, overtly heavy handed but inconsistent candidness and contemptuous and disdainful undertones may be present* in z-gen's output. 
-Nevertheless, words that are 'too funny' can easily be replaced with your own respected field's special and exclusive index of wanky terminology. My only wish is that I could add more contempt to it. 
+Nevertheless, words that are 'too funny' can easily be replaced with your own respected field's special and exclusive index of corporate-wank terminology. My only wish is that I could add more contempt to it. 
 
 'The problems of the world, ultimately, come down to a lack of nouns. Do your part, and buy a new noun for a friend you love.' 
 
