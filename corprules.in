@@ -2,7 +2,7 @@
 # $Id$
 #
 #    This file is part of SCIgen.
-#
+#tab
 #    SCIgen is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
@@ -6118,7 +6118,7 @@ NEWDIALABEL\#
 TABPOS t
 TABPOS b
 
-TABROW+10 EVAL_MEASUREMENT_UM
+TABROW+3 EVAL_MEASUREMENT_UM
 TABROW+5 HARDWARE_PROP
 TABROW+5 SOFTWARE_PROP
 TABROW+7 CONSTRAINT_TYPE
@@ -6184,7 +6184,7 @@ TABKEY The table OFVAL above SCI_DIAGRAM_VERBS HACKED SOFTWARE_PROP_UNMOD
 TABKEYS TABKEY
 TABKEYS TABKEY ASSENDER
 
-SCI_TAB_CAPTION TABKEY. SCI_GRAPH_CAPTION 
+SCI_TAB_CAPTION TABKEY | SCI_GRAPH_CAPTION 
 SCI_TAB_CAPTION TABKEY, LIT_BASED_ON SCI_DIAGRAM_ABOUT.
 
 LATEX_TAB_LABEL tab:labelNEWTABLABEL+
