@@ -2406,7 +2406,7 @@ EXP_TREK		chronoton
 EXP_TREK		temporal
 EXP_TREK		focused
 EXP_TREK		sonic
-EXP_TREK		PREFIX-regenerative
+EXP_TREK		PREFIXX-regenerative
 
 #EXP_ADJ+1000 `GOOD_ADJ'
 EXP_ADJ+30		`GOOD_ADJ'
