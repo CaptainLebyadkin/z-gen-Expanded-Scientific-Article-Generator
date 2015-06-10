@@ -2401,7 +2401,7 @@ EXP_TREK		quantum
 EXP_TREK		neutrino
 EXP_TREK		flux
 EXP_TREK		photonic
-EXP_TREK		PREFIXmetric
+EXP_TREK		PREFIXXmetric
 EXP_TREK		chronoton
 EXP_TREK		temporal
 EXP_TREK		focused
