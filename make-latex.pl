@@ -246,7 +246,7 @@ while( <TEX> ) {
 	push @figures, $figfile;
     }
 
-    if( /[=\{](dia[^\,\}]*)[\,\}]/ ) {
+    if( /[=\{](diag[^\,\}]*)[\,\}]/ ) {
 	my $figfile = "$tmp_dir/$1";
 	my $done = 0;
 	while( !$done ) {
