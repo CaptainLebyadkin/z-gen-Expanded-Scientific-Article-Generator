@@ -2,7 +2,7 @@
 # $Id$
 #
 #    This file is part of SCIgen.
-#tab
+#
 #    SCIgen is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
@@ -1200,7 +1200,7 @@ CORP_HEADER+3		\section{SCI_ADJ EXP_TYPE_UMs}
 CORP_HEADER+3		\section{LIT_GOOD EXP_TYPE_UMs}
 
 PIE_MAYBE PIE
-PIE_MAYBE+10
+PIE_MAYBE+5
 
 PIE_HIGH PIE
 PIE_HIGH+3
@@ -1208,6 +1208,8 @@ PIE_HIGH+3
 SCI_CORP {
 
 CORP_HEADER \label{SEC_LABEL}
+
+PIE_HIGH
 
 DOTPARA
 
@@ -1224,6 +1226,8 @@ CORP_HEADER \label{SEC_LABEL}
 
 IMPL_INTRO_P
 
+PIE_HIGH
+
 DOTPARA
 
 PIE_HIGH
@@ -1238,6 +1242,8 @@ SCI_CORP {
 CORP_HEADER \label{SEC_LABEL}
 
 EVAL_SEC_INTRO
+
+PIE_HIGH
 
 DOTPARA
 
@@ -6578,7 +6584,6 @@ COORD -2
 COORD 3
 COORD -3
 
-PSC 2
 PSC 3
 PSC 4
 
