@@ -2352,9 +2352,8 @@ MULTIPLE_VERBING	tripling
 MULTIPLE_VERBING	reducing
 MULTIPLE_VERBING	quadrupling
 
-MULTIPLE_VERBING	{\textit{
-MULTIPLE_VERBING}
-}
+MULTIPLE_VERBING	\textit{MULTIPLE_VERBING}
+
 
 EVALUATION		evaluation
 EVALUATION		performance analysis
@@ -3677,7 +3676,7 @@ METHODOLOGY	strategy
 METHODOLOGY+6	EXP_WHERE_UM
 
 SCI_FIELD+1	SCI_BUZZWORD_ADJ SCI_FIELD
-SCI_FIELD+1	SCI_MATH_ADJ AREA
+SCI_FIELD+1	MATHADJ AREA
 SCI_FIELD+1	SOFTWARE_ADJ SCI_FIELD
 SCI_FIELD	hardware and architecture
 SCI_FIELD	networking
@@ -7207,9 +7206,7 @@ CONNECT+7 in particular,
 CONNECT+7 LIT_REVERSAL,
 CONNECT quite frankly,
 
-CONNECT {\emph{
-quite frankly},
-}
+CONNECT quite \emph{frankly},
 
 CONNECT not to put too fine a point on it,
 CONNECT not to be rude, but  
