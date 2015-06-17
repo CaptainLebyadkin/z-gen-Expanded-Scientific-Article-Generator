@@ -2172,6 +2172,7 @@ BAD_NV			graceless
 BAD_NV			crude
 BAD_NV			bumbling
 BAD_V			unhygenic
+BAD_NV			misanthropic
 BAD_V	onerous 
 BAD_NV	dubious
 BAD_NV	difficult
@@ -2350,7 +2351,10 @@ MULTIPLE_VERBING	increasing
 MULTIPLE_VERBING	tripling
 MULTIPLE_VERBING	reducing
 MULTIPLE_VERBING	quadrupling
-MULTIPLE_VERBING	\textit{MULTIPLE_VERBING}
+
+MULTIPLE_VERBING	{\textit{
+MULTIPLE_VERBING}
+}
 
 EVALUATION		evaluation
 EVALUATION		performance analysis
@@ -3350,7 +3354,7 @@ CONCL_MID_X SCI_OUR_SYSTEM SCI_MAYBE_CAN successfully SCI_SYS_VERB SCI_ANUMBER S
 CONCL_MID_X one potentially LIT_GREAT SCI_DRAWBACK of SCI_OUR_SYSTEM is that it SCI_CANNOT SCI_SYS_VERB SCI_GENERIC_NOUN; we SCI_AIM to address this in future work
 CONCL_MID_X the characteristics of SCI_OUR_SYSTEM, in relation to those of more SCI_STATUS_ADJ SCI_SYSTEM_PL, are SCI_ADJ_ADV more SCI_ADJ
 CONCL_MID_X+3 SCI_GENERIC_THESIS_PAST
-CONCL_MID_X LIT_MIDDLE the SCI_MAIN contribution of our work is that SCI_GENERIC_THESIS_PAST
+CONCL_MID_X CONNECT the SCI_MAIN contribution of our work is that SCI_GENERIC_THESIS_PAST
 
 SCI_GENERIC_THESIS_PAST we SCI_PROVE_VERBED that SCI_OVERALL_THESIS_PROVE
 SCI_GENERIC_THESIS_PAST we used SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE
@@ -3361,14 +3365,14 @@ SCI_GENERIC_THESIS_PAST we SCI_PROVE_VERBED that LIT_ALTHOUGH SCI_OVERALL_THESIS
 SCI_GENERIC_THESIS_PAST we concentrated our efforts on SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE
 SCI_GENERIC_THESIS_PAST we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING ({SYSNAME}), which we used to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE
 
-CONCL_CONCL we SCI_AIM to explore more SCI_PROBLEM_PL SIMILAR to these issues in future work.
-CONCL_CONCL we see no reason not to use SCI_OUR_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN.
-CONCL_CONCL LIT_CONCLUSION, our vision for the future of SCI_FIELD certainly includes SCI_OUR_SYSTEM.
-CONCL_CONCL we SCI_AIM to list SCI_OUR_SYSTEM on the web for public availability.
-CONCL_CONCL the SCI_ACT is more SCI_ADJ than ever, and SCI_OUR_SYSTEM helps SCI_PEOPLE do just that.
-CONCL_CONCL we expect to see SCI_ANUMBER SCI_PEOPLE move to SCI_VERBING SCI_OUR_SYSTEM in the very near future.
+CONCL_CONCL We SCI_AIM to explore more SCI_PROBLEM_PL SIMILAR to these issues in future work.
+CONCL_CONCL We see no reason not to use SCI_OUR_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN.
+CONCL_CONCL LIT_LAST LIT_CONCLUSION, our vision for the future of SCI_FIELD certainly includes SCI_OUR_SYSTEM.
+CONCL_CONCL We SCI_AIM to list SCI_OUR_SYSTEM on the web for public availability.
+CONCL_CONCL The SCI_ACT is more SCI_ADJ than ever, and SCI_OUR_SYSTEM helps SCI_PEOPLE do just that.
+CONCL_CONCL We expect to see SCI_ANUMBER SCI_PEOPLE move to SCI_VERBING SCI_OUR_SYSTEM in the very near future.
 CONCL_CONCL LIT_LAST SCI_GENERIC_THESIS_PAST.
-CONCL_CONCL CONCL_MID_X.
+CONCL_CONCL LIT_LAST CONCL_MID_X.
 
 
 #############################################################################
@@ -4394,6 +4398,8 @@ LIT_CONCLUSION	therefore
 LIT_CONCLUSION	clearly
 LIT_CONCLUSION	obviously
 LIT_CONCLUSION  as a result
+LIT_CONCLUSION  as a consequence
+LIT_CONCLUSION  all being said and done
 
 
 SCI_ADJ SCI_ADJ_NV	
@@ -4477,12 +4483,13 @@ SCI_ADV	evidently
 SCI_ADV	clearly
 SCI_ADV coincidentally
 SCI_ADV	apparently
-SCI_ADV	allegedly	
+SCI_ADV	allegedly
 SCI_ADV	intuitively
 SCI_ADV	outwardly
 SCI_ADV	publicly
 SCI_ADV	privately
 SCI_ADV probably
+SCI_ADV perfunctorily
 SCI_ADV LIT_GREAT_ADV
 SCI_ADV SCI_ADJ_ADV
 
@@ -7199,7 +7206,11 @@ CONNECT+7 incidentally,
 CONNECT+7 in particular,
 CONNECT+7 LIT_REVERSAL,
 CONNECT quite frankly,
-CONNECT \emph{quite frankly},
+
+CONNECT {\emph{
+quite frankly},
+}
+
 CONNECT not to put too fine a point on it,
 CONNECT not to be rude, but  
 CONNECT no PUN intended, but 
