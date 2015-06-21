@@ -177,12 +177,12 @@ SCI_ABSTRACT {
 
 }
 
-SCI_ABSTRACT_A SCI_AB_A_START the SCI_ACT SCI_AB_A_END.
+SCI_ABSTRACT_A SCI_AB_A_START the THISIDEA that SCI_ACT SCI_SYSTEM_ACTION SCI_AB_A_END.
 SCI_ABSTRACT_A SCI_AB_A_START that SCI_OVERALL_THESIS_PROVE SCI_AB_A_END.
 
 SCI_AB_A_START SCI_IN_THIS_PAPER, we SCI_PROVE_VERB 
-SCI_AB_A_START LIT_MIDDLE SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_DISAGREEWITH the success of 
-SCI_AB_A_START given the current status of EXP_ADJ SCI_BUZZWORD_NOUN, SCI_PEOPLE SCI_ADJ_ADV desire
+SCI_AB_A_START LIT_MIDDLE SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_DISAGREEWITH 
+SCI_AB_A_START given the current status of EXP_ADJ SCI_BUZZWORD_NOUN, SCI_PEOPLE SCI_ADJ_ADV SCI_ASSUME
 SCI_AB_A_START after TRACE_UNIT_LONGs of SCI_ADJ research into SCI_THING_MOD, we SCI_PROVE_VERB
 
 SCI_AB_A_END+10
@@ -425,13 +425,13 @@ SCI_INTRO_ACT are based entirely on the assumption that SCI_THING_MOD and SCI_TH
 MAYBEEG+3 
 MAYBEEG LIT_MIDDLE
 
-SCI_INTRO_A2 MAYBEEG SCI_ABSTRACT_A
-SCI_INTRO_A2 MAYBEEG SCI_INTRO_FILLER XXX
-SCI_INTRO_A2 MAYBEEG SCI_INTRO_GENERIC_MID XXX
+SCI_INTRO_A2 SCI_ABSTRACT_A
+SCI_INTRO_A2 SCI_INTRO_FILLER XXX
+SCI_INTRO_A2 SCI_INTRO_GENERIC_MID XXX
 SCI_INTRO_A2 MAYBEEG the THISIDEA that SCI_COUNTRY_MAYBE SCI_PEOPLE SCI_VERB_PL with SCI_PEOPLE to ANALYZE SCI_GENERIC_NOUN is LIT_OFTEN SCI_REACTION XXX
 SCI_INTRO_A2 LIT_REVERSAL_MAYBE a SCI_ADJ SCI_PROBLEM in SCI_FIELD is the SCI_ACT_A SCI_GENERIC_NOUN XXX
 
-SCI_INTRO_A3 LIT_MIDDLE_MAYBE SCI_INTRO_A2
+SCI_INTRO_A3 SCI_INTRO_A2
 
 SCI_INTRO_CLOSING LIT_CONCLUSION, SCI_GENERIC_NOUN and SCI_GENERIC_NOUN SCI_INTRO_ACT the SCI_ACT XXX 
 SCI_INTRO_CLOSING WEASK to what extent can SCI_THING_MOD be SCI_VERBED to SCI_SOLVE_CLAUSE? 
@@ -2354,7 +2354,6 @@ MULTIPLE_VERBING	quadrupling
 
 MULTIPLE_VERBING	\textit{MULTIPLE_VERBING}
 
-
 EVALUATION		evaluation
 EVALUATION		performance analysis
 EVALUATION		evaluation METHODOLOGY
@@ -2604,7 +2603,7 @@ EVAL_HARDWARE_INTRO	our detailed EVALUATION REQUIRED many hardware modifications
 EVAL_HARDWARE_INTRO	we modified our standard SETUP as follows:
 EVAL_HARDWARE_INTRO	a well-constructed scientific SETUP holds the key to an LIT_GOOD_V EVALUATION.
 EVAL_HARDWARE_INTRO	though SCI_ANUMBER elide SCI_IMPORTANTV EXP_ADJ details, we provide them here in SCI_ADJ detail.
-EVAL_HARDWARE_INTRO	one must understand our network configuration to grasp the genesis of our FINDINGs.
+EVAL_HARDWARE_INTRO	one must UNDERSTAND our network configuration to grasp the genesis of our FINDINGs.
 
 REQUIRED	mandated
 REQUIRED	required
@@ -3129,7 +3128,7 @@ EVAL_ANALYZE_ONE these EVAL_MEASUREMENT observations contrast to those seen in e
 EVAL_ANALYZE_ONE+15 note how EMULATING SCI_THING_P rather than EMULATING_THEM produce SMOOTHER, more reproducible FINDINGs
 EVAL_ANALYZE_ONE+15 the FINDINGs come from only NONZ trial runs, and were not reproducible
 EVAL_ANALYZE_ONE+15 error bars have been elided, since most of our data points fell outside of DIGIT standard deviations from observed means
-EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT EXP_FTG shows the \textit{ADJECTIVE} and not \textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT
+EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT EXP_FTG shows the \textit{ADJECTIVE} and not the \textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT
 EVAL_ANALYZE_ONE+10 the curve in EXP_FIG should look familiar; it is better known as the SCI_STATUS_ADJ MNOUN, EVAL_MATH_EXPR ASSENDER
 EVAL_ANALYZE_ONE+15 we scarcely anticipated how ACCURATE our FINDINGs were in this SCI_STAGE of the EVALUATION
 EVAL_ANALYZE_ONE our FINDINGs in EXP_FTG are currently in `sty' formation
@@ -3367,7 +3366,7 @@ SCI_GENERIC_THESIS_PAST we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING ({SYSNAME
 CONCL_CONCL We SCI_AIM to explore more SCI_PROBLEM_PL SIMILAR to these issues in future work.
 CONCL_CONCL We see no reason not to use SCI_OUR_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN.
 CONCL_CONCL LIT_LAST LIT_CONCLUSION, our vision for the future of SCI_FIELD certainly includes SCI_OUR_SYSTEM.
-CONCL_CONCL We SCI_AIM to list SCI_OUR_SYSTEM on the web for public availability.
+CONCL_CONCL we SCI_AIM to list SCI_OUR_SYSTEM on the web for public availability.
 CONCL_CONCL The SCI_ACT is more SCI_ADJ than ever, and SCI_OUR_SYSTEM helps SCI_PEOPLE do just that.
 CONCL_CONCL We expect to see SCI_ANUMBER SCI_PEOPLE move to SCI_VERBING SCI_OUR_SYSTEM in the very near future.
 CONCL_CONCL LIT_LAST SCI_GENERIC_THESIS_PAST.
@@ -3990,30 +3989,32 @@ SCI_IDEAL_NV	peerless
 LIT_GOOD LIT_GOOD_NV
 LIT_GOOD LIT_GOOD_V
 
-LIT_GOOD_NV	good
-LIT_GOOD_NV	BAD_NV
-LIT_GOOD_V	BAD_V
-LIT_GOOD_NV	useful
-LIT_GOOD_V	engaging
-LIT_GOOD_V	intuitive
-LIT_GOOD_NV	dynamic
-LIT_GOOD_NV	convenient
-LIT_GOOD_NV	satisfactory
-LIT_GOOD_NV	fundamental
-LIT_GOOD_NV	promising
-LIT_GOOD_NV	generous
-LIT_GOOD_NV	significant
-LIT_GOOD_V	encouraging
-LIT_GOOD_V	outdated
-LIT_GOOD_NV	surprising
-LIT_GOOD_NV	practical
-LIT_GOOD_NV	substantial
-LIT_GOOD_NV	fascinating
-LIT_GOOD_V	illuminating
-LIT_GOOD_V	interesting
-LIT_GOOD_NV	varied
-LIT_GOOD_V	engaging
-LIT_GOOD_NV	topical
+LIT_GOOD_V+20	excellent
+LIT_GOOD_NV	boss
+LIT_GOOD_NV+20	good
+LIT_GOOD_NV+20	BAD_NV
+LIT_GOOD_V+20	BAD_V
+LIT_GOOD_NV+20	useful
+LIT_GOOD_V+20	engaging
+LIT_GOOD_V+20	intuitive
+LIT_GOOD_NV+20	dynamic
+LIT_GOOD_NV+20	convenient
+LIT_GOOD_NV+20	satisfactory
+LIT_GOOD_NV+20	fundamental
+LIT_GOOD_NV+20	promising
+LIT_GOOD_NV+20	generous
+LIT_GOOD_NV+20	significant
+LIT_GOOD_V+20	encouraging
+LIT_GOOD_V+20	outdated
+LIT_GOOD_NV+20	surprising
+LIT_GOOD_NV+20	practical
+LIT_GOOD_NV+20	substantial
+LIT_GOOD_NV+20	fascinating
+LIT_GOOD_V+20	illuminating
+LIT_GOOD_V+20	interesting
+LIT_GOOD_NV+20	varied
+LIT_GOOD_V+20	engaging
+LIT_GOOD_NV+20	topical
 
 LIT_GREAT LIT_GREAT_NV
 LIT_GREAT LIT_GREAT_V
@@ -5034,6 +5035,7 @@ SMARTASS+200
 SMARTASS (Though we are certainly thinking it loudly)
 
 FUNNEND+200
+FUNNEND fo' shizzle
 FUNNEND (go figure!)
 FUNNEND XXX We feel this is not APPROPRIATE, SOSEEM
 FUNNEND XXX In fact, it really is the dumbest thing on wheels 
@@ -5049,7 +5051,7 @@ FILLER_SENTENCE FILLER_SENTENCE FUNNEND
 
 FILLER_SENTENCE+30	FILLER_SURPRISE
 FILLER_SENTENCE+15		SCI_B_LEADIN_C TAKE_NOTE_THAT our SCI_GOAL here is to set the record straight on the issue of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN
-FILLER_SENTENCE+15		This is an SCI_IMPORTANTV point to understand
+FILLER_SENTENCE+15		This is an SCI_IMPORTANTV point to UNDERSTAND
 FILLER_SENTENCE		This point is, SOSEEM, deceptively truthful 
 FILLER_SENTENCE		This point is, SOSEEM, \emph{deceptively truthful} 
 FILLER_SENTENCE			This represents a SCI_ADJ point (see CITATION)
@@ -5120,7 +5122,8 @@ SCI_ACH_PRES	SCI_VERBING SCI_THING_MOD (which SCI_EFFECT)
 
 SCI_RESPONSE	yes. 
 SCI_RESPONSE	absolutely. 
-SCI_RESPONSE	oh yes. 
+SCI_RESPONSE	oh yes.
+SCI_RESPONSE 	for goodness sake, yes!
 SCI_RESPONSE	no doubt. 
 SCI_RESPONSE	it depends.
 SCI_RESPONSE	yes, LREV. 
@@ -5284,7 +5287,7 @@ SCC_EXPR_EXP	n
 
 PROPENDER+30 
 PROPENDER+10 (LREV enough)
-PROPENDER (FILLER_SENTENCE)
+PROPENDER XXX (FILLER_SENTENCE)
 PROPENDER (no PUN intended)
 
 SCI_PROOF_PROP is LIT_GREAT_ADV_NV SCI_ADJ PROPENDER
@@ -5753,6 +5756,7 @@ SCI_CLARITY derision
 SCI_CLARITY contempt
 SCI_CLARITY disdain
 SCI_CLARITY mockery
+SCI_CLARITY reproach
 
 #SCI_DIAGRAM_CAPTION SCI_CAPTION
 SCI_DIAGRAM_CAPTION+7 SCI_DIAGRAM_ABOUT.
@@ -6433,6 +6437,9 @@ OTHER+30 misc.
 OTHER+20 miscellaneous
 OTHER+20 assorted other
 OTHER+20 unidentified
+OTHER+20 random
+OTHER+20 unclassified
+OTHER+10 unimportant
 OTHER `GOOD_NOUN' CITATION
 OTHER various OTHER
 
@@ -7100,6 +7107,12 @@ THISIDEA understanding
 THISIDEA consideration
 THISIDEA fact
 
+UNDERSTAND understand
+UNDERSTAND appreciate
+UNDERSTAND consider
+UNDERSTAND take on board
+UNDERSTAND bear in mind
+
 BEGINPROOF+15 We begin by observing that ASSERTION. 
 BEGINPROOF+15 Suppose the contrary.
 BEGINPROOF+15 We proceed by induction.
@@ -7206,7 +7219,7 @@ CONNECT+7 in particular,
 CONNECT+7 LIT_REVERSAL,
 CONNECT quite frankly,
 
-CONNECT quite \emph{frankly},
+CONNECT quite \textit{frankly},
 
 CONNECT not to put too fine a point on it,
 CONNECT not to be rude, but  
@@ -7367,7 +7380,7 @@ SCI_AIM have resolved
 # including file should define DISCUSS and SDISCUSS
 SDISCUSS in CITATION, it is SCI_PROVE_VERBED that ASSERTION XXX
 SDISCUSS+15 recently, there has been LITTLE interest in the METANOUN of OBJECTS XXX 
-DISCUSS a {}useful survey of the subject can be found in CITATION; RELWORK_FILLER  
+DISCUSS a {}useful survey of the subject can be found in CITATION. RELWORK_FILLER
 DISCUSS+15 LIT_LEADIN it is essential to consider that $VAR$ may be PROPERTY XXX
 SDISCUSS+15 it was FAMOUSLAST who first asked whether OBJECTS can be METAVERBED XXX
 DISCUSS+15 this could shed vital light on a conjecture of FAMOUS XXX
