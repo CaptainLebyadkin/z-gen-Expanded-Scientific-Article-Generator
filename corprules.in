@@ -446,6 +446,50 @@ WEASK the question is,
 WEASK CONNECT
 WEASK+10  
 
+GENERAL conventional
+GENERAL popular
+GENERAL group
+GENERAL general
+GENERAL public
+GENERAL acceptable
+GENERAL fashionable
+GENERAL prominent
+GENERAL mainstream
+GENERAL celebrated
+GENERAL vogue
+GENERAL leading
+GENERAL prevailing
+GENERAL well-received
+GENERAL trendy
+GENERAL	traditional
+GENERAL scientific
+GENERAL political
+GENERAL religious
+GENERAL current
+GENERAL ordinary
+GENERAL typical
+GENERAL accepted
+GENERAL common
+GENERAL everyday
+GENERAL orthodox
+GENERAL predominant
+GENERAL stereotypical
+GENERAL wanton
+
+OPINION opinion
+OPINION belief
+OPINION wisdom
+OPINION sentiment
+OPINION conjecture
+OPINION inclination
+OPINION say-so
+OPINION hear-say
+OPINION suspicion
+OPINION supposition
+OPINION thinking
+OPINION judgment
+OPINION assumption
+
 SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_MID_2
 SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_MID_3
 SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_MID_4
@@ -454,7 +498,7 @@ SCI_INTRO_GENERIC_MID_3 SCI_INTRO_GENERIC_MID_2 XXX SCI_INTRO_GENERIC_MID
 SCI_INTRO_GENERIC_MID_4 SCI_INTRO_GENERIC_MID_3 XXX SCI_INTRO_GENERIC_MID 
 SCI_INTRO_GENERIC_MID LIT_LEADIN the SCI_DRAWBACK of this type of SCI_APPROACH, however, is that SCI_OVERALL_THESIS_PROVE 
 SCI_INTRO_GENERIC_MID LIT_LEADIN the basic tenant of this SCI_APPROACH is that SCI_THING_P SCI_VERB_PL 
-SCI_INTRO_GENERIC_MID LIT_LEADIN LIT_ALTHOUGH conventional wisdom states that this SCI_PROBLEM is LIT_OFTEN SCI_PROBLEM_SOLVED by the SCI_ACT, we believe that a different SCI_APPROACH is necessary 
+SCI_INTRO_GENERIC_MID LIT_LEADIN LIT_ALTHOUGH GENERAL OPINION states that this SCI_PROBLEM is LIT_OFTEN SCI_PROBLEM_SOLVED by the SCI_ACT, we believe that a different SCI_APPROACH is necessary 
 SCI_INTRO_GENERIC_MID LIT_LEADIN indeed, SCI_THING_P and SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN have a long history of SCI_VERBING_PL in this SCI_MANNER 
 SCI_INTRO_GENERIC_MID LIT_LEADIN two properties make this SCI_APPROACH IDEAL:  SCI_SYSTEM_PROP, and also, SCI_SYSTEM_PROP 
 SCI_INTRO_GENERIC_MID LIT_LEADIN SCI_SYSTEM_PROP 
@@ -2616,7 +2660,7 @@ EVAL_SEC_BODY_P_REST  LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE EVAL_MOD EVAL_
 EVAL_SEC_FILLER	This configuration step was time-consuming but worth it in the end
 EVAL_SEC_FILLER	Configurations without this modification showed DIFFERENT EVAL_MEASUREMENT
 EVAL_SEC_FILLER	With this change, we noted DIFFERENT PERFORMANCE IMPROVEMENT
-EVAL_SEC_FILLER	This step flies in the face of conventional wisdom, but is INSTRUMENTAL to our FINDINGs
+EVAL_SEC_FILLER	This step flies in the face of GENERAL OPINION, but is INSTRUMENTAL to our FINDINGs
 
 EVAL_SEC_BODY_P_REST	
 EVAL_SEC_BODY_P_REST  LIT_LAST_OR_MIDDLE EVAL_MOD EVAL_MOD_XXX
@@ -2626,7 +2670,7 @@ EVAL_SEC_BODY_P_REST  LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE EVAL_MOD EVAL_
 EVAL_SEC_FILLER	This configuration step was time-consuming but worth it in the end
 EVAL_SEC_FILLER	Configurations without this modification showed DIFFERENT EVAL_MEASUREMENT
 EVAL_SEC_FILLER	With this change, we noted DIFFERENT PERFORMANCE IMPROVEMENT
-EVAL_SEC_FILLER	This step flies in the face of conventional wisdom, but is INSTRUMENTAL to our FINDINGs
+EVAL_SEC_FILLER	This step flies in the face of GENERAL OPINION, but is INSTRUMENTAL to our FINDINGs
 EVAL_SEC_FILLER	To find the required HARDWARE_ITEMS, we combed the International SCI_BUZZWORD_NOUN database 
 EVAL_SEC_FILLER	We struggled to amass the necessary HARDWARE_ITEMS
 EVAL_SEC_FILLER	The HARDWARE_ITEMS SCI_PRESENT_VERBED here explain our UNIQUE FINDINGs
@@ -6447,6 +6491,7 @@ OTHER+20 unidentified
 OTHER+20 random
 OTHER+20 unclassified
 OTHER+10 unimportant
+OTHER+10 inessential
 OTHER `GOOD_NOUN' CITATION
 OTHER various OTHER
 
@@ -7124,7 +7169,7 @@ BEGINPROOF+15 We begin by observing that ASSERTION.
 BEGINPROOF+15 Suppose the contrary.
 BEGINPROOF+15 We proceed by induction.
 BEGINPROOF+15 We proceed by transfinite induction.
-BEGINPROOF+15 The essential THISIDEA is that ASSERTION. 
+BEGINPROOF+15 The SCI_IMPORTANTV THISIDEA is that ASSERTION. 
 BEGINPROOF We follow CITATION.
 BEGINPROOF+15 This proof can be omitted on a first reading.
 BEGINPROOF+15 We show the contrapositive.
@@ -7274,6 +7319,8 @@ PEOPLE_SAY LOWLY_PEOPLE SCI_IMAGINE
 SCI_IMPORTANTV important
 SCI_IMPORTANTV integral
 SCI_IMPORTANTV intrinsic
+SCI_IMPORTANTV essential
+SCI_IMPORTANTV+3 INSTRUMENTAL
 
 MAYBEASSUMPTION
 MAYBEASSUMPTION ASSUMPTION 
@@ -7388,7 +7435,7 @@ SCI_AIM have resolved
 SDISCUSS in CITATION, it is SCI_PROVE_VERBED that ASSERTION XXX
 SDISCUSS+15 recently, there has been LITTLE interest in the METANOUN of OBJECTS XXX 
 DISCUSS a {}useful survey of the subject can be found in CITATION. RELWORK_FILLER
-DISCUSS+15 LIT_LEADIN it is essential to consider that $VAR$ may be PROPERTY XXX
+DISCUSS+15 LIT_LEADIN it is SCI_IMPORTANTV to consider that $VAR$ may be PROPERTY XXX
 SDISCUSS+15 it was FAMOUSLAST who first asked whether OBJECTS can be METAVERBED XXX
 DISCUSS+15 this could shed vital light on a conjecture of FAMOUS XXX
 SDISCUSS we wish to extend the results of CITATION to OBJECTS XXX
@@ -7410,7 +7457,7 @@ SDISCUSS in CITATION, the authors address the PROPNOUN of OBJECTS under the addi
 SDISCUSS+15 the goal of the present WORK is to METAVERB OBJECTS XXX
 DISCUSS it is not yet known whether ASSERTION, LIT_ALTHOUGH CITATION does address the issue of MATHADJ PROPNOUN XXX
 SDISCUSS in CITATION, the SCI_MAIN result was the METANOUN of OBJECTS XXX
-DISCUSS+15 in this setting, the ability to METAVERB OBJECTS is essential; LIT_ALTHOUGH LIT_ALTHOUGH conventional wisdom states that this SCI_PROBLEM is LIT_OFTEN SCI_PROBLEM_SOLVED by SCI_ADJ SCI_USE of MATHNOUNS XXX
+DISCUSS+15 in this setting, the ability to METAVERB OBJECTS is SCI_IMPORTANTV, LIT_ALTHOUGH GENERAL OPINION states that this SCI_PROBLEM is LIT_OFTEN SCI_PROBLEM_SOLVED by SCI_ADJ SCI_USE of MNOUNS XXX
 SDISCUSS+15 recent interest in OBJECTS has centered on METAVERBING OBJECTS XXX
 SDISCUSS+15 a central problem in AREA is the METANOUN of OBJECTS XXX
 SDISCUSS in CITATION, the authors METAVERBED OBJECTS XXX
