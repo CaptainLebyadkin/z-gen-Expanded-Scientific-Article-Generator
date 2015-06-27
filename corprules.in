@@ -3676,7 +3676,7 @@ SCI_THING_P+6	EXP_ADJ systems
 SCI_THING_P+6	EXP_ADJ networks
 SCI_THING_S	EXP_ADJ neural programming
 SCI_THING_P	simulated physical systems
-SCI_THING_S+6	EXP_ADJ partition tables
+SCI_THING_P+6	EXP_ADJ partition tables
 SCI_THING_P+6	ADJECTIVE modalities 
 SCI_THING_S	Lambda calculus
 SCI_THING_P	linked lists
@@ -4195,6 +4195,9 @@ SCI_VIA+5 through
 SCI_VIA+5 via
 SCI_VIA SCI_BY_USING
 
+PERVERSE		self-indulgent
+PERVERSE		reprobate
+PERVERSE		smug
 PERVERSE		impertinent
 PERVERSE		boastful
 PERVERSE		extreme
