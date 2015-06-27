@@ -5101,7 +5101,7 @@ FILLER_SENTENCE+15		This is an SCI_IMPORTANTV point to UNDERSTAND
 FILLER_SENTENCE		This point is, SOSEEM, deceptively truthful 
 FILLER_SENTENCE		This point is, SOSEEM, \emph{deceptively truthful} 
 FILLER_SENTENCE			This represents a SCI_ADJ point (see CITATION)
-FILLER_SENTENCE+15		This is INSTRUMENTAL to the success of our work
+FILLER_SENTENCE+15		This is INSTRUMENTAL to the success of our RECENT work
 FILLER_SENTENCE+15		We LIT_OMIT WHAT_PL OMIT_WHY
 FILLER_SENTENCE+15		Of course, this is not always POSCASE
 FILLER_SENTENCE+10		This follows from the SCI_ACT CITATION_SOMETIMES
