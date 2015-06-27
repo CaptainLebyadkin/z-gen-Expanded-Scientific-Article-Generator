@@ -3693,7 +3693,7 @@ SCI_THING_S	the Lagrangian approach
 SCI_THING_S	the Bayesian approach
 SCI_THING_P	EXP_ADJ Lagrangians
 SCI_THING_P+6	EXP_ADJ systems
-
+SCI_THING_S+10 CHEM
 
 SCI_THING_MOD+20	SCI_THING_P 
 SCI_THING_MOD+25 MNOUNS of SCI_THING_P  
@@ -3705,7 +3705,121 @@ SCI_THING_MOD	SCI_THING_MOD (at the SCI_BUZZWORD_ADJ level)
 SCI_THING_MOD	SCI_THING_MOD (LIT_REVERSAL_MAYBEat the SCI_BUZZWORD_ADJ level)
 SCI_THING_MOD	SCI_THING_MOD (LIT_REVERSAL)
 
+CPRE+5
+CPRE CNUM
+CNUM+3 NONZ
+CNUM NONZ, CNUM
+ELEM hydrogen
+ELEM helium
+ELEM lithium
+ELEM beryllium
+ELEM sodium
+ELEM magnesium
+ELEM potassium
+ELEM calcium
+ELEM rubidium
+ELEM strontium
+ELEM caesium
+ELEM barium
 
+ELEM chromium
+ELEM manganese
+ELEM iron
+ELEM cobalt
+ELEM copper
+ELEM nickel
+ELEM zinc
+ELEM yttrium
+ELEM erbium
+ELEM molybdenum
+ELEM ammonium
+ELEM sulphur
+
+EMID1 deoxy
+EMID1 mono
+EMID1 tri
+EMID1 penta
+EMID1 hexa
+EMID1 methyl
+EMID1 ethyl
+EMID1 propyl
+EMID1 butyl
+EMID1 glycyl
+EMID1 oxyl
+
+EMID2 propion
+EMID2 thian
+EMID2 sothian
+EMID2 monium
+EMID2 benzo
+EMID2 nitr
+
+EMID+3 EMID1EMID2
+EMID EMID
+
+ESUF ate
+ESUF ose
+ESUF ene
+ESUF ite
+ESUF aine
+ESUF ide
+ESUF ol
+ESUF one
+ESUF amine
+ESUF amycin
+ESUF yl
+ESUF ic acid
+ESUF ous CNAME
+
+CNAME+2 ELEM EMIDESUF
+CNAME+3 EMIDESUF
+
+CHEM+8 CPRE CNAME
+
+CSYM H
+CSYM He
+CSYM Li
+CSYM Be
+CSYM Na
+CSYM Mg
+CSYM K
+CSYM Ca
+CSYM Rb
+CSYM Sr
+CSYM Cs
+CSYM Ba
+
+CSYM Cr
+CSYM Mn
+CSYM Fe
+CSYM Co
+CSYM Ni
+CSYM Cu
+CSYM Zn
+CSYM Y
+CSYM Er
+
+CMID+3 C
+CMID S
+CMID N
+CMID P
+CMID Se
+CMID Si
+CSEND+2 CMID
+CSEND CMID$_{NONZ}$
+CSEND CMIDO$_{NONZ}$
+CSEND F
+CSEND Cl
+CSEND Br
+CSENDX+3 CSEND
+CSENDX CSEND$^{+}$
+CSENDX CSEND$^{NONZ+}$
+CSENDX CSEND$^{-}$
+CSENDX CSEND$^{NONZ-}$
+CSENDX CSEND$^{\bullet}$
+
+CHEM+4 CSYM CSENDX
+CHEM CHEM
 
 SCI_SYSTEM	EXP_ADJ algorithm
 SCI_SYSTEM	EXP_ADJ system
