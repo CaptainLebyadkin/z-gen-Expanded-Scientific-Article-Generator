@@ -83,7 +83,9 @@ My opto-awesome added functionality includes:
 
 -footnotes
 
--dot points
+-extremely important dot points
+
+-chemical names and formulae that make perfect sense
 
 -occasional wildcard words weaved in there, taken from an encyclopaedia, to keep things fresh
 
