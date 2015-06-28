@@ -461,6 +461,7 @@ GENERAL leading
 GENERAL prevailing
 GENERAL well-received
 GENERAL trendy
+GENERAL hot
 GENERAL	traditional
 GENERAL scientific
 GENERAL political
@@ -1145,7 +1146,8 @@ IMPL_SEC_MATH_HEADER		\section{Relating SCI_BUZZWORD_NOUN and MATHNOUNS}
 IMPL_SEC_MATH_HEADER		\section{Technical Aspects of SCI_BUZZWORD_NOUN}
 IMPL_SEC_MATH_HEADER		\section{Specifications for SYSNAME from CONCEPT}
 IMPL_SEC_MATH_HEADER		\section{Specifications for SCI_BUZZWORD_NOUN from AREA}
-IMPL_SEC_MATH_HEADER		\section{SCI_THING_S Theory}
+IMPL_SEC_MATH_HEADER		\section{Theory of SCI_THING_S}
+IMPL_SEC_MATH_HEADER		\section{AREA Theory}
 IMPL_SEC_MATH_HEADER		\section{Theoretical Aspects of SYSNAME}
 IMPL_SEC_MATH_HEADER		\section{Mathematics of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN}
 
@@ -3706,6 +3708,36 @@ SCI_THING_MOD	SCI_THING_MOD (at the SCI_BUZZWORD_ADJ level)
 SCI_THING_MOD	SCI_THING_MOD (LIT_REVERSAL_MAYBEat the SCI_BUZZWORD_ADJ level)
 SCI_THING_MOD	SCI_THING_MOD (LIT_REVERSAL)
 
+CDADJ+15 
+CDADJ synthesised 
+CDADJ enzymatic
+CDADJ alchemical
+CDADJ catalytic
+CDADJ exothermic
+CDADJ molecular
+CDADJ nuclear
+CDADJ SCI_BUZZWORD_ADJ
+CDES chemical
+CDES compound
+CDES admixture
+CDES aggregate
+CDES amalgamation
+CDES emulsion
+CDES amalgam
+CDES PREFIXX-alloy
+CDES composite
+CDES conglomerate
+CDESYX+3 chemically
+CDESYX scientifically
+CDESYX biochemically
+CDESYX stoichiometrically
+CDESYX structurally
+CDESYX molecularly
+
+CDESY+10 CDESYX
+CDESY+10 CDESYX speaking
+CDESY	 in the laboratory
+
 CPRE+5
 CPRE CNUM
 CNUM+3 NONZ
@@ -3755,7 +3787,7 @@ EMID2 monium
 EMID2 benzo
 EMID2 nitr
 
-EMID+3 EMID1EMID2
+EMID+2 EMID1EMID2
 EMID EMID
 
 ESUF ate
@@ -3775,7 +3807,9 @@ ESUF ous CNAME
 CNAME+2 ELEM EMIDESUF
 CNAME+3 EMIDESUF
 
-CHEM+8 CPRE CNAME
+CHEM CPRE CNAME
+CHEM the CDADJ CDES CPRE CNAME
+CHEM CPRE CNAME (CDESY)
 
 CSYM H
 CSYM He
@@ -3819,8 +3853,12 @@ CSENDX CSEND$^{-}$
 CSENDX CSEND$^{NONZ-}$
 CSENDX CSEND$^{\bullet}$
 
-CHEMX+4 CSYM CSENDX
-CHEMX CHEMX
+CHEMXU+4 CSYM CSENDX
+CHEMXU CHEMXU
+
+CHEMX CHEMXU
+CHEMX the CDADJ CDES CHEMXU
+CHEMX CHEMXU (CDESY)
 
 SCI_SYSTEM	EXP_ADJ algorithm
 SCI_SYSTEM	EXP_ADJ system
@@ -4709,6 +4747,7 @@ LREV	fortunately
 LREV+5	unfortunately
 LREV+5	ironically
 LREV+5	technically
+LREV+5  generally speaking
 LREV+5  technically speaking
 LREV+5	obviously
 LREV	urgently
@@ -5145,7 +5184,7 @@ $\hspace{-1.5mm}$
 \footnote{
 SCI_INTRO_FILLER.}. 
 }
-
+XXX		!
 
 SCI_MAY might
 SCI_MAY may
@@ -5214,6 +5253,8 @@ SMARTASS+200
 SMARTASS (Though we are certainly thinking it loudly)
 
 FUNNEND+200
+FUNNEND , `uh-huh girlfriend'
+FUNNEND , you go girl
 FUNNEND fo' shizzle
 FUNNEND (go figure!)
 FUNNEND XXX We feel this is not APPROPRIATE, SOSEEM
