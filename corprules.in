@@ -401,6 +401,17 @@ PARENTH , PEOPLE_SAY,
 
 SCI_INTRO_A   Many TRACE_UNIT_LONGs ago, SCI_COUNTRY_MAYBE SCI_PEOPLE PARENTH were involved in the SOFTWARE_ADJ SCI_VERBION of SCI_BUZZWORD_ADJ, EXP_ADJ EXP_WHERE_UM EXP_WHERE_UMs for the development of SCI_OUR_SYSTEM XXX
 
+SCI_INTRO_A LIT_ALTHOUGH SCI_GENERIC_NOUN SCI_MAY not SCI_PROVE_VERB SCI_THING_P in the SCI_MANNER initially expected, SCI_INTRO_THESIS
+
+SCI_AGE+5 TRACE_UNIT_LONG
+SCI_AGE	17$^{th}$ Century
+SCI_AGE	18$^{th}$ Century
+SCI_AGE	19$^{th}$ Century
+SCI_AGE	20$^{th}$ Century
+SCI_AGE 21$^{st}$ Century
+SCI_AGE+5 Millenium
+SCI_INTRO_A In the early part of the SCI_AGE, LIT_GREAT leaps forward in understanding SCI_A_FACT occurred by EMULATING the SCI_VERBION of SCI_GENERIC_NOUN in THE_WILD XXX
+
 SCI_INTRO_A	SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_AGREE that, had it not been for SCI_GENERIC_NOUN , the SCI_ACT SCI_MAY never have occurred XXX
 SCI_INTRO_A+5	SCI_COUNTRY_MAYBE SCI_PEOPLE working SCI_TOGETHERWITH the field of SCI_FIELD today would SCI_AGREE that the SCI_ACT would not be possible without the SCI_SYS_VERBION of SOFTWARE_ADJ SCI_THING_P  XXX
 SCI_INTRO_A+5	SCI_COUNTRY_MAYBE SCI_PEOPLE pioneering the frontier study of SCI_FIELD today would SCI_AGREE that the SCI_ACT would not be possible without the SCI_SYS_VERBION of SCI_GENERIC_NOUN  XXX
@@ -4244,6 +4255,7 @@ LIT_GREAT_NV	tremendous
 LIT_GREAT_NV	limited
 LIT_GREAT_NV	minimal
 LIT_GREAT_V	improbable
+LIT_GREAT_NV	quantum
 
 LIT_GREAT_ADV LIT_GREAT_ADV_NV
 LIT_GREAT_ADV LIT_GREAT_ADV_V
@@ -5437,7 +5449,7 @@ SCI_RESPONSE	only LOWLY_PEOPLE would ask such an BAD_V question XXX
 SCI_RESPONSE	in answering this question, rest assured that WNUM people have been fired accordingly XXX
 SCI_RESPONSE	in answering this question, rest assured that LOWLY_PEOPLE have been laid-off as a result XXX
 SCI_RESPONSE	LREV, our sponsors will not let this issue rest XXX
-SCI_RESPONSE	LREV, it has not occured to us to inquire too closely XXX
+SCI_RESPONSE	LREV, it has not occurred to us to inquire too closely XXX
 SCI_RESPONSE	Well, \textit{some} SCI_PEOPLE this so. In our opinion, is that so? SCI_RESPONSE 
 SCI_RESPONSEX	we grant that some explanations are required
 SCI_RESPONSE	our records are mysteriously silent on the subject XXX
@@ -5572,6 +5584,7 @@ LOWLY_PEOPLE	our accountants
 LOWLY_PEOPLE	pro-tennis players
 LOWLY_PEOPLE	sexy people
 LOWLY_PEOPLE	fat people
+LOWLY_PEOPLE	business tycoons
 LOWLY_PEOPLE	the author's parents
 LOWLY_PEOPLE	GENERIC_LASTNAME and GENERIC_LASTNAME from IT
 LOWLY_PEOPLE	the company dolly-brains
