@@ -3736,12 +3736,14 @@ CDESYX molecularly
 
 CDESY+10 CDESYX
 CDESY+10 CDESYX speaking
-CDESY	 in the laboratory
+CDESY	in the laboratory
+CDESY	in the laboratory setting
+CDESY	in THE_WILD
 
 CPRE+5
 CPRE CNUM
 CNUM+3 NONZ
-CNUM NONZ, CNUM
+CNUM NONZ,CNUM
 ELEM hydrogen
 ELEM helium
 ELEM lithium
@@ -3807,9 +3809,9 @@ ESUF ous CNAME
 CNAME+2 ELEM EMIDESUF
 CNAME+3 EMIDESUF
 
-CHEM CPRE CNAME
-CHEM the CDADJ CDES CPRE CNAME
-CHEM CPRE CNAME (CDESY)
+CHEM+2 CPRE-CNAME
+CHEM+2 the CDADJ CDES CPRE-CNAME
+CHEM CPRE-CNAME (CDESY)
 
 CSYM H
 CSYM He
@@ -5250,7 +5252,7 @@ SOSEEM quite independently
 SOSEEM quite frankly
 
 SMARTASS+200
-SMARTASS (Though we are certainly thinking it loudly)
+SMARTASS (Though we are certainly thinking it loudly).
 
 FUNNEND+200
 FUNNEND , `uh-huh girlfriend'
