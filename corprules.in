@@ -395,6 +395,12 @@ SCI_IPF_MID_REL we place our work in context with the RELATED work in this area
 
 SCI_IPF_FINAL SCI_B_LEADIN_C we conclude this study with a summary of SYSNAME in the context of the field of SCI_FIELD.
 
+PARENTH , you SCI_MAY recall, 
+PARENTH , SOSEEM,
+PARENTH , PEOPLE_SAY,
+
+SCI_INTRO_A   Many TRACE_UNIT_LONGs ago, SCI_COUNTRY_MAYBE SCI_PEOPLE PARENTH were involved in the SOFTWARE_ADJ SCI_VERBION of SCI_BUZZWORD_ADJ, EXP_ADJ EXP_WHERE_UM EXP_WHERE_UMs for the development of SCI_OUR_SYSTEM XXX
+
 SCI_INTRO_A	SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_AGREE that, had it not been for SCI_GENERIC_NOUN , the SCI_ACT SCI_MAY never have occurred XXX
 SCI_INTRO_A+5	SCI_COUNTRY_MAYBE SCI_PEOPLE working SCI_TOGETHERWITH the field of SCI_FIELD today would SCI_AGREE that the SCI_ACT would not be possible without the SCI_SYS_VERBION of SOFTWARE_ADJ SCI_THING_P  XXX
 SCI_INTRO_A+5	SCI_COUNTRY_MAYBE SCI_PEOPLE pioneering the frontier study of SCI_FIELD today would SCI_AGREE that the SCI_ACT would not be possible without the SCI_SYS_VERBION of SCI_GENERIC_NOUN  XXX
@@ -4974,6 +4980,7 @@ SCI_VERBS	measures
 SCI_VERBS	emulates
 SCI_VERBS	simulates
 SCI_VERBS	constructs
+SCI_VERBS	produces
 SCI_VERBS	evaluates
 SCI_VERBS	deploys
 SCI_VERBS	synthesises
@@ -4999,6 +5006,7 @@ SCI_VERBED	measured
 SCI_VERBED	emulated
 SCI_VERBED	simulated
 SCI_VERBED	constructed
+SCI_VERBED	produced
 SCI_VERBED	evaluated
 SCI_VERBED	emulated
 SCI_VERBED	deployed
@@ -5025,6 +5033,7 @@ SCI_VERBING	analysing
 SCI_VERBING	measuring
 SCI_VERBING	simulating
 SCI_VERBING	constructing
+SCI_VERBING	producing
 SCI_VERBING	evaluating
 SCI_VERBING	emulating
 SCI_VERBING	deploying
@@ -5052,6 +5061,7 @@ SCI_VERBION	improvement
 SCI_VERBION	emulation
 SCI_VERBION	simulation
 SCI_VERBION	construction
+SCI_VERBION	production
 SCI_VERBION	evaluation
 SCI_VERBION	deployment
 SCI_VERBION	visualisation
@@ -5244,6 +5254,8 @@ LIT_BASED_ON	built on
 
 SOSEEM so it would seem
 SOSEEM as luck would have it
+SOSEEM as GENERAL OPINION would have it
+SOSEEM as GENERAL OPINION might SCI_IMAGINE
 SOSEEM you will find
 SOSEEM we have found
 SOSEEM we think you will find
