@@ -5645,9 +5645,9 @@ SCI_PEOPLE      cyberneticists
 SCI_SOURCE	Rodney Brooks
 SCI_SOURCE	Alan Turing
 SCI_SOURCE	Albert Einstein
-SCI_SOURCE	Charles Darwin
+#SCI_SOURCE	Charles Darwin
 SCI_SOURCE	Erwin Schroedinger
-SCI_SOURCE	Isaac Newton
+#SCI_SOURCE	Isaac Newton
 SCI_SOURCE	Noam Chomsky
 SCI_SOURCE	Robert T. Morrison
 SCI_SOURCE	Stephen Hawking
