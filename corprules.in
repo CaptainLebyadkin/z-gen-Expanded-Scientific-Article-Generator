@@ -3508,6 +3508,7 @@ SCI_BUZZWORD_NOUN    bionouns
 SCI_PROBLEM+35 complication
 SCI_PROBLEM+30 hitch
 SCI_PROBLEM+10 `pickle'
+SCI_PROBLEM+10 pet-peeve
 SCI_PROBLEM+10 can-of-worms
 SCI_PROBLEM+10 disputed point
 SCI_PROBLEM+20 trouble
