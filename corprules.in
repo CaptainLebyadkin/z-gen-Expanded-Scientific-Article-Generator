@@ -3754,6 +3754,7 @@ CDES amalgam
 CDES PREFIXX-alloy
 CDES composite
 CDES conglomerate
+CDES solvent
 CDESYX+3 chemically
 CDESYX scientifically
 CDESYX biochemically
@@ -3796,10 +3797,14 @@ ELEM erbium
 ELEM molybdenum
 ELEM ammonium
 ELEM sulphur
+ELEM caffeine
 
+EMID1 ibu
 EMID1 deoxy
 EMID1 mono
+EMID1 bi
 EMID1 tri
+EMID1 tetra
 EMID1 penta
 EMID1 hexa
 EMID1 methyl
@@ -3808,6 +3813,14 @@ EMID1 propyl
 EMID1 butyl
 EMID1 glycyl
 EMID1 oxyl
+EMID1 PREFIXX
+EMID1 an
+EMID1 acryl
+EMID1 acro
+EMID1 cyclo
+EMID1 pyro
+EMID1 vinyl
+EMID1 xyl
 
 EMID2 propion
 EMID2 thian
@@ -3815,12 +3828,40 @@ EMID2 sothian
 EMID2 monium
 EMID2 benzo
 EMID2 nitr
+EMID2 hydr
+EMID2 EMID1
+EMID2 acet
+EMID2 atraz
+EMID2 ox
+EMID2 lact
+EMID2 tolu
+EMID2 cyan
+EMID2 silic
+EMID2 sulf
+EMID2 brom
+EMID2 iod
+EMID2 chlor
+EMID2 cellul
+EMID2 camph
+EMID2 meth
+EMID2 eth
+EMID2 prop
+EMID2 but
+EMID2 pent
+EMID2 styr
+EMID2 carbon
+EMID2 ether
+EMID2 ket
+EMID2 benz
+EMID2 graph
+EMID2 sucr
 
 EMID+10 EMID1EMID2
 EMID+5   EMID1EMID2EMID1EMID2
 EMID+3   EMID1EMID2EMID1EMID2EMID1EMID2
-EMID   EMID1EMID2EMID1EMID2EMID1EMID2EMID1EMID2
+#EMID   EMID1EMID2EMID1EMID2EMID1EMID2EMID1EMID2
 
+ESUF aldehyde
 ESUF ate
 ESUF ose
 ESUF ene
