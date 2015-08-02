@@ -117,25 +117,58 @@ my ($fhtex, $tex_file) = tempfile($template, DIR => $tmp_dir);
 my $section; 
 my $selector;
 my $partbool = 0;
+my $bbool = 0;
 my $nit = $nsec-2;
 my $sectol = ((int rand 3)*(10) + 1 );
-my $text_tr = "SCIPAPER_LATEX { LATEX_HEADER SCI_ABSTRACT ";
+my $btol = ((int rand 2)*(50) + 50 );
+my $text_tr = "SCIPAPER_LATEX { ";
+my $citpen = "
+CITATION+100 
+XXX+500 .
+CITATION_SOMETIMES+100 
+SCI_BY_WHO_SOMETIMES+100 
+RELWORK_CITATION+50 
+LATEX_DIAGRAM_MAYBE+50 
+LATEX_FIGURE_MAYBE+50 
+";
 
+#if($nsec > $btol * (int rand 2) + 1) {
+ $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
+ $bbool = 1;
+# } else { 
+# $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
+#}
 
-if($nit > $sectol * ((int rand 5) + 1)){
- $text_tr = $text_tr . " SCI_TOC ";
+if($nit > $sectol * ((int rand 5) + 1) ){
+
+    if($bbool == 0) {
+	$text_tr = $text_tr . " SCI_TOC ";
+    }
+
  $text_tr = $text_tr . " SCI_PART ";
  $partbool = 1;
 }
+
 if($nit > $sectol && $partbool == 0) {
 #can still have a table of contents, even without parts. 
  $text_tr = $text_tr . " SCI_TOC ";
 }
 $text_tr = $text_tr . " SCI_INTRO ";
 
+
 my $counter = 1;
+my $bc = 1;
 for( my $i = 1; $i <= $nit; $i++ ) {
     $selector = int rand 100; 
+
+
+#Add books for really long ones.
+    $bc++;
+	if(($bc > ($btol * ((int(rand(3))) + 1))) && ($bbool == 1)){
+	    $text_tr = $text_tr . " SCI_BOOK ";
+	    $bc = 0;
+    }
+
 
 #Add parts if it gets too long. 
     $counter++;
@@ -143,6 +176,7 @@ for( my $i = 1; $i <= $nit; $i++ ) {
 	    $text_tr = $text_tr . " SCI_PART ";
 	    $counter = 0;
     }
+
     if($selector >= 0 && $selector < 10) {
 	$section = " SCI_MODEL ";
     } elsif ($selector >= 10 && $selector < 30) {
@@ -158,7 +192,21 @@ for( my $i = 1; $i <= $nit; $i++ ) {
     }
     $text_tr = $text_tr . $section;
 }
-$text_tr = $text_tr . " SCI_CONCL LATEX_FOOTER }";
+$text_tr = $text_tr . " SCI_CONCL LATEX_FOOTER }
+";
+
+my $cthresh=50;
+if($nsec > $cthresh) {
+
+    my $every=0;
+    for (my $cp = $cthresh; $cp < $nsec; $cp++) {
+	$every=$every+1;
+	if($every == 20) {
+	    $text_tr = $text_tr . $citpen;
+	    $every=0;
+	}	
+    }
+}
 
 open(TOPFILE,">","scitoprule.in") or die "Could not open file scitoprule.in";
 print TOPFILE $text_tr;
