@@ -8065,6 +8065,9 @@ PREFIXX poly
 PREFIXX tetra
 PREFIXX omni
 PREFIXX	auto
+PREFIXX neo
+PREFIXX meta
+PREFIXX extra
 
 PREFIXX atto
 PREFIXX femto
