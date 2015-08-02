@@ -39,6 +39,30 @@ SCI_PARTCUSTOM {
 #
 #}
 
+SCI_BOOK {
+
+\clearpage
+\onecolumn
+\vspace{40cm}
+\begin{center}
+\LARGE{\textbf{VOLUME BOOKCOUNTER+}}\\
+\vspace{1cm}
+\Large{\textbf{
+SCI_ACT}}\\
+\vspace{0cm}
+---
+\end{center}
+\clearpage
+\twocolumn
+
+\book{\textbf{\Large{VOLUME LABBOOKCOUNTER+}}}
+}
+#\addtocontents{toc}{\vspace{4mm}\noindent\textbf{VOLUME LABBOOKCOUNTER+}\vspace{2mm}\\ }
+#\addcontentsline{toc}{chapter}{VOLUME LABBOOKCOUNTER+}
+
+BOOKCOUNTER\+
+LABBOOKCOUNTER\+
+
 SCI_PART {
 
 \begin{center}
@@ -134,6 +158,14 @@ AUTHOR_NAME!
 #############################################################################
 ####### Abstract #######
 #############################################################################
+
+WIDE_ABSTRACT {
+
+SCI_ABSTRACT
+
+\twocolumn
+
+}
 
 SCI_ABSTRACT_HEADER \section*{Abstract}
 
@@ -6299,7 +6331,7 @@ PLOTTITLE HACKED CONSTRAINT_TYPEX
 ######## LaTeX stuff ########
 #############################################################################
 
-LATEX_HEADER { 
+LATEX_HEADER_INFO { 
 
 LATEX_DOCCLASS
 LATEX_FONTCLASS
@@ -6333,7 +6365,7 @@ LATEX_CITEPACK
 \usetikzlibrary{calc}
 \usetikzlibrary{fadings}
 
-
+\newcommand{\book}[1]{\addtocontents{toc}{\vspace{4mm}#1\par}}
 
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
@@ -6358,6 +6390,30 @@ LATEX_CITEPACK
 \newcommand\Cshadowbox{\VerbBox\@Cshadowbox} \def\@Cshadowbox#1{ \setbox\@fancybox\hbox{\fbox{#1}} \leavevmode\vbox{ \offinterlineskip \dimen@=\shadowsize \advance\dimen@ .5\fboxrule \hbox{\copy\@fancybox\kern.5\fboxrule\lower\shadowsize\hbox{\color{ShadowColor}\vrule \@height\ht\@fancybox \@depth\dp\@fancybox \@width\dimen@}}\vskip\dimexpr-\dimen@+0.5\fboxrule\relax\moveright\shadowsize\vbox{\color{ShadowColor}\hrule \@width\wd\@fancybox \@height\dimen@}}}
 \makeatother
 
+}
+
+WIDE_LATEX_HEADER {
+
+LATEX_HEADER_INFO
+
+\begin{document}
+
+\onecolumn
+
+LATEX_TITLE
+LATEX_AUTHORS
+
+\date{}
+
+\maketitle
+
+PIEFANCYHEAD
+
+}
+
+LATEX_HEADER {
+
+LATEX_HEADER_INFO
 
 \begin{document}
 
@@ -8117,7 +8173,7 @@ PREFIX+40 PREFIXX
 PREFIX \"{u}ber
 
 # subscripts and superscripts, etc, look stupid
-PREFIX+5 $ONEVAR$
+#PREFIX+5 $ONEVAR$
 
 SPACE vector
 SPACE topological
@@ -8329,7 +8385,7 @@ CONCEPT+20 FAMOUSPOS conjecture
 CONCEPT+20 the METANOUN of OBJECTS
 CONCEPT+20 PROPNOUN
 CONCEPT+20 questions of PROPNOUN
-CONCEPT+20 an example from FAMOUS CITATION
+CONCEPT+20 an example from FAMOUS
 CONCEPT+20 PROPNOUN methods
 CONCEPT CONCEPT (to SCI_SAY a SCI_ADJ_NV example)
 CONCEPT CONCEPT (to SCI_SAY an SCI_ADJ_V example)
