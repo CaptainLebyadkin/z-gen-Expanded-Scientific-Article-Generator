@@ -132,12 +132,12 @@ LATEX_DIAGRAM_MAYBE+50
 LATEX_FIGURE_MAYBE+50 
 ";
 
-#if($nsec > $btol * (int rand 2) + 1) {
+if($nsec > $btol * (int rand 2) + 1) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
-# } else { 
-# $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
-#}
+ } else { 
+ $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
+}
 
 if($nit > $sectol * ((int rand 5) + 1) ){
 
