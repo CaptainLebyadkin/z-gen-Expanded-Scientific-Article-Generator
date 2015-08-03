@@ -133,7 +133,7 @@ LATEX_FIGURE_MAYBE+150
 ";
 
 if($nsec > $btol * (int rand 2) + 1) {
- $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK NCOL";
+ $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
  $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
