@@ -63,6 +63,16 @@ SCI_ACT}}\\
 BOOKCOUNTER\+
 LABBOOKCOUNTER\+
 
+NCOL {
+
+\twocolumn
+}
+
+NCOL {
+
+\onecolumn
+}
+
 SCI_PART {
 
 \begin{center}
