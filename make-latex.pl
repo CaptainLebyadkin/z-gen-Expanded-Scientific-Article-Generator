@@ -130,12 +130,10 @@ SCI_BY_WHO_SOMETIMES+10
 RELWORK_CITATION+10 
 LATEX_DIAGRAM_MAYBE+150 
 LATEX_FIGURE_MAYBE+150 
-LATEX_DIAGRAM+20 
-LATEX_FIGURE+20 
 ";
 
 if($nsec > $btol * (int rand 2) + 1) {
- $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
+ $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK NCOL";
  $bbool = 1;
  } else { 
  $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
