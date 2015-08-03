@@ -47,15 +47,21 @@ SCI_BOOK {
 \begin{center}
 \LARGE{\textbf{VOLUME BOOKCOUNTER+}}\\
 \vspace{1cm}
+
+\renewcommand{\voltitle}{
+SCI_ACT}
+
+\book{{\textbf{\Large{VOLUME LABBOOKCOUNTER+ -- \voltitle}}}}
+
 \Large{\textbf{
-SCI_ACT}}\\
+\voltitle}}\\
 \vspace{0cm}
 ---
 \end{center}
 \clearpage
-\twocolumn
 
-\book{\textbf{\Large{VOLUME LABBOOKCOUNTER+}}}
+
+\colenforce
 }
 #\addtocontents{toc}{\vspace{4mm}\noindent\textbf{VOLUME LABBOOKCOUNTER+}\vspace{2mm}\\ }
 #\addcontentsline{toc}{chapter}{VOLUME LABBOOKCOUNTER+}
@@ -173,7 +179,7 @@ WIDE_ABSTRACT {
 
 SCI_ABSTRACT
 
-\twocolumn
+\colenforce
 
 }
 
@@ -6357,6 +6363,11 @@ LATEX_CITEPACK
 \renewcommand{\cftdotsep}{\cftnodots}
 \newcommand\T{\rule{0pt}{2.8ex}}
 \newcommand\B{\rule[-1.4ex]{0pt}{0pt}}
+
+\newcommand{\voltitle}{
+SCI_ACT}
+
+\newcommand{\colenforce}{NCOL}
 
 \usepackage{etex}
 \usepackage{epsfig}
