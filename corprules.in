@@ -1164,6 +1164,8 @@ IMPL_COMPONENT corporate database
 IMPL_COMPONENT optimised innovation
 IMPL_COMPONENT business machine monitor
 IMPL_COMPONENT operating method
+IMPL_COMPONENT SCI_THING
+IMPL_COMPONENT specific action item
 
 CODE_LINES	enterprises
 CODE_LINES	methodologies
@@ -3774,6 +3776,7 @@ SCI_THING_S	the Bayesian approach
 SCI_THING_P	EXP_ADJ Lagrangians
 SCI_THING_P+6	EXP_ADJ systems
 SCI_THING_S+10 CHEM
+SCI_THING_S    spectrometer
 
 SCI_THING_MOD+20	SCI_THING_P 
 SCI_THING_MOD+25 MNOUNS of SCI_THING_P  
