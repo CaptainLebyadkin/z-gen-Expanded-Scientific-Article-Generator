@@ -6489,7 +6489,7 @@ LATEX_AUTHORS \author{SCIAUTHORS}
 
 LATEX_FIGURE {
 
-\begin{figure}[t]
+\begin{figure}[thp]
 \centerline{\epsfig{figure=LATEX_FIG_FILENAME,width=3in}}
 \caption{\small{SCI_GRAPH_CAPTION}}
 \label{LATEX_FIG_LABEL}
@@ -6508,7 +6508,7 @@ NEWFIGLABEL\#
 
 LATEX_DIAGRAM {
 
-\begin{figure}[t]
+\begin{figure}[thp]
 \centerline{\epsfig{figure=LATEX_DIA_FILENAME}}
 \caption{\small{
 SCI_DIAGRAM_CAPTION
@@ -6517,6 +6517,8 @@ SCI_DIAGRAM_CAPTION
 \end{figure}
 
 }
+
+CLEARPAGE \clearpage
 
 LATEX_DIA_FILENAME diagNEWDIANUM+.eps
 NEWDIANUM\+
