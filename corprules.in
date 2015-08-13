@@ -541,6 +541,11 @@ GENERAL orthodox
 GENERAL predominant
 GENERAL stereotypical
 GENERAL wanton
+GENERAL the hottest
+GENERAL the latest
+GENERAL the coolest
+GENERAL the most RECENT
+GENERAL the most LIT_GOOD
 
 OPINION opinion
 OPINION belief
@@ -555,6 +560,7 @@ OPINION supposition
 OPINION thinking
 OPINION judgment
 OPINION assumption
+OPINION prejudice
 
 SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_MID_2
 SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_MID_3
@@ -4700,11 +4706,11 @@ RETURN reconsider
 RETURN re-evaluate
 
 
-BIAS preconceived notions
-BIAS personal views
-BIAS personal vendettas
-BIAS one's own personal bias
-BIAS common sense
+BIAS preconceived notions,
+BIAS personal views,
+BIAS personal vendettas,
+BIAS one's own personal bias,
+BIAS common sense,
 
 LIT_LEADIN	but, 
 LIT_LEADIN	however, 
@@ -8197,6 +8203,7 @@ PREFIXX hypo
 PREFIXX mega
 PREFIXX exo
 PREFIXX endo
+PREFIXX ambi
 
 PREFIX+40 PREFIXX
 PREFIX \"{u}ber
