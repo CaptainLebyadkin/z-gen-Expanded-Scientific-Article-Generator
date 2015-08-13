@@ -7201,18 +7201,18 @@ CITE_PAGES 5DIGIT--6DIGIT
 CITE_PAGES 7DIGIT--8DIGIT
 CITE_PAGES 15DIGIT--19DIGIT
 
-CITE_INST MIT 
-CITE_INST UC Berkeley
-CITE_INST INT
+CITE_INST {M}{I}{T} 
+CITE_INST {U}{C} Berkeley
+CITE_INST {I}{N}{T}
 CITE_INST The University of Queensland
 CITE_INST The University of Washington
 CITE_INST The University of Adelaide
 CITE_INST Harvard University
 CITE_INST Snickers University
-CITE_INST ECT*
+CITE_INST {E}{C}{T}*
 CITE_INST The University of Melbourne
 CITE_INST The University of Sydney
-CITE_INST RMIT
+CITE_INST {R}{M}{I}{T}
 CITE_INST Imperial College London
 CITE_INST Stanford University
 CITE_INST The University of Northern South Dakota
