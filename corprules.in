@@ -49,7 +49,7 @@ SCI_BOOK {
 \vspace{1cm}
 
 \renewcommand{\voltitle}{
-SCI_ACT}
+\titcap{SCI_ACT}}
 
 \book{{\textbf{\Large{VOLUME LABBOOKCOUNTER+ -- \voltitle}}}}
 
