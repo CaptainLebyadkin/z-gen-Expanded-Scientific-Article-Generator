@@ -2700,6 +2700,7 @@ EXP_WHOSE	FermiLab's
 EXP_WHOSE	FAMOUSLAST Laboratory's
 EXP_WHOSE	The FAMOUSLAST Institute's
 EXP_WHOSE	The Jacob's Creek Institute's
+EXP_WHOSE	CITE_INST's
 
 SCI_TOGETHERWITH 	in tandem with
 SCI_TOGETHERWITH	together with
@@ -6380,6 +6381,7 @@ LATEX_CITEPACK
 SCI_ACT}
 
 \newcommand{\colenforce}{NCOL}
+\newcommand{\titcap}{}
 
 \usepackage{etex}
 \usepackage{epsfig}
@@ -6436,7 +6438,9 @@ LATEX_HEADER_INFO
 LATEX_TITLE
 LATEX_AUTHORS
 
-\date{}
+\renewcommand{\titcap}{}
+\date{
+\titcap{CITE_INST, \\ ADDR}}
 
 \maketitle
 
@@ -6453,7 +6457,9 @@ LATEX_HEADER_INFO
 LATEX_TITLE
 LATEX_AUTHORS
 
-\date{}
+\renewcommand{\titcap}{}
+\date{
+\titcap{CITE_INST, \\ ADDR}}
 
 \maketitle
 
@@ -7210,6 +7216,230 @@ CITE_INST RMIT
 CITE_INST Imperial College London
 CITE_INST Stanford University
 CITE_INST The University of Northern South Dakota
+CITE_INST+100 SCI_COUNTRY_MAYBE INSTPRE2 INSTITUTE UTHEME
+
+INSTPRE Special
+INSTPRE Research
+INSTPRE Functional
+INSTPRE Industry
+INSTPRE Commercial
+INSTPRE Government
+INSTPRE Imperial
+INSTPRE Scientific
+INSTPRE Private
+INSTPRE GENERAL
+INSTPRE+2 FAMOUSLAST
+
+INSTPRE2+5 INSTPRE
+INSTPRE2 INSTPRE INSTPRE
+
+INSTITUTE University
+INSTITUTE Institute
+INSTITUTE Facility
+INSTITUTE College
+INSTITUTE Laboratory
+INSTITUTE Center
+INSTITUTE Centre
+INSTITUTE Department
+INSTITUTE Faculty
+INSTITUTE School
+INSTITUTE Division
+INSTITUTE Company
+INSTITUTE Corporation
+INSTITUTE Venture
+
+UOF of
+UOF for
+UOF in
+UOF regarding
+UOF specialising in
+UOF for the promotion of
+UOF for the study of
+
+UTHEME+3 UOF UNITHEME
+UTHEME 
+
+UNITHEME EVAL_SEC_SUBHEAD_1
+UNITHEME EVAL_SEC_SUBHEAD_2
+UNITHEME WARE
+UNITHEME SCI_VERBION
+UNITHEME SCI_VERBION and SCI_SYSTEM_PL
+UNITHEME SCI_SYSTEM_PL
+UNITHEME SCI_VERBION, CONSTRAINT_TYPEX and SCI_SYSTEM_PL
+UNITHEME SCI_THING_MOD
+UNITHEME EXP_ADJ SCI_BUZZWORD_NOUN
+
+STREET Street
+STREET Avenue
+STREET Drive
+STREET Lane
+STREET Road
+STREET Way
+STREET Close
+STREET Place
+STREET Grove
+
+STNAME GOOD_NOUN
+STNAME GOOD_ADJ
+STNAME FAMOUSLAST
+STNAME GENERIC_LASTNAME
+
+TOWN STNAMEville
+TOWN STNAMEberg
+TOWN STNAMEburg
+TOWN STNAMEbourg
+TOWN STNAMEshire
+TOWN STNAMEbridge
+TOWN STNAME Cross
+TOWN STNAME Valley
+TOWN STNAMEton
+TOWN STNAMEfield
+TOWN STNAMEon
+TOWN STNAMEtown
+TOWN STNAME Beach
+
+COU USA
+COU Australia
+COU United Kingdom
+COU Canada
+COU India
+COU France
+COU Germany
+COU Italy
+COU Japan
+COU Sweden
+COU Russia
+COU Antarctica
+COU Afghanistan
+COU Albania
+COU Algeria
+COU Andorra
+COU Argentina
+COU Austria
+COU Azerbaijan
+COU The Bahamas
+COU Bahrain
+COU Bangladesh
+COU Belarus
+COU Belgium
+COU Bhutan
+COU Bolivia
+COU Bosnia
+COU Brazil
+COU Bulgaria
+COU Burma
+COU Cambodia
+COU Cameroon
+COU Chile
+COU China
+COU Colombia
+COU Congo
+COU  Croatia
+COU Costa Rica
+COU Cuba
+COU Czech Republic
+COU DMZ
+COU Denmark
+COU East Timor
+COU Ecuador
+COU Egypt
+COU Salvador
+COU Estonia
+COU Ethiopia
+COU Fiji
+COU Finland
+COU French Polynesia
+COU Gambia
+COU Georgia
+COU Ghana
+COU Greece
+COU Greenland
+COU Haiti
+COU Honduras
+COU Hong Kong
+COU Hungary
+COU Iceland
+COU Iran
+COU Iraq
+COU Ireland
+COU Isle of Man
+COU Israel
+COU Jamaica
+COU Jordan
+COU Kazakhstan
+COU Kenya
+COU Democratic People's Republic of Korea
+COU South Korea
+COU Kosovo
+COU Kuwait
+COU Latvia
+COU Lebanon
+COU Libya
+COU Liechtenstein
+COU Lithuania
+COU Luxembourg
+COU FYR Macedonia
+COU Malaysia
+COU Mauritius
+COU Mexico
+COU Moldova
+COU Mongolia
+COU Morocco
+COU Namibia
+COU Nepal
+COU The Netherlands
+COU New Zealand
+COU Nigeria
+COU Norway
+COU Pakistan
+COU Gaza
+COU Panama
+COU Peru
+COU The Philippines
+COU Paraguay
+COU Poland
+COU Portugal
+COU Puerto Rico
+COU Qatar
+COU Romania
+COU Rwanda
+COU Samoa
+COU Saudi Arabia
+COU Senegal
+COU Serbia
+COU Singapore
+COU Slovakia
+COU Slovenia
+COU Somalia
+COU South Africa
+COU South Sudan
+COU Spain
+COU Sri Lanka
+COU Sudan
+COU Switzerland
+COU Swaziland
+COU Syria
+COU Taiwan
+COU Tajikistan
+COU Tanzania
+COU Thailand
+COU Tonga
+COU Tunisia
+COU Turkey
+COU Turkmenistan
+COU Tuvalu
+COU Uganda
+COU Ukraine
+COU Uruguay
+COU Uzbekistan
+COU Venezuela
+COU Vietnam
+COU Yemen
+COU Oman
+COU Zambia
+COU Zimbabwe
+
+ADDR NONZDIGIT STNAME STREET, TOWN, UPRVARUPRVAR DIGITDIGITDIGITDIGITDIGIT, COU
 
 PUBLISHER Springer
 PUBLISHER Birkh\"auser
