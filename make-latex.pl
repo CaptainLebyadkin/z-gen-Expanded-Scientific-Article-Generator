@@ -292,6 +292,7 @@ while( <TEX> ) {
 	    }
 	    system( "perl make-graph.pl --file $figfile --seed $newseed --color $color" ) 
 		or $done=1;
+	    print "made graph: ".$figfile."\n";
 	}
 	push @figures, $figfile;
     }
@@ -306,9 +307,11 @@ while( <TEX> ) {
 			 "--file $figfile --seed $newseed" ) or 
 		 !(-f $figfile)) 
 		    or $done=1;
+		print "made diagram: ".$figfile."\n";
 	    } else {
 		system( "perl make-graph.pl --file $figfile --seed $newseed" ) 
 		    or $done=1;
+		print "made graph: ".$figfile."\n";
 	    }
 	}
 	push @figures, $figfile;
