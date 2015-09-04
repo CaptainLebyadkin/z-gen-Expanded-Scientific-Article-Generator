@@ -469,7 +469,7 @@ ANADJ a SCI_ADJ_NV
 ANADJ an SCI_ADJ_V
 SCI_INTRO_A+5	In SCI_VERBING SCI_ADJ SCI_MODEL_TYPE_P REACTBYWHO, SOFTWARE_ADJ SCI_THING_P have recently been SCI_PROVE_VERBED XXX This indicates that LITTLE progress on the topic of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN has been SCI_ACHIEVED XXX
 SCI_INTRO_A	EXP_ADJ SCI_BUZZWORD_NOUN and SCI_THING_MOD have garnered LIT_GREAT interest from both SCI_COUNTRY_MAYBE SCI_PEOPLE and SCI_PEOPLE in the last several TRACE_UNIT_LONGs XXX
-SCI_INTRO_A	SCI_THING_MOD represents an SCI_IMPORTANTV topic in the field XXX
+SCI_INTRO_A	SCI_THING_MOD represent an SCI_IMPORTANTV topic in the field XXX
 SCI_INTRO_A	In recent TRACE_UNIT_LONGs, much intensive research has been devoted to the SCI_ACT; LIT_REVERSAL, SCI_ANUMBER have SCI_VERBED the SCI_ACT XXX
 SCI_INTRO_A	SCI_THING_MOD and SCI_THING_MOD, while SCI_ADJ in theory, have not been PROBE_CONSIDERED SCI_ADJ until recently XXX
 SCI_INTRO_A	The SCI_ACT is a SCI_ADJ SCI_PROBLEM XXX
@@ -2342,8 +2342,9 @@ EVAL_SEC_INTRO_C	we hope to make clear that our EVAL_MODING is the key to our EV
 EVAL_SEC_INTRO_C	our work in this regard is a novel contribution, in and of itself.
 EVAL_SEC_INTRO_C	our EVALUATION will show that EVAL_MODING is crucial to our results.
 EVAL_SEC_INTRO_C	we hope that this section PROVES SCI_A_FACT.
-EVAL_SEC_INTRO_C	our evaluation strives to make these points clear.
+EVAL_SEC_INTRO_C	our EVALUATION strives to make these points clear.
 EVAL_SEC_INTRO_C	our EVALUATION holds suprising results for the patient reader.
+EVAL_SEC_INTRO_C	SOSEEM, MAXIMIZING AMBITIOUS CONSTRAINT_TYPE PROVES the fact that RESOURCE_STARVATION SCI_CAN be SCI_PROBLEM_SOLVED by SCI_OUR_SYSTEM.
 
 EVAL_MODING		EVAL_MODING_HARDWARE
 EVAL_MODING		EVAL_MODING_SOFTWARE
@@ -3322,6 +3323,7 @@ EVAL_ANALYZE_ONE+15 of course, all sensitive data was anonymised during our EMUL
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT SCI_THING_P have SMOOTHER HARDWARE_PROP_OR_MEASUREMENT curves than do HACKED SCI_THING_P
 EVAL_ANALYZE_ONE+15 the key to EXP_FTG is SCI_VERBING the STORAGE_TYPE; EXP_FTG shows how SCI_OUR_SYSTEM's HARDWARE_PROP_OR_MEASUREMENT does not converge otherwise
 EVAL_ANALYZE_ONE+15 the data in EXP_FTG, in particular, proves that WNUM TRACE_UNIT_LONGs of hard work were wasted on this project
+EVAL_ANALYZE_ONE+15 in EXP_FIG, it is SCI_IMPORTANTV to keep in mind that we LIT_OFTEN found LIT_GREAT IMPROVEMENT in PERFORMANCE by SCI_VERBING SCI_GENERIC_NOUN
 
 ACCURATE	accurate
 ACCURATE	wildly inaccurate
@@ -4608,6 +4610,7 @@ PERFORMANCE	latency
 INSTRUMENTAL	instrumental
 INSTRUMENTAL	crucial
 INSTRUMENTAL	essential
+INSTRUMENTAL	vital
 
 UNIQUE		unique
 UNIQUE		conventional
@@ -5080,6 +5083,7 @@ SCI_PROBLEM_SOLVE correct
 SCI_PROBLEM_SOLVE amend
 SCI_PROBLEM_SOLVE account for
 SCI_PROBLEM_SOLVE compensate for
+SCI_PROBLEM_SOLVE ameliorate
 
 SCI_PROBLEM_SOLVED solved
 SCI_PROBLEM_SOLVED hurdled
@@ -5091,6 +5095,7 @@ SCI_PROBLEM_SOLVED corrected
 SCI_PROBLEM_SOLVED amended
 SCI_PROBLEM_SOLVED accounted for
 SCI_PROBLEM_SOLVED compensated for
+SCI_PROBLEM_SOLVED ameliorated
 
 SCI_GOAL_ACHIEVE achieve
 SCI_GOAL_ACHIEVE realise
