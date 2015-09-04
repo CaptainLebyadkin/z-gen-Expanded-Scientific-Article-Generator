@@ -2611,8 +2611,28 @@ EXP_ADJ+30		active
 EXP_ADJ+35		SCI_STATUS_ADJ
 #EXP_ADJ+30		AREAMOD
 EXP_ADJ+70		EXP_TREK
-
 EXP_ADJ+10		hyperspectral
+EXP_ADJ+20 		remote
+EXP_ADJ+20 		interpretative
+EXP_ADJ+20 		geometric
+EXP_ADJ+20 		effective
+EXP_ADJ+20 		nascent
+EXP_ADJ+20 		cerebral
+EXP_ADJ+20 		automatic
+EXP_ADJ+20 		hydraulic
+EXP_ADJ+20		optronic
+EXP_ADJ+20		electric
+EXP_ADJ+20		magnetic
+EXP_ADJ+10		bosonic
+EXP_ADJ+20		PREFIXXnomic
+EXP_ADJ+20		PREFIXXtronic
+EXP_ADJ+20		PREFIXXtropic
+EXP_ADJ+20		PREFIXXscopic
+EXP_ADJ+20		vectorial
+EXP_ADJ+20		matriculated
+EXP_ADJ+20		articulated
+EXP_ADJ+20		subatomic
+EXP_ADJ+20		mechanised
 		
 
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
@@ -3775,11 +3795,11 @@ SCI_THING_P	medical SCI_BUZZWORD_NOUN
 #SCI_THING_S+5	medical MNOUN
 #SCI_THING_P+5	medical MNOUNS
 SCI_THING_S+6	EXP_ADJ immunology
-SCI_THING_S	biophysics
+SCI_THING_S	PREFIXXphysics
 SCI_THING_S+6	EXP_ADJ nanocomputation
 SCI_THING_S	the Fractional Quantum Hall Effect (FQHE) 
 SCI_THING_P	neural networks
-SCI_THING_P	biocomputable assays
+SCI_THING_P	PREFIXXcomputable assays
 SCI_THING_P	nanoparticle-tracking 
 SCI_THING_P	superdot simulations 
 SCI_THING_P	quantum dot computations 
@@ -3807,6 +3827,10 @@ SCI_THING_P+6	EXP_ADJ systems
 SCI_THING_S+10 CHEM
 SCI_THING_S    spectrometer
 SCI_THING_S    PREFIXX-EMID2ometer
+SCI_THING_S    EXP_ADJ sensing
+SCI_THING_S    EXP_ADJ apparatus
+SCI_THING_S    EXP_ADJ resonance
+SCI_THING_P    EXP_ADJ apparatus
 
 SCI_THING_MOD+20	SCI_THING_P 
 SCI_THING_MOD+25 MNOUNS of SCI_THING_P  
