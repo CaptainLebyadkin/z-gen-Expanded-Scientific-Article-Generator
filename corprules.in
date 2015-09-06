@@ -3934,6 +3934,7 @@ EMID1 cyclo
 EMID1 pyro
 EMID1 vinyl
 EMID1 xyl
+EMID1 organo
 
 EMID2 propion
 EMID2 thian
@@ -3969,6 +3970,7 @@ EMID2 benz
 EMID2 graph
 EMID2 sucr
 EMID2 polymer
+EMID2 phosph
 
 ELINT a
 ELINT o
@@ -8469,7 +8471,8 @@ ADVERB trivially
 ADVERB unconditionally
 ADVERB universally
 
-
+PREFIXX	edu
+PREFIXX orga
 PREFIXX semi
 PREFIXX quasi
 PREFIXX pseudo
@@ -8485,9 +8488,9 @@ PREFIXX sub
 PREFIXX quad
 PREFIXX tri
 PREFIXX bi
+PREFIXX octa
 PREFIXX mono
 PREFIXX iso
-PREFIXX semi
 PREFIXX over
 PREFIXX peri
 PREFIXX inter
