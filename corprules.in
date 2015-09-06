@@ -9068,8 +9068,8 @@ BINOP \wedge
 BINOP \vee
 BINOP \times
 
-QUANT \forall
-QUANT \exists
+QUANTI \forall
+QUANTI \exists
 
 EXPRB EXPRA BINOP EXPRA
 EXPRB -EXPRA
