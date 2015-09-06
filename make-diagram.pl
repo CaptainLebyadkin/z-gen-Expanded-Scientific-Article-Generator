@@ -24,6 +24,7 @@ use Getopt::Long;
 my $tmp_dir = "/tmp";
 my $tmp_pre = "/$tmp_dir/scimakediagram.$$";
 my $viz_file = "$tmp_pre.viz";
+my $ps_file = "$tmp_pre.ps";
 my $eps_file = "$tmp_pre.eps";
 
 my $sysname;
@@ -143,21 +144,21 @@ open( VIZ, ">$viz_file" ) or die( "Can't open $viz_file for writing" );
 print VIZ $graph_file;
 close( VIZ );
 
-system( "$program -Tps $viz_file > $eps_file.tmp; ps2epsi $eps_file.tmp $eps_file" ) and
+system( "$program -Tps $viz_file > $ps_file; ps2epsi $ps_file $eps_file;" ) and
     die( "Can't run $program on $viz_file" );
 
 if( `uname` =~ /Linux/ ) {
     # fix bounding box of stupid linux's ps2epsi
-    my $bbline = `grep -m 1 "BoundingBox" $eps_file.tmp`;
+    my $bbline = `grep -m 1 "BoundingBox" $ps_file`;
     #chomp $bbline;
     #print "Fixing box: $bbline\n";
     #system( "sed -e s/%%BoundingBox.*/\"$bbline\"/ -i $eps_file" );
 }
 
 
-if( !defined $filename ) {
-    system( "gv $eps_file" ) and
-	die( "Can't run $program on $viz_file" );
-}
+#if( !defined $filename ) {
+#    system( "gv $eps_file" ) and
+#	die( "Can't run $program on $viz_file" );
+#}
 
 system( "rm -f $tmp_pre*" ) and die( "Couldn't rm" );
