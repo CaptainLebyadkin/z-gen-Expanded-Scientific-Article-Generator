@@ -54,7 +54,6 @@ $0 [options]
     --title <title>           Set the title (useful for talks)
     --sysname <name>          Set the system name
     --save                    Do not automatically delete
-    --pdf                     Open the pdf file instead of the dvi file
     --nsec <nsec>             Number of sections
 EOUsage
 
@@ -66,7 +65,7 @@ EOUsage
 # First parse options
 my %options;
 &GetOptions( \%options, "help|?", "author=s@", "seed=s", "tar=s", "file=s", 
-	     "savedir=s", "remote", "talk", "title=s", "sysname=s", "save", "pdf", "nsec=s")
+	     "savedir=s", "remote", "talk", "title=s", "sysname=s", "save", "nsec=s")
     or &usage;
 
 if( $options{"help"} ) {
@@ -112,25 +111,24 @@ my ($fhtex, $tex_file) = tempfile($template, DIR => $tmp_dir);
 
 
 
-
 #expand the length arbitrarily by repeating the sections by 'nit' iterations.
 my $section; 
 my $selector;
 my $partbool = 0;
 my $bbool = 0;
-my $nit = $nsec-2;
+my $nit = ($nsec-2)/2;
 my $sectol = ((int rand 3)*(10) + 1 );
 my $btol = ((int rand 2)*(50) + 50 );
 my $text_tr = "SCIPAPER_LATEX { ";
 my $citpen = "
-CITATION+50 
+CITATION+20 
 XXX+50 .
 CITATION_SOMETIMES+10 
 SCI_BY_WHO_SOMETIMES+10 
 RELWORK_CITATION+10 
 LATEX_DIAGRAM_MAYBE+10 
 LATEX_FIGURE_MAYBE+10 
-GANTT_MAYBE+10 
+GANT_MAYBE+10 
 PIE_MAYBE+10 
 ";
 
@@ -166,7 +164,7 @@ for( my $i = 1; $i <= $nit; $i++ ) {
 
 #Add books for really long ones.
     $bc++;
-	if(($bc > ($btol * ((int(rand(3))) + 1))) && ($bbool == 1)){
+	if(($bc > ($btol * ((int(rand(3))) + 50))) && ($bbool == 1)){
 	    $text_tr = $text_tr . " SCI_BOOK ";
 	    $bc = 0;
     }
@@ -281,37 +279,39 @@ while( <TEX> ) {
 
     my $line = $_;
 
-    if( /figure=(figure.*),/ ) {
-	my $figfile = "$tmp_dir/$1";
-	my $done = 0;
+    if( /[=\{](myfigure[^\,\}]*)[\,\}]/ ) {
+	my $figfile = substr("$tmp_dir/$1",0,-4);
+	my $figeps = $figfile.".eps";
+      	my $done = 0;
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
 	    my $color = "";
 	    if( defined $options{"talk"} ) {
 		$color = "--color"
 	    }
-	    system( "perl make-graph.pl --file $figfile --seed $newseed --color $color" ) 
+	    system( "perl make-graph.pl --file $figeps --seed $newseed --color $color; epstopdf $figeps" ) 
 		or $done=1;
-	    print "made graph: ".$figfile."\n";
+	    print "made graph: $1\n";
 	}
 	push @figures, $figfile;
     }
 
     if( /[=\{](diag[^\,\}]*)[\,\}]/ ) {
-	my $figfile = "$tmp_dir/$1";
+	my $figfile = substr("$tmp_dir/$1",0,-4);
+	my $figeps = $figfile.".eps";
 	my $done = 0;
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
 	    if( `which neato` ) {
-		(system( "perl make-diagram.pl --sys \"$sysname\" " . 
-			 "--file $figfile --seed $newseed" ) or 
-		 !(-f $figfile)) 
+		(system( "./make-diagram.pl --sys \"$sysname\" " . 
+			 "--file $figeps --seed $newseed; epstopdf $figeps; rm -f $figeps" ) or 
+		 !(-f "$tmp_dir/$1")) 
 		    or $done=1;
-		print "made diagram: ".$figfile."\n";
+		print "made diagram: $1\n";
 	    } else {
-		system( "perl make-graph.pl --file $figfile --seed $newseed" ) 
+		system( "./make-graph.pl --file $figeps --seed $newseed; epstopdf $figeps" ) 
 		    or $done=1;
-		print "made graph: ".$figfile."\n";
+            print "made graph: $1\n";
 	    }
 	}
 	push @figures, $figfile;
@@ -323,7 +323,7 @@ while( <TEX> ) {
 	my $done = 0;
 	while( !$done ) {
 	    my $newseed = int rand 0xffffffff;
-	    system( "./make-talk-figure.pl --file $figfile --seed $newseed --type $type" ) 
+	    system( "./make-talk-figure.pl --file $figfile --seed $newseed --type $type; epstopdf $figfile" ) 
 		or $done=1;
 	}
 	push @figures, $figfile;
@@ -362,6 +362,7 @@ foreach my $clabel (keys(%citelabels)) {
 }
 close( BIB );
 
+
 system("cp $tex_file.bib $tmp_dir/scigenbibfile.bib");
 
 if( !defined $options{"savedir"} ) {
@@ -371,29 +372,10 @@ if( !defined $options{"savedir"} ) {
 	$land = "-t landscape";
     }
 
-    system( "cp $class_files $tmp_dir; cd $tmp_dir; latex $tex_file; bibtex $tex_file; latex $tex_file; latex $tex_file; rm $class_files; " . 
-	    "dvips $land -o $tex_file.ps $tex_file.dvi; " . 
-	    "dvipdf $tex_file.dvi")
-	and die( "Couldn't latex nothing." );
+    system( "cp $class_files $tmp_dir; cd $tmp_dir; pdflatex $tex_file; bibtex $tex_file; pdflatex $tex_file; pdflatex $tex_file; rm $class_files;") and die( "Couldn't latex nothing." );
 
-    if( defined $options{"file"} ) {
-	my $f = $options{"file"};
-	if( defined $options{"talk"} ) {
-	    system( "ps2pdf $tex_file.ps $tex_file.pdf; cp $tex_file.pdf $f" ) 
-		and die( "Couldn't ps2pdf/cp $tex_file.pdf" );
-	} else {
-	    system( "cp $tex_file.ps $f" ) and die( "Couldn't cp to $f" );
-	}
-    } elsif( defined $options{"talk"} ) {
-	system( "ps2pdf $tex_file.ps $tex_file.pdf; acroread $tex_file.pdf" ) 
-	    and die( "Couldn't ps2pdf/acroread $tex_file.ps" );
-    } else {
-	if( defined $options{"pdf"} ) {
-	    system( "acroread $tex_file.pdf" ) and die( "Couldn't acroread $tex_file.pdf" );
-	} else {
-	    system( "gv $tex_file.ps" ) and die( "Couldn't gv $tex_file.ps" );
-	}
-    }
+    system( "acroread $tex_file.pdf" ) and die( "Couldn't acroread $tex_file.pdf" );
+
 
 }
 
@@ -433,6 +415,7 @@ if( defined $options{"tar"} or defined $options{"savedir"} ) {
 
 if( !defined $options{"save"} ) {
     system("rm -rf $tmp_dir");}
+
 
 
 sub get_system_name {
