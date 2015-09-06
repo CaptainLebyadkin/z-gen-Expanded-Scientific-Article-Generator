@@ -2582,6 +2582,8 @@ EXP_ADJ+10		GOOD_ADJ
 EXP_ADJ+30		SCI_BUZZWORD_ADJ
 EXP_ADJ+30		SOFTWARE_ADJ
 EXP_ADJ+30		real-time
+EXP_ADJ+30		portable
+EXP_ADJ+5		edible
 EXP_ADJ+30		ultrafast
 EXP_ADJ+30		quantised
 EXP_ADJ+30		electromagnetic
@@ -2640,7 +2642,7 @@ EXP_ADJ+20		matriculated
 EXP_ADJ+20		articulated
 EXP_ADJ+20		subatomic
 EXP_ADJ+20		mechanised
-		
+EXP_ADJ+30	 	COMP_ADJ		
 
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
 EXP_TYPE	EXP_TYPE_UM
@@ -3834,6 +3836,7 @@ SCI_THING_S    EXP_ADJ sensing
 SCI_THING_S    EXP_ADJ apparatus
 SCI_THING_S    EXP_ADJ resonance
 SCI_THING_P    EXP_ADJ apparatus
+SCI_THING_S+2    COMP_NOUN
 
 SCI_THING_MOD+20	SCI_THING_P 
 SCI_THING_MOD+25 MNOUNS of SCI_THING_P  
@@ -4892,6 +4895,7 @@ SCI_ADJ_ADV+10  surely
 SCI_ADJ_ADV+20	increasingly 
 SCI_ADJ_ADV	wankingly
 SCI_ADJ_ADV SCI_MATH_ADV
+SCI_ADJ_ADV+10 COMP_ADV
 
 SCI_ADV	ostensibly
 SCI_ADV	obviously
@@ -5157,6 +5161,7 @@ SCI_VERB+20	establish
 SCI_VERB+20	activate
 SCI_VERB+20	reflect
 SCI_VERB+20	study
+SCI_VERB+30	COMP_VERB
 SCI_VERB	wank out 
 SCI_VERB	GOOD_VERB
 #SCI_VERB+10	function in the place of  
@@ -8564,6 +8569,141 @@ PREFIXX ambi
 
 PREFIX+40 PREFIXX
 PREFIX \"{u}ber
+
+COMPPRE_+4 PREFIXX
+COMPPRE_ EMID1
+COMPPRE_ EMID2
+
+COMPMID_ port
+COMPMID_ prac
+COMPMID_ num
+COMPMID_ com
+COMPMID_ math
+COMPMID_ prov
+COMPMID_ estab
+COMPMID_ comput
+COMPMID_ pharm
+COMPMID_ qual
+COMPMID_ abs
+COMPMID_ us
+COMPMID_ func
+COMPMID_ sens
+COMPMID_ opt
+COMPMID_ pter
+COMPMID_ oc
+COMPMID_ ob
+COMPMID_ ab
+COMPMID_ in
+COMPMID_ an
+COMPMID_ arch
+COMPMID_ cred
+COMPMID_ dom
+COMPMID_ dynam
+COMPMID_ idem
+COMPMID_ liber
+COMPMID_ man
+COMPMID_ fem
+COMPMID_ mic
+COMPMID_ philo
+COMPMID_ phag
+COMPMID_+3 LOWRCLOWRVLOWRC
+COMPMID_+3 LOWRVLOWRC
+COMPMID_+2 LOWRVLOWRCLOWRVLOWRC
+COMPMID_ LOWRCLOWRVLOWRCLOWRC
+
+LOWRV+2 a
+LOWRV+3 e
+LOWRV+2 i
+LOWRV+2 o
+LOWRV+2 u
+LOWRV y
+
+LOWRC+3 b
+LOWRC+2 c
+LOWRC+2 d
+LOWRC+2 f
+LOWRC+2 g
+LOWRC h
+LOWRC j
+LOWRC k
+LOWRC+3 l
+LOWRC+3 m
+LOWRC+3 n
+LOWRC p
+LOWRC r
+LOWRC s
+LOWRC+3 t
+LOWRC v
+
+ASUF ulent
+ASUF ible
+ASUF able
+ASUF tional
+ASUF al
+ASUF tous
+ASUF ous
+ASUF -based
+ASUF -driven
+ASUF ic
+ASUF ical
+ASUF -morphic
+ASUF tive
+ASUF ive
+ASUF ted
+ASUF ile
+ASUF modal
+ASUF operative
+ASUF alised
+ASUF eous
+ASUF inant
+
+AVSUF ally
+AVSUF ically
+AVSUF iately
+AVSUF ely
+AVSUF ously
+AVSUF ably
+AVSUF ually
+AVSUF ently
+AVSUF ablly
+AVSUF arly
+
+NSUF ity
+NSUF ulation
+NSUF tion
+NSUF ism
+NSUF ification
+NSUF CCONtion
+NSUF ness
+NSUF CCONture
+NSUF ology
+NSUF ics
+NSUF ulus
+NSUF us
+NSUF work
+
+VSUF ate
+VSUF ulate
+VSUF ulise
+VSUF tionalise
+VSUF ificate
+VSUF jugate
+VSUF ify
+VSUF ise
+
+CCON a
+CCON o
+CCON i
+
+COMPW_+10 COMPMID_
+COMPW_+5 COMPPRE_COMPMID_
+COMPW_+2 COMPPRE_COMPMID_CCONCOMPMID_
+COMPW_ COMPPRE_COMPMID_CCONCOMPMID_CCONCOMPMID_
+
+COMP_ADJ COMPW_ASUF
+COMP_NOUN COMPW_NSUF
+COMP_VERB COMPW_VSUF
+COMP_ADV COMPW_AVSUF
 
 # subscripts and superscripts, etc, look stupid
 #PREFIX+5 $ONEVAR$
