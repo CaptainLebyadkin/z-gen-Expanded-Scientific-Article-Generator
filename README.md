@@ -89,4 +89,6 @@ My opto-awesome added functionality includes:
 
 -occasional wildcard words weaved in there, taken from an encyclopaedia, to keep things fresh
 
+-randomly-generated technical jargon
+
 -many more easter eggs you will find.
