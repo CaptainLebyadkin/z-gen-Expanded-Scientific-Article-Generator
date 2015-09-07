@@ -23,7 +23,6 @@ use IO::File;
 use Getopt::Long;
 use IO::Socket;
 
-
 use File::Temp qw/ tempfile tempdir /;
 
 
@@ -31,8 +30,10 @@ my $class_files = "IEEEtran.cls IEEE.bst";
 my @authors;
 my $seed;
 my $remote = 0;
+my $picwank = 0; 
 my $title;
 my $nsec = ((int rand 50)+4);
+
 
 sub usage {
     select(STDERR);
@@ -50,6 +51,8 @@ $0 [options]
     --savedir <dir>           Save the files in a directory; do not latex 
                               or dvips.  Must specify full path
     --remote                  Use a daemon to resolve symbols
+    --picwank                 Allow interspersed exciting pics from the 
+                              supplied directories 
     --talk                    Make a talk, instead of a paper
     --title <title>           Set the title (useful for talks)
     --sysname <name>          Set the system name
@@ -65,9 +68,7 @@ EOUsage
 # First parse options
 my %options;
 &GetOptions( \%options, "help|?", "author=s@", "seed=s", "tar=s", "file=s", 
-	     "savedir=s", "remote", "talk", "title=s", "sysname=s", "save", "nsec=s")
-    or &usage;
-
+	     "savedir=s", "remote", "picwank", "talk", "title=s", "sysname=s", "save", "nsec=s") or &usage;
 if( $options{"help"} ) {
     &usage();
 }
@@ -76,6 +77,9 @@ if( defined $options{"author"} ) {
 }
 if( defined $options{"remote"} ) {
     $remote = 1;
+}
+if( defined $options{"picwank"} ) {
+    $picwank = 1;
 }
 if( defined $options{"title"} ) {
     $title = $options{"title"};
@@ -136,7 +140,7 @@ if($nsec > $btol * (int rand 2) + 1) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
- $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
+     $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
 }
 
 if($nit > $sectol * ((int rand 5) + 1) ){
@@ -209,7 +213,18 @@ if($nsec > $cthresh) {
 }
 
 open(TOPFILE,">","scitoprule.in") or die "Could not open file scitoprule.in";
+if( $picwank ) {
+my $ci="CORP_IMAGE_MAYBE CORP_IMAGE
+";
+my $li="LAB_IMAGE_MAYBE LAB_IMAGE
+";
+my $si="SCI_IMAGE_MAYBE SCI_IMAGE
+";
+     $text_tr = $text_tr.$ci.$li.$si;
+	    }
 print TOPFILE $text_tr;
+
+
 
 open(GFILE,"<","graphviz.in") or die "Could not open file graphviz.in";
 open(GTFILE,">","graphtot.in") or die "Could not open file graphtot.in";
@@ -227,6 +242,8 @@ while (my $linesys = <SFILE>) {
     print TOPFILE $linesys;
     print GTFILE $linesys;
 }
+
+
 close(GTFILE);
 close(GFILE);
 close(SFILE);
@@ -317,6 +334,7 @@ while( <TEX> ) {
 	push @figures, $figfile;
     }
 
+
     if( /[=\{]([^\{]*)-(talkfig[^\,\}]*)[\,\}]/) {
 	my $figfile = "$tmp_dir/$1-$2";
 	my $type = $1;
@@ -327,6 +345,43 @@ while( <TEX> ) {
 		or $done=1;
 	}
 	push @figures, $figfile;
+    }
+
+
+    if( /[=\{](corpimage[^\,\}]*)[\,\}]/ ) {
+	my $figfile = "$tmp_dir/$1";
+	my $type = substr($figfile,-4);
+	my $nfiles = `ls corpimages | wc -l`;
+	my $randy = (int rand $nfiles-1)+1;
+	my $done = 0;
+	while( !$done ) {
+	    system( "cp corpimages/c$randy$type $figfile" )
+		or $done=1;
+	}
+    }
+
+    if( /[=\{](labimage[^\,\}]*)[\,\}]/ ) {
+	my $figfile = "$tmp_dir/$1";
+	my $type = substr($figfile,-4);
+	my $nfiles = `ls labimages | wc -l`;
+	my $randy = (int rand $nfiles-1)+1;
+	my $done = 0;
+	while( !$done ) {
+	    system( "cp labimages/l$randy$type $figfile" )
+		or $done=1;
+	}
+    }
+
+    if( /[=\{](sciimage[^\,\}]*)[\,\}]/ ) {
+	my $figfile = "$tmp_dir/$1";
+	my $type = substr($figfile,-4);
+	my $nfiles = `ls sciimages | wc -l`;
+	my $randy = (int rand $nfiles-1)+1;
+	my $done = 0;
+	while( !$done ) {
+	    system( "cp sciimages/s$randy$type $figfile" )
+		or $done=1;
+	}
     }
 
     # find citations
