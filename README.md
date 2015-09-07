@@ -60,6 +60,10 @@ Cool options (which can be appended to the command above):
 
 --savedir {dir} (save the files to a directory of your choice)
 
+--picwank will allow corporate, lab and scientific pictures to be interspersed throughout; 
+note that, for copyright reasons, you must provide your own jpg pictures for the directories: corpimages, 
+labimages and sciimages. 
+
 ________
 My opto-awesome added functionality includes: 
 
