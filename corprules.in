@@ -6,7 +6,7 @@
 #    SCIgen is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
-#    (at your option) any later version.
+#    (at your option) any later version.r
 #
 #    SCIgen is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -1181,7 +1181,7 @@ IMPL_COMPONENT optimised innovation
 IMPL_COMPONENT business machine monitor
 IMPL_COMPONENT operating method
 IMPL_COMPONENT specific action item
-
+IMPL_COMPONENT universe
 
 CODE_LINES	enterprises
 CODE_LINES	methodologies
@@ -2236,9 +2236,14 @@ TAKE_NOTE_THAT+10
 NEGLECTED		neglected
 NEGLECTED		failed
 
-EVAL_SEC_HYP_SET 	our overall EVALUATION seeks to SCI_PROVE_VERB two SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS, and  (2) EVAL_SEC_HYPOTHESIS.
-EVAL_SEC_HYP_SET 	our overall EVALUATION seeks to SCI_PROVE_VERB three SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS; (2) EVAL_SEC_HYPOTHESIS; and finally (3) EVAL_SEC_HYPOTHESIS.
-EVAL_SEC_HYP_SET 	our overall EVALUATION seeks to SCI_PROVE_VERB four SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS; (2) EVAL_SEC_HYPOTHESIS; (3) EVAL_SEC_HYPOTHESIS; and finally (4) EVAL_SEC_HYPOTHESIS.
+EVAL_SEC_HYP_SET+10 	our overall EVALUATION seeks to SCI_PROVE_VERB two SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS, and  (2) EVAL_SEC_HYPOTHESIS.
+EVAL_SEC_HYP_SET+10 	our overall EVALUATION seeks to SCI_PROVE_VERB three SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS; (2) EVAL_SEC_HYPOTHESIS; and finally (3) EVAL_SEC_HYPOTHESIS.
+EVAL_SEC_HYP_SET+10 	our overall EVALUATION seeks to SCI_PROVE_VERB four SCI_GUESSES: (1) EVAL_SEC_HYPOTHESIS; (2) EVAL_SEC_HYPOTHESIS; (3) EVAL_SEC_HYPOTHESIS; and finally (4) EVAL_SEC_HYPOTHESIS.
+
+EVAL_SEC_HYP_SET+10 FILLER_SENTENCE
+EVAL_SEC_HYP_SET HEROIC_OVERSTATEMENT
+EVAL_SEC_HYP_SET PETTY_EXCUSE
+EVAL_SEC_HYP_SET HEROIC_OVERSTATEMENT PETTY_EXCUSE
 
 AFFECT		affect
 AFFECT		impact
@@ -2330,6 +2335,7 @@ BAD_NV			crude
 BAD_NV			bumbling
 BAD_V			unhygenic
 BAD_NV			misanthropic
+BAD_NV			crazy
 BAD_V	onerous 
 BAD_NV	dubious
 BAD_NV	difficult
@@ -2582,6 +2588,9 @@ EXP_ADJ+30		SCI_BUZZWORD_ADJ
 EXP_ADJ+30		SOFTWARE_ADJ
 EXP_ADJ+30		portable
 EXP_ADJ+5		edible
+EXP_ADJ+10		chiral
+EXP_ADJ+10		top-quality
+EXP_ADJ+5		`top-quality'
 EXP_ADJ+30		real-time
 EXP_ADJ+30		ultrafast
 EXP_ADJ+30		quantised
@@ -3439,6 +3448,9 @@ EVAL_EXP	we ran SCI_THING_P on NONZDIGIT nodes spread throughout the NETWORK_TYP
 
 EVAL_EXP	we deployed NONZDIGIT OLD_MACHINEs across the NETWORK_TYPE network, and tested our SCI_THING_P accordingly
 
+INTERJEC (as everyone keeps pointing out)
+INTERJEC (and let's face it, who doesn't)
+INTERJEC , at first glace,
 INTERJEC (and answered)
 INTERJEC (rhetorically)
 INTERJEC (LREV)
@@ -4440,6 +4452,8 @@ LIT_GREAT_NV	limited
 LIT_GREAT_NV	minimal
 LIT_GREAT_V	improbable
 LIT_GREAT_NV	quantum
+LIT_GREAT_NV 	hot
+LIT_GREAT_NV	spectacular
 
 LIT_GREAT_ADV LIT_GREAT_ADV_NV
 LIT_GREAT_ADV LIT_GREAT_ADV_V
@@ -4898,6 +4912,9 @@ SCI_ADJ_ADV+20	increasingly
 SCI_ADJ_ADV	wankingly
 SCI_ADJ_ADV SCI_MATH_ADV
 SCI_ADJ_ADV+10 COMP_ADV
+SCI_ADJ_ADV+10 very
+SCI_ADJ_ADV+10 highly
+SCI_ADJ_ADV+10 inconsequentially
 
 SCI_ADV	ostensibly
 SCI_ADV	obviously
@@ -5466,10 +5483,11 @@ SOSEEM in fact
 SOSEEM quite independently
 SOSEEM quite frankly
 
-SMARTASS+200
+SMARTASS+100
 SMARTASS (Though we are certainly thinking it loudly).
 
-FUNNEND+200
+FUNNEND+100
+FUNNEND XXX We are, literally, \emph{frozen} with excitement
 FUNNEND , `uh-huh girlfriend'
 FUNNEND , you go girl
 FUNNEND fo' shizzle
@@ -5484,7 +5502,132 @@ FUNNEND XXX In fact, we have never nerded so hard
 FUNNEND XXX LIT_REVERSAL, we emphasise that we could do \emph{so} much, if other people did it instead of us. 
 FUNNEND , though we are trying not to confuse the reader with our DIRECT reasonableness
 
+ASPIRE aspire
+ASPIRE masturbate
+
+GLORY glory
+GLORY dizzying heights
+GLORY the bright lights of fame
+
+STUPID_PREMISE if these results were any more LIT_GOOD
+STUPID_PREMISE if the linear fit was any straighter
+WACKY_RESOLUTION the IMPL_COMPONENT would EXPLODE
+
+EXPLODE explode
+EXPLODE implode
+EXPLODE crumble into dust
+
+DIEHARD die-hard
+DIEHARD cynical
+DIEHARD curious
+DIEHARD stern
+
+PENCHANT penchant
+PENCHANT inclination
+PENCHANT predilection
+PENCHANT bias
+PENCHANT enthusiasm
+PENCHANT obsession
+PENCHANT taste
+PENCHANT passion
+
+VERACITY veracity
+VERACITY believability
+
+FUNPRE+10
+FUNPRE It has never been our habit to `beat about the bush', so-to-speak, so we'll just come out and say it-
+FUNPRE All-in-all,
+FUNPRE We don't often say this, but
+FUNPRE Not to be rude, but
+FUNPRE Though we don't wish to rub salt in the wound,
+FUNPRE But \textit{quite frankly},
+FUNPRE While we're at it,
+FUNPRE SOSEEM
+FUNPRE And even though we INTERJEC never cease to impress OURSELVES,
+FUNPRE Because, let's face it,
+FUNPRE And even though I didn't do any real work during my scholarship INTERJEC
+FUNPRE They don't want me to tell you this, but
+
+OURSELVES ourselves
+OURSELVES each other
+OURSELVES LOWLY_PEOPLE
+OURSELVES SCI_PEOPLE
+OURSELVES the president
+OURSELVES the prime minister
+OURSELVES `KEYTHE' espionage agents
+OURSELVES `KEYTHE' peeping-toms
+
+HEROIC_OVERSTATEMENT FUNPRE our FINDINGs are insanely LIT_GREAT
+HEROIC_OVERSTATEMENT FUNPRE our goal was to give posterity some high SCI_GOAL to ASPIRE to
+HEROIC_OVERSTATEMENT these results have even ascended to GLORY by being displayed on the fridge at home
+HEROIC_OVERSTATEMENT+2 FUNPRE STUPID_PREMISE, WACKY_RESOLUTION
+HEROIC_OVERSTATEMENT  FUNPRE generations to come will revere this moment
+HEROIC_OVERSTATEMENT FUNPRE this is one for the history books
+HEROIC_OVERSTATEMENT FUNPRE only the most DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
+HEROIC_OVERSTATEMENT FUNPRE no one's ``accusing'' anyone; except for SCI_SOURCE, who did \emph{far} less work than usPETTY_SUF FUNNEND
+HEROIC_OVERSTATEMENT Thus forcing FAMOUSLAST Labs to eat humble pie; in your face, losers
+HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
+HEROIC_OVERSTATEMENT I like speling. It makes me feel big
+HEROIC_OVERSTATEMENT We have drunk our wine and our milk
+
+PETTY_SUF+20 
+PETTY_SUF . Did you know that he even acts inappropriately in social situations? (What kind of loser does that?)
+PETTY_SUF . Oh I'm sorry, I \emph{embarrass} him, in fac.. nonowait!I'm still typ...
+PETTY_SUF . I got my own back though; wait till he finds out what kind of a BAD_NV mess I left in the EXP_WHERE_CMN
+PETTY_SUF . Actually, GENERIC_LASTNAME is a little bit of a `local hero' in the lab, with his DIEHARD PENCHANT for sourcing the \emph{highest-quality} pornos (god bless his soul), for research purposes only
+PETTY_SUF . A problem even though most DIEHARD Super Mario binge couldn't cure
+PETTY_SUF . LIT_MIDDLE we budgeted extensively for ILLEGAL magazine subscriptions, to make sure they really are of the highest standard. (Don't get the wrong idea, we didn't do any of... \emph{that})
+
+STUPID stupid
+STUPID gay
+STUPID jolly
+STUPID+5
+
+ILLEGAL adult
+ILLEGAL illegal
+ILLEGAL spurious
+ILLEGAL black-market
+ILLEGAL questionable
+ILLEGAL dubious
+ILLEGAL unbecoming
+ILLEGAL dodgy
+ILLEGAL shoddy
+ILLEGAL naughty
+
+BUSINESS business
+BUSINESS beeswax
+
+PETTY_RES Professor GENERIC_LASTNAME had minded his own STUPID BUSINESS 
+PETTY_RES they hadn't blown all our grant money on a WNUM TRACE_UNIT_LONG ``fact-finding'' trip to COU
+PETTY_RES they hadn't made me do it ``properly''
+PETTY_RES I'd had a bit more support from my supervisor
+PETTY_RES they hadn't been so naughty
+
+PETTY_EXCUSE FUNPRE the president was extremely rude about our FINDINGs
+PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
+PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? 
+PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
+PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
+PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
+PETTY_EXCUSE Look, it was one small ADJECTIVE equation; no one will know
+PETTY_EXCUSE I want my pen back. It \emph{wasn't yours to keep}, SCI_SOURCE
+PETTY_EXCUSE FUNPRE we're all just crawling around on this space-rock anyway
+PETTY_EXCUSE The final FINDINGs remain incomplete, as it got past my bedtime and THEYWEREMEAN
+
+THEYWEREMEAN they were mean to me about it
+THEYWEREMEAN they made me switch the computer off
+THEYWEREMEAN they wouldn't let me stay up (not my fault)
+
+PETTY_EXCUSE And for the last time, that BUSINESS with the ILLEGAL SCI_PROBLEM, it was an \emph{accident}; so let's not name names
+PETTY_EXCUSE It was perfect before \emph{you} edited this...
+PETTY_EXCUSE It made sense in my mind anyway
+PETTY_EXCUSE It read well last night in the Professor's hot tub, anyway
+
 FILLER_SENTENCE FILLER_SENTENCE FUNNEND
+
+FILLER_SENTENCE HEROIC_OVERSTATEMENT
+FILLER_SENTENCE PETTY_EXCUSE
+FILLER_SENTENCE HEROIC_OVERSTATEMENT PETTY_EXCUSE
 
 FILLER_SENTENCE+30	FILLER_SURPRISE
 FILLER_SENTENCE+15		SCI_B_LEADIN_C TAKE_NOTE_THAT our SCI_GOAL here is to set the record straight on the issue of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN
@@ -5522,7 +5665,8 @@ FILLER_SURPRISE_2	has ample historical precedence
 FILLER_SURPRISE_2	is derived from known FINDINGs
 FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_PEOPLE
 
-FILLER_SENTENCE LAME_OBSERVATION
+FILLER_SENTENCE+3 LAME_OBSERVATION
+FILLER_SENTENCE+2 We know; it's confusing.
 
 LAME_OBSERVATION No head injury is too trivial to be ignored
 LAME_OBSERVATION After all, `Rome wasn't built in a day'
@@ -5787,6 +5931,7 @@ LOWLY_PEOPLE	our most dedicated Star Trek fans
 LOWLY_PEOPLE	the great unwashed masses
 LOWLY_PEOPLE	PERVERSE LOSERS
 LOWLY_PEOPLE	LEVEL LOSERS
+LOWLY_PEOPLE	overpaid bureaucrats
 
 LOSERS losers
 LOSERS tards
@@ -6794,6 +6939,7 @@ KEYTHE Managerial
 KEYTHE Regional
 KEYTHE Explicit
 KEYTHE Manifest
+KEYTHE Industrial
 
 GANTTCHARTTEXT Gantt chart:
 GANTTCHARTTEXT Gantt diagram:
