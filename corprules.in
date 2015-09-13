@@ -6868,7 +6868,7 @@ SCIENCE `science'
 SCIENCE SCI_FIELD
 
 SCI_SUF+3
-SCI_SUF SCIENCE never looked so hot. 
+SCI_SUF KEYTHE SCIENCE never looked so hot. 
 SCI_SUF Many LABRATS died to bring you this level of DIFFERENT EVAL_MEASUREMENT_UM. 
 
 LABRATS+3 lab rats
@@ -7610,7 +7610,7 @@ CITE_INST {R}{M}{I}{T}
 CITE_INST Imperial College London
 CITE_INST Stanford University
 CITE_INST The University of Northern South Dakota
-CITE_INST+100 SCI_COUNTRY_MAYBE INSTPRE2 INSTITUTE UTHEME
+CITE_INST+100 The SCI_COUNTRY_MAYBE INSTPRE2 INSTITUTE UTHEME
 
 INSTPRE Special
 INSTPRE Research
