@@ -2693,6 +2693,9 @@ EXP_ADJ+20		articulated
 EXP_ADJ+20		subatomic
 EXP_ADJ+20		mechanised
 EXP_ADJ+30	 	COMP_ADJ
+EXP_ADJ+20		PREFIXXposable
+EXP_ADJ+20		contingent
+EXP_ADJ+20		reflexive
 
 
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
@@ -3701,6 +3704,11 @@ SCI_PROBLEM+10 impasse
 SCI_PROBLEM+10 hindrance
 SCI_PROBLEM+35 difficulty
 SCI_PROBLEM butthurt
+SCI_PROBLEM abuse of discretion
+SCI_PROBLEM unsportsmanlike conduct
+SCI_PROBLEM misappropriation
+SCI_PROBLEM violation of fiduciary obligation
+SCI_PROBLEM infliction of emotional turmoil
 
 SCI_PROBLEM_PL+20 pains
 SCI_PROBLEM_PL+35 complications
@@ -3733,6 +3741,11 @@ SCI_PROBLEM_PL+20 crises
 SCI_PROBLEM_PL+10 hindrances
 SCI_PROBLEM_PL+35 difficulties
 SCI_PROBLEM_PL butthurts
+SCI_PROBLEM_PL abuses of discretion
+SCI_PROBLEM_PL unsportsmanlike conducts
+SCI_PROBLEM_PL misappropriations
+SCI_PROBLEM_PL violations of fiduciary obligation
+SCI_PROBLEM_PL inflictions of emotional turmoil
 
 SCI_GOAL goal
 SCI_GOAL mission
@@ -5579,6 +5592,8 @@ VERACITY believability
 FUNPRE+10
 FUNPRE It has never been our habit to `beat about the bush', so-to-speak, so we'll just come out and say it-
 FUNPRE All-in-all,
+FUNPRE After all, 
+FUNPRE Even so,
 FUNPRE We don't often say this, but
 FUNPRE Not to be rude, but
 FUNPRE Though we don't wish to rub salt in the wound,
@@ -5717,7 +5732,8 @@ FILLER_SENTENCE+3 LAME_OBSERVATION
 FILLER_SENTENCE+2 We know; it's confusing.
 
 LAME_OBSERVATION No head injury is too trivial to be ignored
-LAME_OBSERVATION After all, `Rome wasn't built in a day'
+LAME_OBSERVATION FUNPRE `Rome wasn't built in a day'
+LAME_OBSERVATION FUNPRE one can't break the laws of physics, but one \emph{can} be civilly disobedient towards them
 LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
 LAME_OBSERVATION+5 SCI_B_LEADIN_C TAKE_NOTE_THAT if OBS_END, it SCI_MAY cause SCI_ADJ_ADV BAD EXP_ADJ FINDINGs
 LAME_OBSERVATION+5 We openly admit that, LIT_ALTHOUGH similar SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN are NOTED for their IMPACT AREA, OVERVERBING SCI_THING_P can be SCI_EXPENSIVE, which is not SCI_ADJ_ADV quite as SCI_FAIR as it might sound FUNNEND
