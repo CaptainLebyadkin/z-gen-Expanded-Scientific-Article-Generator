@@ -136,7 +136,7 @@ GANT_MAYBE+10
 PIE_MAYBE+10 
 ";
 
-if($nsec > $btol * (int rand 2) + 1) {
+if($nsec > $btol * (int rand 2) + 50) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
