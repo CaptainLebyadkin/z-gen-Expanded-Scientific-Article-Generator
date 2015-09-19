@@ -168,7 +168,7 @@ for( my $i = 1; $i <= $nit; $i++ ) {
 
 #Add books for really long ones.
     $bc++;
-	if(($bc > ($btol * ((int(rand(2))) + 10))) && ($bbool == 1)){
+	if(($bc > ($btol * ((int(rand(2))) + 1))) && ($bbool == 1)){
 	    $text_tr = $text_tr . " SCI_BOOK ";
 	    $bc = 0;
     }
