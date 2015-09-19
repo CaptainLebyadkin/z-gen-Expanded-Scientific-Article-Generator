@@ -6627,7 +6627,6 @@ GNUPLOT {
  set xlabel "GRAPH_X_AXIS"
  set ylabel "GRAPH_Y_AXIS"
  GRAPH_TYPE
- GRAPH_LOG
  GRAPH_ERRORS
  
 }
