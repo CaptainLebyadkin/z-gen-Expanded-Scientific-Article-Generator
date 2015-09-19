@@ -4990,7 +4990,7 @@ SCI_ADV SCI_ADJ_ADV
 LIT_REVERSAL	however
 LIT_REVERSAL	on the other hand
 LIT_REVERSAL	nevertheless
-LIT_REVERSAL	clearly 
+LIT_REVERSAL	clearly
 LIT_REVERSAL	somewhat elegantly
 LIT_REVERSAL	funnily enough
 LIT_REVERSAL+10 LREV
@@ -6625,6 +6625,7 @@ GNUPLOT {
  set xlabel "GRAPH_X_AXIS"
  set ylabel "GRAPH_Y_AXIS"
  GRAPH_TYPE
+ GRAPH_LOG
  GRAPH_ERRORS
  
 }
