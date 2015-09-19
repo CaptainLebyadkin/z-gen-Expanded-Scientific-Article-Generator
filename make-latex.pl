@@ -357,6 +357,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp corpimages/c$randy$type $figfile" )
 		or $done=1;
+		print "copied image: $1\n";
 	}
     }
 
@@ -369,6 +370,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp labimages/l$randy$type $figfile" )
 		or $done=1;
+		print "copied image: $1\n";
 	}
     }
 
@@ -381,6 +383,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp sciimages/s$randy$type $figfile" )
 		or $done=1;
+		print "copied image: $1\n";
 	}
     }
 
