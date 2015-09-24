@@ -5606,6 +5606,9 @@ FUNPRE And even though we INTERJEC never cease to impress OURSELVES,
 FUNPRE Because, let's face it,
 FUNPRE And even though I didn't do any real work during my scholarship INTERJEC
 FUNPRE They don't want me to tell you this, but
+FUNPRE At the end of the day,
+FUNPRE As luck would have it,
+FUNPRE In complete disregard of the facts,
 
 OURSELVES ourselves
 OURSELVES each other
@@ -5661,6 +5664,8 @@ PETTY_RES they hadn't blown all our grant money on a WNUM TRACE_UNIT_LONG ``fact
 PETTY_RES they hadn't made me do it ``properly''
 PETTY_RES I'd had a bit more support from my supervisor
 PETTY_RES they hadn't been so naughty
+
+PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
 PETTY_EXCUSE FUNPRE the president was extremely rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
