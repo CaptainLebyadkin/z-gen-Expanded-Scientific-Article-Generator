@@ -671,6 +671,8 @@ SCI_OVERALL_THESIS_PROVE+10 SCI_THING_MOD and SCI_THING_MOD can SCI_VERB_PL to S
 SCI_OVERALL_THESIS_PROVE+10 SCI_THING_P can be made EXP_ADJ, EXP_ADJ, and EXP_ADJ
 SCI_OVERALL_THESIS_PROVE+10 the SCI_STATUS_ADJ EXP_ADJ algorithm for the SCI_ACT SCI_BY_WHO_SOMETIMES SCI_PROOF_PROP
 SCI_OVERALL_THESIS_PROVE    much ado was furthered
+SCI_OVERALL_THESIS_PROVE    room temperature is in fact ideal
+SCI_OVERALL_THESIS_PROVE    the Brontosaurus is thin at one end, thick in the middle, and thin again at the other end
 
 SCI_BY_WHO_SOMETIMES+40
 SCI_BY_WHO_SOMETIMES CITATION
@@ -2341,6 +2343,7 @@ BAD+30 DIFFERENT
 BAD_V+20		incompatible
 BAD_V+20		inconvenient
 BAD_NV			good
+BAD_NV			wanktacular
 BAD_NV			low-quality
 BAD_NV+20		questionable
 BAD_NV			dodgy
@@ -4455,6 +4458,8 @@ SCI_IDEAL+20 SCI_IDEAL_NV
 SCI_IDEAL+20 SCI_IDEAL_V
 SCI_IDEAL IDEAL
 
+SCI_IDEAL_V	excellent
+SCI_IDEAL_V	exceptional
 SCI_IDEAL_V	ideal
 SCI_IDEAL_V	optimal
 SCI_IDEAL_NV	perfect
@@ -4970,6 +4975,11 @@ SCI_ADJ_ADV+20 COMP_ADV
 SCI_ADJ_ADV+10 very
 SCI_ADJ_ADV+10 highly
 SCI_ADJ_ADV+10 inconsequentially
+SCI_ADJ_ADV+10 wonderfully
+SCI_ADJ_ADV+10 meekly
+SCI_ADJ_ADV+10 dutifully
+SCI_ADJ_ADV+10 submissively
+SCI_ADJ_ADV+10 bashfully
 
 SCI_ADV	ostensibly
 SCI_ADV	obviously
@@ -5645,6 +5655,7 @@ STUPID gay
 STUPID jolly
 STUPID+5
 
+ILLEGAL lawful
 ILLEGAL adult
 ILLEGAL illegal
 ILLEGAL spurious
@@ -5669,7 +5680,7 @@ PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
 PETTY_EXCUSE FUNPRE the president was extremely rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
-PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? 
+PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok?  If PETTY_RES..
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
 PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
 PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
@@ -5738,6 +5749,7 @@ FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_
 FILLER_SENTENCE+3 LAME_OBSERVATION
 FILLER_SENTENCE+2 We know; it's confusing.
 
+LAME_OBSERVATION We couldn't agree more, but we will anyway
 LAME_OBSERVATION No head injury is too trivial to be ignored
 LAME_OBSERVATION FUNPRE `Rome wasn't built in a day'
 LAME_OBSERVATION FUNPRE one can't break the laws of physics, but one \emph{can} be civilly disobedient towards them
@@ -6003,6 +6015,7 @@ LOWLY_PEOPLE	the great unwashed masses
 LOWLY_PEOPLE	PERVERSE LOSERS
 LOWLY_PEOPLE	LEVEL LOSERS
 LOWLY_PEOPLE	overpaid bureaucrats
+LOWLY_PEOPLE	quackademics
 
 LOSERS losers
 LOSERS tards
@@ -6805,14 +6818,36 @@ NEWCORPNUM\#
 LATEX_CORP_LABEL corp:labelNEWCORPNUM+
 LATEX_CORP_LABEL_REF corp:labelNEWCORPNUM#
 
-SCI_CORP_CAPTION CORPCAPBEGIN: OVERVERBING IMPL_COMPONENTs in THE_WILD. 
-SCI_CORP_CAPTION CORPCAPBEGIN: ready to help.
-SCI_CORP_CAPTION CORPCAPBEGIN: on the take.
-SCI_CORP_CAPTION CORPCAPBEGIN: on call 24/7.
-SCI_CORP_CAPTION Bending over backwards to help SCI_VERB_PL with OURSELVES FUNNEND.
-SCI_CORP_CAPTION transforming the EXP_ADJ SCI_VERBION CRAZYCOMPARISON.
-SCI_CORP_CAPTION CORPCAPBEGIN- INITIALS GENERIC_LASTNAME and INITIALS GENERIC_LASTNAME- SCI_PEOPLE in SCI_FIELD.
-SCI_CORP_CAPTION CORPCAPBEGIN: OVERVERBING SCI_BUZZWORD_NOUN in progress.
+CORPCAPEND OVERVERBING IMPL_COMPONENTs in THE_WILD. 
+CORPCAPEND ready to help.
+CORPCAPEND on the take. 
+CORPCAPEND on call 24/7.
+CORPCAPEND bending over backwards to help SCI_VERB_PL with OURSELVES FUNNEND.
+CORPCAPEND transforming the EXP_ADJ SCI_VERBION CRAZYCOMPARISON.
+CORPCAPEND INITIALS GENERIC_LASTNAME and INITIALS GENERIC_LASTNAME- SCI_PEOPLE in SCI_FIELD.
+CORPCAPEND OVERVERBING SCI_BUZZWORD_NOUN in progress.
+CORPCAPEND SCI_ADJ_ADV attending to your needs.
+CORPCAPEND LIT_OFTEN looking for new ways to please.
+CORPCAPEND breaking the SCI_PROBLEM down into bite-sized chunks.
+CORPCAPEND doing what we tell them is just a LIT_GREAT_NV PENCHANT with them.
+CORPCAPEND opening up the can-of-worms that we dare not.
+CORPCAPEND their excellence knows no bounds.
+CORPCAPEND daring to be better.
+CORPCAPEND better than you.
+CORPCAPEND thrusting into the future, again and again.
+CORPCAPEND arguing our LAWTHING
+
+LAWTHING ILLEGAL detainer
+LAWTHING rebuttal presumption
+LAWTHING ILLEGAL subjudy
+LAWTHING motion for summary adjudication
+
+SCI_CORP_CAPTION+2 CORPCAPBEGIN
+SCI_CORP_CAPTION+4 CORPCAPBEGINSYMM CORPCAPEND
+SCI_CORP_CAPTION CORPCAPBEGINSYMM CORPCAPEND and CORPCAPEND
+
+SYMM:
+SYMM-
 
 CORPCAPBEGIN+5  KEYTHE DEDICATED TEAM
 CORPCAPBEGIN	The moneyshot
@@ -6823,6 +6858,7 @@ DEDICATED ILLEGAL
 DEDICATED dedicated
 DEDICATED GENERAL
 DEDICATED hot
+DEDICATED prestigious
 DEDICATED hotbod
 DEDICATED awesome
 DEDICATED budding
@@ -6837,11 +6873,15 @@ DEDICATED ardent
 DEDICATED passionate
 DEDICATED gorgeous
 DEDICATED daring
+DEDICATED award-winning
 
 TEAM+5 team
 TEAM+3 staff
 TEAM LOWLY_PEOPLE
 TEAM officers
+TEAM poindexters
+TEAM labrats
+TEAM lawyers
 
 
 LAB_IMAGE_MAYBE+10
@@ -6864,7 +6904,17 @@ LATEX_LAB_LABEL_REF lab:labelNEWLABNUM#
 
 LABADDR CITE_INST
 LABADDR CITE_INST, ADDR
-SCI_LAB_CAPTION KEYTHE Headquarters of LABADDR. 
+SCI_LAB_CAPTION KEYTHE HOME of LABADDR.
+SCI_LAB_CAPTION KEYTHE HOME, \titcap{ADDR}.
+SCI_LAB_CAPTION KEYTHE HOME.
+
+HOME Headquarters
+HOME (idealised) Headquarters
+HOME place of residence
+HOME private holiday home
+HOME home-away-from-home
+HOME workplace environment
+HOME DEDICATED lab
 
 
 SCI_IMAGE_MAYBE+10
@@ -8816,6 +8866,7 @@ ADVERB trivially
 ADVERB unconditionally
 ADVERB universally
 
+PREFIXX piezo
 PREFIXX	flexi
 PREFIXX	edu
 PREFIXX orga
