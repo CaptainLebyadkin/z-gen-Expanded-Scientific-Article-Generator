@@ -4693,6 +4693,21 @@ INSTRUMENTAL	instrumental
 INSTRUMENTAL	crucial
 INSTRUMENTAL	essential
 INSTRUMENTAL	vital
+INSTRUMENTAL+3	SCI_IMPORTANTV
+INSTRUMENTAL	far-reaching
+INSTRUMENTAL	critical
+INSTRUMENTAL	decisive
+INSTRUMENTAL	necessary
+INSTRUMENTAL	relevant
+INSTRUMENTAL	serious
+INSTRUMENTAL	conspicuous
+INSTRUMENTAL	momentous
+INSTRUMENTAL	pressing
+INSTRUMENTAL	ponderous
+INSTRUMENTAL	weighty
+INSTRUMENTAL	nonessential
+INSTRUMENTAL	inappreciable
+INSTRUMENTAL	appreciable
 
 UNIQUE		unique
 UNIQUE		conventional
@@ -8479,7 +8494,12 @@ SCI_IMPORTANTV important
 SCI_IMPORTANTV integral
 SCI_IMPORTANTV intrinsic
 SCI_IMPORTANTV essential
-SCI_IMPORTANTV+3 INSTRUMENTAL
+SCI_IMPORTANTV instrumental
+SCI_IMPORTANTV urgent
+SCI_IMPORTANTV imperative
+SCI_IMPORTANTV influential
+SCI_IMPORTANTV importunate
+SCI_IMPORTANTV esteemed
 
 MAYBEASSUMPTION
 MAYBEASSUMPTION ASSUMPTION 
@@ -8596,7 +8616,7 @@ SDISCUSS+15 recently, there has been LITTLE interest in the METANOUN of OBJECTS 
 DISCUSS a {}useful survey of the subject can be found in CITATION. RELWORK_FILLER
 DISCUSS+15 LIT_LEADIN it is SCI_IMPORTANTV to consider that $VAR$ may be PROPERTY XXX
 SDISCUSS+15 it was FAMOUSLAST who first asked whether OBJECTS can be METAVERBED XXX
-DISCUSS+15 this could shed vital light on a conjecture of FAMOUS XXX
+DISCUSS+15 this could shed INSTRUMENTAL light on a conjecture of FAMOUS XXX
 SDISCUSS we wish to extend the results of CITATION to OBJECTS XXX
 DISCUSS+15 unfortunately, we cannot assume that ASSERTION; although, we can certainly SCI_TRY XXX
 SDISCUSS+15 LIT_LEADIN every student is aware that ASSERTION. 
