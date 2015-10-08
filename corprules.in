@@ -2381,6 +2381,7 @@ BAD_NV			bumbling
 BAD_V			unhygenic
 BAD_NV			misanthropic
 BAD_NV			crazy
+BAD_NV			bourgeois
 BAD_V	onerous 
 BAD_NV	dubious
 BAD_NV	difficult
@@ -6031,6 +6032,8 @@ LOWLY_PEOPLE	PERVERSE LOSERS
 LOWLY_PEOPLE	LEVEL LOSERS
 LOWLY_PEOPLE	overpaid bureaucrats
 LOWLY_PEOPLE	quackademics
+LOWLY_PEOPLE	the BAD bourgeoisie
+LOWLY_PEOPLE	BAD unsophisticates
 
 LOSERS losers
 LOSERS tards
