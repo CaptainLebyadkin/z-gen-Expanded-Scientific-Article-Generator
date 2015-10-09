@@ -5800,7 +5800,7 @@ FILLER_SURPRISE_2	is derived from known FINDINGs
 FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_PEOPLE
 
 FILLER_SENTENCE+3 LAME_OBSERVATION
-FILLER_SENTENCE+2 We know; it's confusing.
+FILLER_SENTENCE+2 We know; it's confusing
 
 LAME_OBSERVATION We couldn't agree more, but we will anyway
 LAME_OBSERVATION No head injury is too trivial to be ignored
@@ -7749,6 +7749,8 @@ CITE_INST {R}{M}{I}{T}
 CITE_INST Imperial College London
 CITE_INST Stanford University
 CITE_INST The University of Northern South Dakota
+CITE_INST+5 The INSTPRE2 University of COU
+CITE-INST+5 The INSTPRE2 University of TOWN
 CITE_INST+100 The SCI_COUNTRY_MAYBE INSTPRE2 INSTITUTE UTHEME
 
 INSTPRE Special
