@@ -4974,8 +4974,10 @@ SCI_ADJ_ADV+10  singularly
 SCI_ADJ_ADV+10  uncommonly
 SCI_ADJ_ADV+10  normally
 SCI_ADJ_ADV+10  unmistakably
-#SCI_ADJ_ADV+5  downright
-#SCI_ADJ_ADV+5  really
+SCI_ADJ_ADV+5  downright
+SCI_ADJ_ADV+5  really
+SCI_ADJ_ADV+5  extremely
+SCI_ADJ_ADV+5    wildly
 SCI_ADJ_ADV+10 strictly
 SCI_ADJ_ADV+10 uncompromisingly
 SCI_ADJ_ADV+10  positively
@@ -5669,10 +5671,16 @@ OURSELVES ourselves
 OURSELVES each other
 OURSELVES LOWLY_PEOPLE
 OURSELVES SCI_PEOPLE
-OURSELVES the president
-OURSELVES the prime minister
+OURSELVES THEPRESIDENT
 OURSELVES `KEYTHE' espionage agents
 OURSELVES `KEYTHE' peeping-toms
+
+THEPRESIDENT the president
+THEPRESIDENT the prime minister
+THEPRESIDENT the vice-chancellor
+THEPRESIDENT the dean
+THEPRESIDENT the pope
+THEPRESIDENT the mayor
 
 HEROIC_OVERSTATEMENT FUNPRE our FINDINGs are insanely LIT_GREAT
 HEROIC_OVERSTATEMENT FUNPRE our goal was to give posterity some high SCI_GOAL to ASPIRE to
@@ -5723,7 +5731,7 @@ PETTY_RES they hadn't been so naughty
 
 PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
-PETTY_EXCUSE FUNPRE the president was extremely rude about our FINDINGs
+PETTY_EXCUSE FUNPRE THEPRESIDENT was SCI_ADJ_ADV rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
 PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok?  If PETTY_RES..
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
