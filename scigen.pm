@@ -193,12 +193,23 @@ sub pretty_print {
 	    chomp $newline;
 	    $newline .= "}";
 	} elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
-	    $newline = $1 . "{" . 
+	    $newline = $1 .  
 	      Autoformat::autoformat( $3, { case => 'highlight', 
 					    squeeze => 0 } );
 	    chomp $newline;
 	    chomp $newline;
-	    $newline .= "}".$4;
+	    
+	  TITCAP: 
+	    if($newline =~ /(.*)(\\titcap){(.*)}(.*)/) {
+		$newline = $1 . 
+		    Autoformat::autoformat( $3, { case => 'highlight', 
+						  squeeze => 0 } );
+		chomp $newline;
+		chomp $newline;
+		$newline .= $4;
+		goto TITCAP;
+	    }
+	    $newline .= $4;
 	} elsif( $line =~ /(\\subsection){(.*)}/ or 
 		 $line =~ /(\\slideheading){(.*)}/ ) {
 	    $newline = $1 . "{" . 
