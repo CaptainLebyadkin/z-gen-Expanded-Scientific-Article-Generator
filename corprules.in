@@ -5602,7 +5602,36 @@ DIEHARD die-hard
 DIEHARD cynical
 DIEHARD curious
 DIEHARD stern
+DIEHARD LIT_GREAT_NV
 
+PENCHANT hunger
+PENCHANT rapaciousness
+PENCHANT salacity
+PENCHANT relish
+PENCHANT yearning
+PENCHANT urge
+PENCHANT lust
+PENCHANT mania
+PENCHANT appetite
+PENCHANT ambition
+PENCHANT narrowmindedness
+PENCHANT illiberality
+PENCHANT one-sidedness
+PENCHANT prepossession
+PENCHANT preference
+PENCHANT nose
+PENCHANT genius
+PENCHANT bent
+PENCHANT hankering
+PENCHANT itch
+PENCHANT devotion
+PENCHANT ardor
+PENCHANT thing
+PENCHANT weakness
+PENCHANT liking
+PENCHANT propensity
+PENCHANT predisposition
+PENCHANT fondness
 PENCHANT penchant
 PENCHANT inclination
 PENCHANT predilection
@@ -6853,14 +6882,14 @@ CORPCAPEND their excellence knows no bounds.
 CORPCAPEND daring to be better.
 CORPCAPEND better than you.
 CORPCAPEND thrusting into the future, again and again.
-CORPCAPEND arguing our LAWTHING
+CORPCAPEND arguing our LAWTHING.
 
 LAWTHING ILLEGAL detainer
 LAWTHING rebuttal presumption
 LAWTHING ILLEGAL subjudy
 LAWTHING motion for summary adjudication
 
-SCI_CORP_CAPTION+2 CORPCAPBEGIN
+SCI_CORP_CAPTION+2 CORPCAPBEGIN.
 SCI_CORP_CAPTION+4 CORPCAPBEGINSYMM CORPCAPEND
 SCI_CORP_CAPTION CORPCAPBEGINSYMM CORPCAPEND and CORPCAPEND
 
@@ -6870,6 +6899,11 @@ SYMM-
 CORPCAPBEGIN+5  KEYTHE DEDICATED TEAM
 CORPCAPBEGIN	The moneyshot
 CORPCAPBEGIN	Action shot
+CORPCAPBEGIN	Hot stuff
+CORPCAPBEGIN	Business as usual
+CORPCAPBEGIN	`Working it'
+CORPCAPBEGIN	Down to business
+CORPCAPBEGIN	Let's do this
 
 DEDICATED+5
 DEDICATED ILLEGAL
@@ -6887,6 +6921,7 @@ DEDICATED gentle
 DEDICATED affable
 DEDICATED friendly
 DEDICATED sexy
+DEDICATED sexful
 DEDICATED ardent
 DEDICATED passionate
 DEDICATED gorgeous
@@ -6958,10 +6993,12 @@ SCIENCE `science'
 SCIENCE SCI_FIELD
 
 SCI_SUF+3
-SCI_SUF KEYTHE SCIENCE never looked so hot. 
+SCI_SUF KEYTHE SCIENCE never looked so DEDICATED. 
 SCI_SUF Many LABRATS died to bring you this level of DIFFERENT EVAL_MEASUREMENT_UM. 
-SCI_SUF LAME_OBSERVATION
-SCI_SUF SCI_INTRO_FILLER
+SCI_SUF LAME_OBSERVATION.
+SCI_SUF SCI_INTRO_FILLER.
+SCI_SUF Bringing home the bacon.
+SCI_SUF KEYTHE SCI_COUNTRY_MAYBE SCI_PEOPLE have a LIT_GREAT_NV PENCHANT for OVERVERBING SCI_GENERIC_NOUN.
 
 LABRATS+3 lab rats
 LABRATS grad students
