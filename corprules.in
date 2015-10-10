@@ -2954,7 +2954,7 @@ WARE		bio-sensors
 WARE		bio-physics
 WARE		nanotechnology
 WARE+10		SCI_THING_P
-WARE+10		SC_FIELD
+WARE+10		SCI_FIELD
 
 THE_WILD	corporate COU
 THE_WILD	the workplace
