@@ -192,24 +192,6 @@ sub pretty_print {
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "}";
-	} elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
-	    $newline = $1 .  
-	      Autoformat::autoformat( $3, { case => 'highlight', 
-					    squeeze => 0 } );
-	    chomp $newline;
-	    chomp $newline;
-	    
-	  TITCAP: 
-	    if($newline =~ /(.*)(\\titcap){(.*)}(.*)/) {
-		$newline = $1 . 
-		    Autoformat::autoformat( $3, { case => 'highlight', 
-						  squeeze => 0 } );
-		chomp $newline;
-		chomp $newline;
-		$newline .= $4;
-		goto TITCAP;
-	    }
-	    $newline .= $4;
 	} elsif( $line =~ /(\\subsection){(.*)}/ or 
 		 $line =~ /(\\slideheading){(.*)}/ ) {
 	    $newline = $1 . "{" . 
@@ -242,9 +224,29 @@ sub pretty_print {
 					       squeeze => 0, 
 					       break => break_latex(),
 					       ignore => qr/^\\/ } );
-	}
-
+					       
 	$newline =~ s/\\Em/\\em/g;
+	
+	}
+	 elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
+	    $newline = $1 .  
+	      Autoformat::autoformat( $3, { case => 'highlight', 
+					    squeeze => 0 } );
+	    chomp $newline;
+	    chomp $newline;
+	    
+	  TITCAP: 
+	    if($newline =~ /(.*)(\\titcap){(.*)}(.*)/) {
+		$newline = $1 . 
+		    Autoformat::autoformat( $3, { case => 'highlight', 
+						  squeeze => 0 } );
+		chomp $newline;
+		chomp $newline;
+		$newline .= $4;
+		goto TITCAP;
+	    }
+	    $newline .= $4;
+	} 
 
 	if( $newline !~ /\n$/ ) {
 	    $newline .= "\n";
