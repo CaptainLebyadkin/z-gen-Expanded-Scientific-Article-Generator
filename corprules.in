@@ -3477,12 +3477,30 @@ EXP_TABS	Tables~\ref{LATEX_TAB_LABEL_REF} and~\ref{LATEX_TAB_LABEL_REF}
 EXP_TAB_MULTIMAYBE	EXP_TAB
 EXP_TAB_MULTIMAYBE	EXP_TABS
 
-WHICH_EXPERIMENTS	experiments (1) and (3) enumerated above
-WHICH_EXPERIMENTS	the first two experiments
-WHICH_EXPERIMENTS	the second half of our experiments
-WHICH_EXPERIMENTS	experiments (3) and (4) enumerated above
-WHICH_EXPERIMENTS	experiments (1) and (4) enumerated above
+FROMABOVE+3
+FROMABOVE above
+FROMABOVE from above
+FROMABOVE (above)
+FROMABOVE enumerated above
+FROMABOVE we conducted
+FROMABOVE as previously described
+FROMABOVE as explained previously
+
+WHICH_EXPERIMENTS	experiments (1) and (3) FROMABOVE
+WHICH_EXPERIMENTS	the first two experiments FROMABOVE
+WHICH_EXPERIMENTS	the second half of our experiments FROMABOVE
+WHICH_EXPERIMENTS	experiments (3) and (4) FROMABOVE
+WHICH_EXPERIMENTS	experiments (1) and (4) FROMABOVE
 WHICH_EXPERIMENTS	all four experiments
+WHICH_EXPERIMENTS	tests (a) and (b) FROMABOVE
+WHICH_EXPERIMENTS	tests (a) and (c) FROMABOVE
+WHICH_EXPERIMENTS	tests (b) and (c) FROMABOVE
+WHICH_EXPERIMENTS	all three tests conducted
+WHICH_EXPERIMENTS	both POSSIBILITY_PL FROMABOVE
+WHICH_EXPERIMENTS	the two POSSIBILITY_PL FROMABOVE
+WHICH_EXPERIMENTS	POSSIBILITY (I) FROMABOVE
+WHICH_EXPERIMENTS	POSSIBILITY (II) FROMABOVE
+WHICH_EXPERIMENTS	the METHODOLOGY FROMABOVE
 
 
 EVAL_GUTS_INTRO	our hardware and software modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.
