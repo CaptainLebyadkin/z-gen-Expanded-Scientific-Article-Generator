@@ -218,6 +218,13 @@ sub pretty_print {
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "},";
+	} elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
+	    $newline = $1 .  
+	      Autoformat::autoformat( $3, { case => 'highlight', 
+					    squeeze => 0 } );
+	    chomp $newline;
+	    chomp $newline;
+	    $newline .= $4;
 	} elsif( $line =~ /\S/ ) {
 	    $newline = 
 	      Autoformat::autoformat( $line, { case => 'sentence', 
