@@ -207,7 +207,7 @@ sub pretty_print {
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "}";
-	} elsif( $line =~ /(.*) = {(.*)}\,/ ) {
+	}  elsif( $line =~ /(.*) = {(.*)}\,/ ) {
 	    my $label = $1;
 	    my $curr = $2;
 	    # place brackets around any words containing capital letters
@@ -218,25 +218,9 @@ sub pretty_print {
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "},";
-	} elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
-	    $newline = $1 .  
-	      Autoformat::autoformat( $3, { case => 'highlight', 
-					    squeeze => 0 } );
-	    chomp $newline;
-	    chomp $newline;
-	    $newline .= $4;
-	} elsif( $line =~ /\S/ ) {
-	    $newline = 
-	      Autoformat::autoformat( $line, { case => 'sentence', 
-					       squeeze => 0, 
-					       break => break_latex(),
-					       ignore => qr/^\\/ } );
-					       
-	$newline =~ s/\\Em/\\em/g;
-	
-	}
-	 elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
-	    $newline = $1 .  
+	}	elsif( $line =~ /(.*)(\\titcap){(.*)}(.*)/ ) {
+
+	    $newline = $1 . 
 	      Autoformat::autoformat( $3, { case => 'highlight', 
 					    squeeze => 0 } );
 	    chomp $newline;
@@ -249,11 +233,23 @@ sub pretty_print {
 						  squeeze => 0 } );
 		chomp $newline;
 		chomp $newline;
+
 		$newline .= $4;
+		
 		goto TITCAP;
-	    }
-	    $newline .= $4;
-	} 
+	   }
+	     $newline .= $4;
+	} elsif( $line =~ /\S/ ) {
+	    $newline = 
+	      Autoformat::autoformat( $line, { case => 'sentence', 
+					       squeeze => 0, 
+					       break => break_latex(),
+					       ignore => qr/^\\/ } );
+
+	    	$newline =~ s/\\Em/\\em/g;
+
+	}
+
 
 	if( $newline !~ /\n$/ ) {
 	    $newline .= "\n";
