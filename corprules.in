@@ -550,11 +550,11 @@ GENERAL orthodox
 GENERAL predominant
 GENERAL stereotypical
 GENERAL wanton
-GENERAL the hottest
-GENERAL the latest
-GENERAL the coolest
-GENERAL the most RECENT
-GENERAL the most LIT_GOOD
+GENERAL hottest
+GENERAL latest
+GENERAL coolest
+GENERAL RECENT
+GENERAL LIT_GOOD
 GENERAL glamorous
 GENERAL contemporary
 
@@ -3563,7 +3563,7 @@ EXP_SET_LEADIN after SCI_ADJ_ADV long lunch breaks,
 EXP_SET_LEADIN by carefully following standard procedure,
 EXP_SET_LEADIN SCI_USING BIGTHEOREM,
 EXP_SET_LEADIN by requisitioning our combined brainpower and acumen,
-EXP_SET_LEADIN SCI_USING our most DEDICATED graduate students,
+EXP_SET_LEADIN SCI_USING our MOST DEDICATED graduate students,
 EXP_SET_LEADIN by taking the initiative,
 EXP_SET_LEADIN LIT_ALTHOUGH it opens us up to BAD criticism,
 EXP_SET_LEADIN LIT_ALTHOUGH it doesn't help to EVAL_WHY_VERB anything in any way,
@@ -4883,7 +4883,7 @@ CRUX crux of the SCI_PROBLEM
 CRUX heart of the matter
 CRUX central issue 
 CRUX central SCI_PROBLEM
-CRUX most SCI_ADJ issue
+CRUX MOST SCI_ADJ issue
 
 SCI_B_LEADIN_C  And CONNECT coming to the CRUX, 
 SCI_B_LEADIN_C  Vitally,
@@ -5784,7 +5784,7 @@ HEROIC_OVERSTATEMENT these results have even ascended to GLORY by being displaye
 HEROIC_OVERSTATEMENT+2 FUNPRE STUPID_PREMISE, WACKY_RESOLUTION
 HEROIC_OVERSTATEMENT  FUNPRE generations to come will revere this moment
 HEROIC_OVERSTATEMENT FUNPRE this is one for the history books
-HEROIC_OVERSTATEMENT FUNPRE only the most DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
+HEROIC_OVERSTATEMENT FUNPRE only the MOST DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
 HEROIC_OVERSTATEMENT FUNPRE no one's ``accusing'' anyone; except for SCI_SOURCE, who did \emph{far} less work than usPETTY_SUF FUNNEND
 HEROIC_OVERSTATEMENT Thus forcing FAMOUSLAST Labs to eat humble pie; in your face, losers
 HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
@@ -5798,6 +5798,7 @@ PETTY_SUF . I got my own back though; wait till he finds out what kind of a BAD_
 PETTY_SUF . Actually, GENERIC_LASTNAME is a little bit of a `local hero' in the lab, with his DIEHARD PENCHANT for sourcing the \emph{highest-quality} pornos (god bless his soul), for research purposes only
 PETTY_SUF . A problem even though most DIEHARD Super Mario binge couldn't cure
 PETTY_SUF . LIT_MIDDLE we budgeted extensively for ILLEGAL magazine subscriptions, to make sure they really are of the highest standard. (Don't get the wrong idea, we didn't do any of... \emph{that})
+PETTY_SUF, which `just goes to show'
 
 STUPID stupid
 STUPID gay
@@ -5898,6 +5899,7 @@ FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_
 FILLER_SENTENCE+3 LAME_OBSERVATION
 FILLER_SENTENCE+2 We know; it's confusing
 
+LAME_OBSERVATION We `shot the sheriff, but we did not shoot the deputy', so-to-speak
 LAME_OBSERVATION We couldn't agree more, but we will anyway
 LAME_OBSERVATION No head injury is too trivial to be ignored
 LAME_OBSERVATION FUNPRE `Rome wasn't built in a day'
@@ -6159,7 +6161,7 @@ LOWLY_PEOPLE	the company dolly-brains
 LOWLY_PEOPLE	our dumbest Ph.D students
 LOWLY_PEOPLE	our least APPROPRIATE co-investigators
 LOWLY_PEOPLE	GENERIC_LASTNAME, our much beloved assistant and his LREV slow friend, 
-LOWLY_PEOPLE	our most dedicated Star Trek fans
+LOWLY_PEOPLE	our MOST DEDICATED Star Trek fans
 LOWLY_PEOPLE	the great unwashed masses
 LOWLY_PEOPLE	PERVERSE LOSERS
 LOWLY_PEOPLE	LEVEL LOSERS
@@ -7008,7 +7010,6 @@ CORPCAPBEGIN	`Working it'
 CORPCAPBEGIN	Down to business
 CORPCAPBEGIN	Let's do this
 
-DEDICATED+5
 DEDICATED ILLEGAL
 DEDICATED dedicated
 DEDICATED GENERAL
@@ -7030,6 +7031,11 @@ DEDICATED passionate
 DEDICATED gorgeous
 DEDICATED daring
 DEDICATED award-winning
+DEDICATED supple
+DEDICATED bearded (DEDICATED)
+DEDICATED special
+DEDICATED unhandicapped
+DEDICATED wanktacular
 
 TEAM+5 team
 TEAM+3 staff
@@ -7117,8 +7123,8 @@ SCI_SCI_CAPTION KEYTHE SCIENCE, red in tooth and claw. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, SCI_VERBING the PREFIX-EXP_ADJ EVAL_MEASUREMENT_UM. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, SCI_VERBING the PREFIX-EXP_ADJ EVAL_MEASUREMENT_UM. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, motivated to SCI_TRY, for \textit{you}. SCI_SUF
-SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, working hard SCI_PROVE_VERBING \textit{your} most BAD scientific SCI_PROBLEM_PL. SCI_SUF
-SCI_SCI_CAPTION SCIENCE: even the most AMBITIOUS SCI_PROBLEM_PL were SCI_PROVE_VERBED to align with GENERAL OPINION. SCI_SUF
+SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, working hard SCI_PROVE_VERBING \textit{your} MOST BAD scientific SCI_PROBLEM_PL. SCI_SUF
+SCI_SCI_CAPTION SCIENCE: even the MOST AMBITIOUS SCI_PROBLEM_PL were SCI_PROVE_VERBED to align with GENERAL OPINION. SCI_SUF
 
 
 LATEX_FIGURE {
