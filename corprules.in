@@ -6,7 +6,7 @@
 #    SCIgen is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
-#    (at your option) any later version. 
+#    (at your option) any later version.
 #
 #    SCIgen is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -264,8 +264,8 @@ SCI_INTRO+4 {
  SCI_INTRO_PARAGRAPH_A 
 
  SCI_INTRO_PARAGRAPH_GENERIC
- 
- LAB_IMAGE_MAYBE	
+
+LAB_IMAGE_MAYBE	
 
  SCI_INTRO_PARAGRAPH_GENERIC
 
@@ -292,8 +292,8 @@ SCI_INTRO+5 {
  SCI_INTRO_PARAGRAPH_GENERIC
 
  SCI_INTRO_PARAGRAPH_THESIS
- 
- LAB_IMAGE_MAYBE	
+
+LAB_IMAGE_MAYBE
 
  SCI_INTRO_PARAGRAPH_GENERIC
 
@@ -310,8 +310,8 @@ SCI_INTRO+6 {
  SCI_INTRO_HEADER \label{SEC_LABEL}
 
  SCI_INTRO_PARAGRAPH_A 
- 
- LAB_IMAGE_MAYBE	
+
+LAB_IMAGE_MAYBE	       
 
  SCI_INTRO_PARAGRAPH_A 
 
@@ -339,8 +339,6 @@ SCI_INTRO {
  SCI_INTRO_HEADER \label{SEC_LABEL}
 
  SCI_INTRO_PARAGRAPH_A 
- 
- LAB_IMAGE_MAYBE	
 
  SCI_INTRO_PARAGRAPH_GENERIC
 
@@ -357,6 +355,8 @@ SCI_INTRO {
  SCI_INTRO_HEADER \label{SEC_LABEL}
 
  SCI_INTRO_PARAGRAPH_A 
+
+LAB_IMAGE_MAYBE
 
  SCI_INTRO_PARAGRAPH_THESIS
 
@@ -1109,11 +1109,13 @@ IMPL_SEC_LATEX_HEADER \label{SEC_LABEL}
 
 IMPL_INTRO_P
 
-SCI_IMAGE_MAYBE
-
 RELWORK_BODY_P_MANY
 
+SCI_IMAGE_MAYBE
+
 IMPL_INTRO_P
+
+SCI_IMAGE_MAYBE
 
 RELWORK_BODY_P_FEW
 
@@ -1124,6 +1126,8 @@ SCI_IMPL {
 IMPL_SEC_LATEX_HEADER \label{SEC_LABEL}
 
 IMPL_INTRO_P
+
+SCI_IMAGE_MAYBE
 
 RELWORK_BODY_P_MANY
 
@@ -1200,6 +1204,7 @@ IMPL_COMPONENT business machine monitor
 IMPL_COMPONENT operating method
 IMPL_COMPONENT specific action item
 IMPL_COMPONENT universe
+
 
 CODE_LINES	enterprises
 CODE_LINES	methodologies
@@ -1302,8 +1307,8 @@ IMPL_SEC_MATH_HEADER \label{SEC_LABEL}
  SCI_INTRO_PARAGRAPH_CONTR
 
  DISCUSSIONPARA
- 
- LAB_IMAGE_MAYBE
+
+LAB_IMAGE_MAYBE
 
 PROPOSITIONENV
 
@@ -1423,6 +1428,8 @@ LAB_IMAGE_MAYBE
 DOTPARA
 
 PIE_HIGH
+
+CORP_IMAGE_MAYBE
 
 CONCL_BODY_INSIDE
 
@@ -1833,6 +1840,7 @@ SCI_FAIR+3	fair
 SCI_FAIR	unfair
 SCI_FAIR	unsuitable
 SCI_FAIR	unreasonable
+SCI_FAIR	shameful
 
 SCI_EXPENSIVE	expensive
 SCI_EXPENSIVE	costly
@@ -1940,8 +1948,8 @@ SCI_EVAL {
  EVAL_SEC_LATEX_HEADER \label{SEC_LABEL}
 
  EVAL_SEC_INTRO 
- 
- SCI_IMAGE_MAYBE
+
+SCI_IMAGE_MAYBE
 
  EVAL_SEC_SUBHEAD_1_LTX
 
@@ -1958,8 +1966,8 @@ SCI_EVAL {
  EVAL_SEC_SUBHEAD_2_LTX
 
  LATEX_TABLE
- 
- LAB_IMAGE_MAYBE	
+
+LAB_IMAGE_MAYBE	
  
  LATEX_DIAGRAM_MAYBE
 
@@ -1983,8 +1991,8 @@ SCI_EVAL {
  EVAL_SEC_SUBHEAD_1_LTX
 
  EVAL_SEC_HARDWARE_P 
- 
- SCI_IMAGE_MAYBE	
+
+SCI_IMAGE_MAYBE	     
 
  LATEX_TABLE
 
@@ -2050,8 +2058,8 @@ SCI_EVAL {
  LATEX_TABLE  
 
  EVAL_SEC_HARDWARE_P 
- 
-  LAB_IMAGE_MAYBE
+
+ LAB_IMAGE_MAYBE
 
  EVAL_GUTS
 
@@ -2083,7 +2091,7 @@ SCI_EVAL {
  EVAL_SEC_SUBHEAD_1_LTX
 
  EVAL_SEC_SOFTWARE_P
- 
+
  SCI_IMAGE_MAYBE
 
  LATEX_FIGURE_MAYBE
@@ -2632,12 +2640,13 @@ EXP_TREK		PREFIXXverse
 EXP_ADJ+10		GOOD_ADJ
 EXP_ADJ+30		SCI_BUZZWORD_ADJ
 EXP_ADJ+30		SOFTWARE_ADJ
+EXP_ADJ+30		NETWORK_TYPE
 EXP_ADJ+30		portable
 EXP_ADJ+5		edible
 EXP_ADJ+10		chiral
+EXP_ADJ+30		real-time
 EXP_ADJ+10		top-quality
 EXP_ADJ+5		`top-quality'
-EXP_ADJ+30		real-time
 EXP_ADJ+30		ultrafast
 EXP_ADJ+30		quantised
 EXP_ADJ+30		electromagnetic
@@ -2700,6 +2709,7 @@ EXP_ADJ+50	 	COMP_ADJ
 EXP_ADJ+20		PREFIXXposable
 EXP_ADJ+20		contingent
 EXP_ADJ+20		reflexive
+EXP_ADJ+20		mechanical
 
 
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
@@ -3229,7 +3239,7 @@ LICENSE_TYPE		draconian
 LICENSE_TYPE		very restrictive
 LICENSE_TYPE		Microsoft-style
 LICENSE_TYPE		open source
-LICENSE_TYPE		CITE_INST
+LICENSE_TYPE		\titcap{CITE_INST}
 LICENSE_TYPE		write-only
 LICENSE_TYPE Public Licenses
 LICENSE_TYPE public domain
@@ -3383,6 +3393,7 @@ EVAL_GUTS_ANALYSIS_3
 EVAL_GUTS_ANALYSIS_1_A  We first ANALYZE WHICH_EXPERIMENTS EXP_FIG_REFMAYBEHERO
 EVAL_GUTS_ANALYSIS_1_A  Now for the climactic analysis of WHICH_EXPERIMENTSMAYBEHERO
 EVAL_GUTS_ANALYSIS_1_A  Now for the denouement of all our hard workMAYBEHERO
+EVAL_GUTS_ANALYSIS_1_A  Now for the MOST INSTRUMENTAL part of our experimentMAYBEHERO
 EVAL_GUTS_ANALYSIS_1_A  Now for our incisive summary of the field of SCI_FIELDMAYBEHERO
 EVAL_GUTS_ANALYSIS_3_A  Lastly, we discuss WHICH_EXPERIMENTSMAYBEHERO
 
@@ -3409,17 +3420,58 @@ EVAL_GUTS_ANALYSIS_1 EVAL_GUTS_ANALYSIS_1_A XXX EVAL_GUTS_ANALYSIS
 
 EVAL_GUTS_ANALYSIS  EVAL_ANALYZE_ONE XXX LIT_MIDDLE_TWO EVAL_ANALYZE_ONE XXX LIT_MIDDLE_3 EVAL_ANALYZE_ONE XXX
 
-EVAL_ANALYZE_ONE+15 note the heavy tail on the CDF in EXP_FIG, exhibiting DIFFERENT EVAL_MEASUREMENT
-EVAL_ANALYZE_ONE+15 the many discontinuities in the graphs point to DIFFERENT EVAL_MEASUREMENT introduced with our hardware upgrades
-EVAL_ANALYZE_ONE+15 BAD bugs in our system caused the unstable behaviour throughout the experiments
-EVAL_ANALYZE_ONE+15 Gaussian electromagnetic disturbances in our EXP_WHERE caused unstable EXP_ADJ FINDINGs
+INTERESTING problematic
+INTERESTING heavily-skewed
+INTERESTING discontinuous
+INTERESTING incongruous
+INTERESTING BAD
+INTERESTING inconvenient
+INTERESTING unexpected
+INTERESTING pleasing
+INTERESTING heart-warming
+INTERESTING dubious
+INTERESTING puzzling
+INTERESTING questionable
+INTERESTING redundant
+INTERESTING arguable
+INTERESTING embarrassing
+INTERESTING disputable
+INTERESTING enigmatic
+INTERESTING suspicious
+INTERESTING suspect
+INTERESTING fluked
+INTERESTING intricate
+INTERESTING troublesome
+INTERESTING crazy
+INTERESTING globular
+INTERESTING sort-of blobby
+
+FEATURE feature
+FEATURE artifice
+FEATURE tail
+FEATURE curve
+FEATURE fit
+FEATURE line
+FEATURE spline
+FEATURE cusp
+FEATURE component
+FEATURE element
+FEATURE factor
+FEATURE angle
+FEATURE derivative
+FEATURE EXP_WHERE_CMN
+
+EVAL_ANALYZE_ONE+15 note the INTERESTING FEATURE in EXP_FIG, exhibiting DIFFERENT EVAL_MEASUREMENT
+EVAL_ANALYZE_ONE+15 the many INTERESTING FEATUREs in the graphs point to DIFFERENT EVAL_MEASUREMENT SCI_PRESENT_VERBED by our hardware upgrades
+EVAL_ANALYZE_ONE+15 BAD bugs in SCI_OUR_SYSTEM caused the LIT_INCREASING behaviour throughout the experiments
+EVAL_ANALYZE_ONE+15 EXP_ADJ electromagnetic disturbances in our EXP_WHERE caused unstable EXP_ADJ FINDINGs
 EVAL_ANALYZE_ONE+15 operator error alone cannot account for these FINDINGs
-EVAL_ANALYZE_ONE these EVAL_MEASUREMENT observations contrast to those seen in earlier work CITATION, such as SCI_SOURCE's seminal treatise on SCI_THING_P and observed HARDWARE_PROP_OR_MEASUREMENT
+EVAL_ANALYZE_ONE these EVAL_MEASUREMENT observations contrast to those seen in earlier work CITATION, such as SCI_SOURCE's SCI_STATUS_ADJ LONGWORK on SCI_THING_P and observed HARDWARE_PROP_OR_MEASUREMENT
 EVAL_ANALYZE_ONE+15 note how EMULATING SCI_THING_P rather than EMULATING_THEM produce SMOOTHER, more reproducible FINDINGs
 EVAL_ANALYZE_ONE+15 the FINDINGs come from only NONZ trial runs, and were not reproducible
-EVAL_ANALYZE_ONE+15 error bars have been elided, since most of our data points fell outside of DIGIT standard deviations from observed means
+EVAL_ANALYZE_ONE+10 error bars have been elided, since most of our data points fell outside of DIGIT standard deviations from observed means
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT EXP_FTG shows the \textit{ADJECTIVE} and not the \textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT
-EVAL_ANALYZE_ONE+10 the curve in EXP_FIG should look familiar; it is better known as the SCI_STATUS_ADJ MNOUN, EVAL_MATH_EXPR ASSENDER
+EVAL_ANALYZE_ONE+10 the FEATURE in EXP_FIG should look familiar; it is better known as the SCI_STATUS_ADJ MNOUN, EVAL_MATH_EXPR ASSENDER
 EVAL_ANALYZE_ONE+15 we scarcely anticipated how ACCURATE our FINDINGs were in this SCI_STAGE of the EVALUATION
 EVAL_ANALYZE_ONE our FINDINGs in EXP_FTG are currently in `sty' formation
 EVAL_ANALYZE_ONE+15 of course, all sensitive data was anonymised during our EMULATION
@@ -3427,11 +3479,24 @@ EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT SCI_THING_P have SMOOTHER HARDWARE_PROP_OR_ME
 EVAL_ANALYZE_ONE+15 the key to EXP_FTG is SCI_VERBING the STORAGE_TYPE; EXP_FTG shows how SCI_OUR_SYSTEM's HARDWARE_PROP_OR_MEASUREMENT does not converge otherwise
 EVAL_ANALYZE_ONE+15 the data in EXP_FTG, in particular, proves that WNUM TRACE_UNIT_LONGs of hard work were wasted on this project
 EVAL_ANALYZE_ONE+15 in EXP_FIG, it is SCI_IMPORTANTV to keep in mind that we LIT_OFTEN found LIT_GREAT IMPROVEMENT in PERFORMANCE by SCI_VERBING SCI_GENERIC_NOUN
+EVAL_ANALYZE_ONE+1 it didn't actually occur to us until after the experiment how little work we did
+EVAL_ANALYZE_ONE+5 most of our equipment was on back-order from THESHOP for WNUM TRACE_UNIT_LONGs, in particular, for the NETWORK_TYPE EXP_WHERE_CMN
+EVAL_ANALYZE_ONE+5 we employed WNUM LOWLY_PEOPLE to SCI_GOAL_ACHIEVE the SCI_GOAL of OVERVERBING SCI_EXPENSIVE parts of our setup
+EVAL_ANALYZE_ONE+1 no one could have dreamed how successful our SCI_DIAGRAM_TYPE would be
+EVAL_ANALYZE_ONE+1 this part we are particularly proud of: HEROIC_OVERSTATEMENT
+EVAL_ANALYZE_ONE+5 we began by SCI_VERBING the EVAL_MEASUREMENT_UM of our SCI_THING_P and achieved NONZ EVAL_UNIT_UM
 
-ACCURATE	accurate
-ACCURATE	wildly inaccurate
-ACCURATE	precise
-ACCURATE	inaccurate
+THESHOP K-mart
+THESHOP Bunnings
+THESHOP Sears 
+THESHOP+5 FAMOUSLAST Labs
+THESHOP+5 CITE_INST
+
+ACCURATEX	accurate
+ACCURATEX	inaccurate
+ACCURATEX	precise
+ACCURATEX	inaccurate
+ACCURATE	SCI_ADJ_ADV ACCURATEX
 
 
 SMOOTHER	smoother
@@ -3503,6 +3568,7 @@ WHICH_EXPERIMENTS	POSSIBILITY (II) FROMABOVE
 WHICH_EXPERIMENTS	the METHODOLOGY FROMABOVE
 
 
+
 EVAL_GUTS_INTRO	our hardware and software modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.
 EVAL_GUTS_INTRO we have taken great pains to SCI_PRESENT_VERB our EVALUATION SETUP; now, the payoff, is to discuss our FINDINGs.
 EVAL_GUTS_INTRO given these trivial configurations, we SCI_ACHIEVED non-trivial FINDINGs.
@@ -3514,7 +3580,7 @@ EVAL_GUTS_INTRO is it POSSIBLE to justify having paid so little attention to our
 POSCASE POSSIBLE
 POSCASE the case
 
-EVAL_GUTS_EXP_SET EXP_SET_LEADIN we ran four AMBITIOUS experiments: (1) EVAL_EXP; (2) EVAL_EXP; (3) EVAL_EXP; and (4) EVAL_EXP XXX
+EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we ran four AMBITIOUS experiments: (1) EVAL_EXP; (2) EVAL_EXP; (3) EVAL_EXP; and (4) EVAL_EXP XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we opened up the MOST INSTRUMENTAL HARDWARE_ITEMS to see what would happenOHNO XXX 
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we theorised on GENERAL OPINION in order to METAVERB INSTRUMENTAL SCI_THING_P XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we SCI_PROVE_VERBED WNUM RECENT theorems in the field of SCI_FIELD XXX
@@ -3535,6 +3601,7 @@ OHNO . It turned out we are not allowed in the lab anymore
 OHNO . SCI_ADJ_ADV, we almost got away with it too
 OHNO . We still have yet to locate our EXP_ADJ EXP_WHERE_CMN
 
+
 EVAL_GUTS_EXP_SET_FOLLOWON
 EVAL_GUTS_EXP_SET_FOLLOWON	we discarded the FINDINGs of some earlier experiments, notably when EVAL_EXP XXX
 EVAL_GUTS_EXP_SET_FOLLOWON	all of these experiments SCI_ACHIEVED without RESOURCE_STARVATION or RESOURCE_STARVATION XXX
@@ -3548,7 +3615,6 @@ RESOURCE_STARVATION	paging
 RESOURCE_STARVATION	NETWORK_TYPE congestion
 RESOURCE_STARVATION	noticable performance bottlenecks
 RESOURCE_STARVATION	unusual heat dissipation
-
 
 
 EXP_SET_LEADIN that being said,
@@ -3586,7 +3652,7 @@ EVAL_EXP	a LIT_GREAT_ADV_NV SCI_EXPENSIVE SCI_SYSTEM was SCI_VERBED so as to ens
 EVAL_EXP	an LIT_GREAT_ADV_V LIT_GOOD SCI_SYSTEM was SCI_VERBED to ANALYZE the POSSIBILITY of SCI_BUZZWORD_ADJ CONSTRAINT_TYPEMAYBE_ESUF
 EVAL_EXP	we SCI_PROBLEM_SOLVED RESOURCE_STARVATION in HARDWARE_ITEMS by EMULATING RECENT SCI_APPROACH_PL and EMULATING_THEMMAYBE_ESUF
 EVAL_EXP	we updated the DIFFERENT EXPANSION_ITEMs of yesteryear with RECENT, EXP_ADJ WARE that SCI_CAN SCI_PROVE_VERB CONCEPTMAYBE_ESUF 
-EVAL_EXP 	we SCI_ACHIEVED an overall EVAL_MEASUREMENT_UM of EVAL_MOD_N EVAL_UNIT by EMULATING EVAL_FACT and EMULATING_ITMAYBE_ESUF
+EVAL_EXP 	we SCI_ACHIEVED an overall EVAL_MEASUREMENT_UM of EVAL_MOD_N EVAL_UNIT by EMULATING EVAL_FACT and EMULATING_ITMAYBE_ESUF 
 
 MAYBE_ESUF+5 
 MAYBE_ESUF . SCI_RESPONSEX
@@ -3855,6 +3921,7 @@ SCI_GOAL intent
 SCI_GOAL intention
 SCI_GOAL motivation
 SCI_GOAL aspiration
+SCI_GOAL task
 
 
 SCI_GOAL_PL goals
@@ -4804,6 +4871,7 @@ INSTRUMENTAL	weighty
 INSTRUMENTAL	nonessential
 INSTRUMENTAL	inappreciable
 INSTRUMENTAL	appreciable
+INSTRUMENTAL	SCI_FAIR
 
 UNIQUE		unique
 UNIQUE		conventional
@@ -4832,6 +4900,9 @@ SCI_STATUS_ADJ much-maligned
 SCI_STATUS_ADJ little-maligned
 SCI_STATUS_ADJ SCI_MATH_ADV LIT_GOOD
 SCI_STATUS_ADJ LIT_GREAT_ADV LIT_GOOD
+SCI_STATUS_ADJ critically-acclaimed
+SCI_STATUS_ADJ highly self-promotional
+SCI_STATUS_ADJ world famous
 
 #
 # MK Addition 2/16/05 -- mathematical adjectives and adverbs
@@ -5371,7 +5442,7 @@ SCI_VERB+20	study
 SCI_VERB+50	COMP_VERB
 SCI_VERB+5	wank out 
 SCI_VERB+10	GOOD_VERB
-#SCI_VERB+10	function in the place of  
+#SCI_VERB+10	function in the place of
 
 SCI_VERBS	harnesses
 SCI_VERBS	explores
@@ -5641,6 +5712,7 @@ WORK study
 WORK investigation
 WORK review
 WORK analysis
+WORK treatise
 
 LONGWORK WORK
 LONGWORK thesis
@@ -5689,6 +5761,7 @@ FUNNEND , and that makes it all worthwhile (apparently)
 FUNNEND XXX In fact, we have never nerded so hard
 FUNNEND XXX LIT_REVERSAL, we emphasise that we could do \emph{so} much, if other people did it instead of us. 
 FUNNEND , though we are trying not to confuse the reader with our DIRECT reasonableness
+
 
 ASPIRE aspire
 ASPIRE masturbate
@@ -5776,7 +5849,7 @@ OURSELVES ourselves
 OURSELVES each other
 OURSELVES LOWLY_PEOPLE
 OURSELVES SCI_PEOPLE
-OURSELVES THEPRESIDENT
+OURSELVES+4 THEPRESIDENT
 OURSELVES `KEYTHE' espionage agents
 OURSELVES `KEYTHE' peeping-toms
 
@@ -5795,7 +5868,7 @@ HEROIC_OVERSTATEMENT  FUNPRE generations to come will revere this moment
 HEROIC_OVERSTATEMENT FUNPRE this is one for the history books
 HEROIC_OVERSTATEMENT FUNPRE only the MOST DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
 HEROIC_OVERSTATEMENT FUNPRE no one's ``accusing'' anyone; except for SCI_SOURCE, who did \emph{far} less work than usPETTY_SUF FUNNEND
-HEROIC_OVERSTATEMENT Thus forcing FAMOUSLAST Labs to eat humble pie; in your face, losers
+FUNNEND , thus forcing FAMOUSLAST Labs to eat humble pie; in your face, losers
 HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
 HEROIC_OVERSTATEMENT I like speling. It makes me feel big
 HEROIC_OVERSTATEMENT We have drunk our wine and our milk
@@ -5837,14 +5910,14 @@ PETTY_RES they hadn't been so naughty
 
 PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
-PETTY_EXCUSE FUNPRE THEPRESIDENT was SCI_ADJ_ADV rude about our FINDINGs
+PETTY_EXCUSE FUNPRE the president was SCI_ADJ_ADV rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
-PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok?  If PETTY_RES..
+PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? If PETTY_RES..
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
 PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
 PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
 PETTY_EXCUSE Look, it was one small ADJECTIVE equation; no one will know
-PETTY_EXCUSE I want my PEN back. 
+PETTY_EXCUSE I want my PEN back. KEEPMAYBE
 PEN pen
 PEN biro
 PEN pencil
@@ -6606,6 +6679,7 @@ SCI_DIAGRAM_TYPE	timeline
 SCI_DIAGRAM_TYPE	graph
 SCI_DIAGRAM_TYPE	science-graph
 SCI_DIAGRAM_TYPE	SCI_MODEL_TYPE
+SCI_DIAGRAM_TYPE	plot
 
 SCI_DIAGRAM_VERBING	detailing
 SCI_DIAGRAM_VERBING	diagramming
@@ -6787,7 +6861,7 @@ GRAPH_TYPE_CURVE10 {
 GRAPH_LOG set log x 10
 GRAPH_LOG set log y 10
 GRAPH_LOG set log xy 10
-GRAPH_LOG set log x 2
+GRAPH_LOG+10000 set log x 2
 GRAPH_LOG set log y 2
 GRAPH_LOG set log xy 2
 GRAPH_LOG+14
@@ -6961,13 +7035,15 @@ LATEX_BIBSTYLE
 LATEX_TITLE \title{SCI_TITLE}
 LATEX_AUTHORS \author{SCIAUTHORS}
 
+
 CORP_IMAGE_MAYBE+10
 
 CORP_IMAGE {
 
 \begin{figure}[thp]
 \centerline{\includegraphics[width=3in]{LATEX_CORP_FILENAME}}
-\caption{\small{SCI_CORP_CAPTION}}
+\caption{\small{
+SCI_CORP_CAPTION}}
 \label{LATEX_CORP_LABEL}
 \end{figure}
 }
@@ -6978,6 +7054,8 @@ NEWCORPNUM\#
 
 LATEX_CORP_LABEL corp:labelNEWCORPNUM+
 LATEX_CORP_LABEL_REF corp:labelNEWCORPNUM#
+
+
 
 CORPCAPEND OVERVERBING IMPL_COMPONENTs in THE_WILD. 
 CORPCAPEND ready to help.
@@ -7045,6 +7123,10 @@ DEDICATED bearded (DEDICATED)
 DEDICATED special
 DEDICATED unhandicapped
 DEDICATED wanktacular
+DEDICATED dishy
+DEDICATED aroused
+DEDICATED GENERAL
+DEDICATED+3 SCI_STATUS_ADJ
 
 TEAM+5 team
 TEAM+3 staff
@@ -7061,7 +7143,8 @@ LAB_IMAGE {
 
 \begin{figure}[thp]
 \centerline{\includegraphics[width=3in]{LATEX_LAB_FILENAME}}
-\caption{\small{SCI_LAB_CAPTION}}
+\caption{\small{
+SCI_LAB_CAPTION}}
 \label{LATEX_LAB_LABEL}
 \end{figure}
 }
@@ -7073,8 +7156,9 @@ NEWLABNUM\#
 LATEX_LAB_LABEL lab:labelNEWLABNUM+
 LATEX_LAB_LABEL_REF lab:labelNEWLABNUM#
 
-LABADDR CITE_INST
-LABADDR CITE_INST, ADDR
+LABADDR \titcap{CITE_INST}
+LABADDR \titcap{CITE_INST, ADDR}
+
 SCI_LAB_CAPTION KEYTHE HOME of LABADDR.
 SCI_LAB_CAPTION KEYTHE HOME, \titcap{ADDR}.
 SCI_LAB_CAPTION KEYTHE HOME.
@@ -7087,14 +7171,14 @@ HOME home-away-from-home
 HOME workplace environment
 HOME DEDICATED lab
 
-
 SCI_IMAGE_MAYBE+10
 
 SCI_IMAGE {
 
 \begin{figure}[thp]
 \centerline{\includegraphics[width=3in]{LATEX_SCI_FILENAME}}
-\caption{\small{SCI_SCI_CAPTION}}
+\caption{\small{
+SCI_SCI_CAPTION}}
 \label{LATEX_SCI_LABEL}
 \end{figure}
 }
@@ -7116,7 +7200,7 @@ SCI_SUF Many LABRATS died to bring you this level of DIFFERENT EVAL_MEASUREMENT_
 SCI_SUF LAME_OBSERVATION.
 SCI_SUF SCI_INTRO_FILLER.
 SCI_SUF Bringing home the bacon.
-SCI_SUF KEYTHE SCI_COUNTRY_MAYBE SCI_PEOPLE have a LIT_GREAT_NV PENCHANT for OVERVERBING SCI_GENERIC_NOUN.
+SCI_SUF KEYTHE SCI_COUNTRY_MAYBE SCI_PEOPLE have a LIT_GREAT_NV PENCHANT for OVERVERBING SCI_GENERIC_NOUN. 
 
 LABRATS+3 lab rats
 LABRATS grad students
@@ -7124,17 +7208,14 @@ LABRATS inappropriate animal subjects
 LABRATS BAD biological samples
 LABRATS Bothans
 
-
 SCI_SCI_CAPTION KEYTHE SCIENCE, happening in THE_WILD. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, happening as we speak. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, happening tooth and nail. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, red in tooth and claw. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCIENCE, SCI_VERBING the PREFIX-EXP_ADJ EVAL_MEASUREMENT_UM. SCI_SUF
-SCI_SCI_CAPTION KEYTHE SCIENCE, SCI_VERBING the PREFIX-EXP_ADJ EVAL_MEASUREMENT_UM. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, motivated to SCI_TRY, for \textit{you}. SCI_SUF
 SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, working hard SCI_PROVE_VERBING \textit{your} MOST BAD scientific SCI_PROBLEM_PL. SCI_SUF
 SCI_SCI_CAPTION SCIENCE: even the MOST AMBITIOUS SCI_PROBLEM_PL were SCI_PROVE_VERBED to align with GENERAL OPINION. SCI_SUF
-
 
 LATEX_FIGURE {
 
@@ -8664,6 +8745,7 @@ SCI_IMPORTANTV imperative
 SCI_IMPORTANTV influential
 SCI_IMPORTANTV importunate
 SCI_IMPORTANTV esteemed
+SCI_IMPORTANTV optional
 
 MAYBEASSUMPTION
 MAYBEASSUMPTION ASSUMPTION 
