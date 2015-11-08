@@ -133,14 +133,16 @@ RELWORK_CITATION+10
 LATEX_DIAGRAM_MAYBE+10 
 LATEX_FIGURE_MAYBE+10 
 GANT_MAYBE+10 
-PIE_MAYBE+10
+PIE_MAYBE+10 
+LATEX_DIAGRAM 
+LATEX_FIGURE 
 ";
 
 if($nsec > $btol * (int rand 2) + 50) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
-     $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
+     $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT PETTY_EXCUSE XXX";
 }
 
 if($nit > $sectol * ((int rand 5) + 1) ){
@@ -168,7 +170,7 @@ for( my $i = 1; $i <= $nit; $i++ ) {
 
 #Add books for really long ones.
     $bc++;
-	if(($bc > ($btol * ((int(rand(4))) + 1))) && ($bbool == 1)){
+	if(($bc > ($btol * ((int(rand(2))) + 1))) && ($bbool == 1)){
 	    $text_tr = $text_tr . " SCI_BOOK ";
 	    $bc = 0;
     }
@@ -357,7 +359,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp corpimages/c$randy$type $figfile" )
 		or $done=1;
-		print "copied image: $1\n";
+	    print "copied image: $1\n";
 	}
     }
 
@@ -370,7 +372,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp labimages/l$randy$type $figfile" )
 		or $done=1;
-		print "copied image: $1\n";
+	    print "copied image: $1\n";
 	}
     }
 
@@ -383,7 +385,7 @@ while( <TEX> ) {
 	while( !$done ) {
 	    system( "cp sciimages/s$randy$type $figfile" )
 		or $done=1;
-		print "copied image: $1\n";
+	    print "copied image: $1\n";
 	}
     }
 
