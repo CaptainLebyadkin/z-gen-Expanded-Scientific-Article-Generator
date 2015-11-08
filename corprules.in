@@ -7236,7 +7236,7 @@ SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, motivated to SCI_TRY, for \textit{
 SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, working hard SCI_PROVE_VERBING \textit{your} MOST BAD scientific SCI_PROBLEM_PL. SCI_SUF
 SCI_SCI_CAPTION SCIENCE: even the MOST AMBITIOUS SCI_PROBLEM_PL were SCI_PROVE_VERBED to align with GENERAL OPINION. SCI_SUF
 
-LATEX_FIGURE+3 {
+LATEX_FIGURE+12 {
 
 \begin{figure}[thp]
 \centerline{\includegraphics[width=3in]{LATEX_FIG_FILENAME}}
@@ -7255,7 +7255,7 @@ LATEX_FIG_LABEL_REF fig:labelNEWFIGLABEL#
 NEWFIGLABEL\+
 NEWFIGLABEL\#
 
-LATEX_DIAGRAM+8 {
+LATEX_DIAGRAM+32 {
 
 \begin{figure}[thp]
 \centerline{\includegraphics{LATEX_DIA_FILENAME}}
