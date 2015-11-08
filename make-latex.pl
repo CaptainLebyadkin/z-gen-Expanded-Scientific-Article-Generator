@@ -138,7 +138,7 @@ LATEX_DIAGRAM
 LATEX_FIGURE 
 ";
 
-if($nsec > $btol * (int rand 2) + 50) {
+if($nsec > $btol * (int rand 2) + 100) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
