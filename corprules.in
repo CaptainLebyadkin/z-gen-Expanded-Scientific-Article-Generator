@@ -5891,8 +5891,8 @@ HEROIC_OVERSTATEMENT I like speling. It makes me feel big
 HEROIC_OVERSTATEMENT We have drunk our wine and our milk
 
 PETTY_SUF+20 
-PETTY_SUF . Did you know that he even acts inappropriately in social situations? (What kind of loser does that?)
-PETTY_SUF . Oh I'm sorry, I \emph{embarrass} him, in fac.. nonowait!I'm still typ...
+PETTY_SUF . Did you know that he even acts inappropriately in social situations? (What kind of loser does that?) But anyway
+PETTY_SUF . Oh I'm sorry, I \emph{embarrass} him, in fac...nonowait!I'm still typ
 PETTY_SUF . I got my own back though; wait till he finds out what kind of a BAD_NV mess I left in the EXP_WHERE_CMN
 PETTY_SUF . Actually, GENERIC_LASTNAME is a little bit of a `local hero' in the lab, with his DIEHARD PENCHANT for sourcing the \emph{highest-quality} pornos (god bless his soul), for research purposes only
 PETTY_SUF . A problem even though most DIEHARD Super Mario binge couldn't cure
@@ -5929,7 +5929,7 @@ PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
 PETTY_EXCUSE FUNPRE the president was SCI_ADJ_ADV rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
-PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? If PETTY_RES..
+PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? ...If PETTY_RES
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
 PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
 PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
@@ -7236,7 +7236,7 @@ SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, motivated to SCI_TRY, for \textit{
 SCI_SCI_CAPTION KEYTHE SCI_PERSONs' research, working hard SCI_PROVE_VERBING \textit{your} MOST BAD scientific SCI_PROBLEM_PL. SCI_SUF
 SCI_SCI_CAPTION SCIENCE: even the MOST AMBITIOUS SCI_PROBLEM_PL were SCI_PROVE_VERBED to align with GENERAL OPINION. SCI_SUF
 
-LATEX_FIGURE {
+LATEX_FIGURE+3 {
 
 \begin{figure}[thp]
 \centerline{\includegraphics[width=3in]{LATEX_FIG_FILENAME}}
@@ -7255,7 +7255,7 @@ LATEX_FIG_LABEL_REF fig:labelNEWFIGLABEL#
 NEWFIGLABEL\+
 NEWFIGLABEL\#
 
-LATEX_DIAGRAM {
+LATEX_DIAGRAM+8 {
 
 \begin{figure}[thp]
 \centerline{\includegraphics{LATEX_DIA_FILENAME}}
