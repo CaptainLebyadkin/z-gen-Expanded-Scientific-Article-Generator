@@ -5926,7 +5926,7 @@ PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 
 PETTY_EXCUSE FUNPRE the president was SCI_ADJ_ADV rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
-PETTY_EXCUSE Well, I \emph{meant} to, I just forgot, ok? ...If PETTY_RES
+PETTY_EXCUSE EVAL_GUTS_EXP_SET Well, I \emph{meant} to, I just forgot, ok? ...If PETTY_RES
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
 PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
 PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
