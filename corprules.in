@@ -2741,7 +2741,6 @@ EXP_TYPE_UM technique
 EXP_TYPE_UM oocyte
 EXP_TYPE_UM embryo
 EXP_TYPE_UM population
-EXP_TYPE_UM colony
 EXP_TYPE_UM algorithm
 EXP_TYPE_UM network
 EXP_TYPE_UM processor
@@ -2781,7 +2780,6 @@ EXP_WHERE_CMN	gameboy
 EXP_WHERE_CMN	whatnot
 EXP_WHERE_CMN	whatsit
 EXP_WHERE_CMN	thingy
-EXP_WHERE_CMN	apparatus
 EXP_WHERE_CMN	gadget
 EXP_WHERE_CMN	instrument
 EXP_WHERE_CMN	implement
@@ -4648,6 +4646,7 @@ SCI_IDEAL_NV	peerless
 LIT_GOOD LIT_GOOD_NV
 LIT_GOOD LIT_GOOD_V
 
+LIT_GOOD_V+20	elegant
 LIT_GOOD_V+20	excellent
 LIT_GOOD_NV	boss
 LIT_GOOD_NV+20	good
@@ -4691,6 +4690,7 @@ LIT_GREAT_NV	spectacular
 LIT_GREAT_ADV LIT_GREAT_ADV_NV
 LIT_GREAT_ADV LIT_GREAT_ADV_V
 
+LIT_GREAT_ADV_NV+30	elegantly
 LIT_GREAT_ADV_NV+30	profoundly
 LIT_GREAT_ADV_NV+30	tremendously
 LIT_GREAT_ADV_NV+30	minimally
@@ -5858,6 +5858,7 @@ FUNPRE They don't want me to tell you this, but
 FUNPRE At the end of the day,
 FUNPRE As luck would have it,
 FUNPRE In complete disregard of the facts,
+FUNPRE Thrusting into the future,
 
 OURSELVES ourselves
 OURSELVES each other
@@ -5882,18 +5883,22 @@ HEROIC_OVERSTATEMENT  FUNPRE generations to come will revere this moment
 HEROIC_OVERSTATEMENT FUNPRE this is one for the history books
 HEROIC_OVERSTATEMENT FUNPRE only the MOST DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
 HEROIC_OVERSTATEMENT FUNPRE no one's ``accusing'' anyone; except for SCI_SOURCE, who did \emph{far} less work than usPETTY_SUF FUNNEND
-FUNNEND , thus forcing FAMOUSLAST Labs to eat humble pie; in your face, losers
+FUNNEND , thus forcing FAMOUSLAST Labs to eat humble pie; INFACE, losers
 HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
 HEROIC_OVERSTATEMENT I like speling. It makes me feel big
 HEROIC_OVERSTATEMENT We have drunk our wine and our milk
 HEROIC_OVERSTATEMENT Excuse us, but I think we know what we're doing
+
+INFACE in your face
+INFACE sucked in
+INFACE pics or it didn't happen
 
 PETTY_SUF+20 
 PETTY_SUF . Did you know that he even acts inappropriately in social situations? (What kind of loser does that?) But anyway
 PETTY_SUF . Oh I'm sorry, I \emph{embarrass} him, in fac...nonowait!I'm still typ
 PETTY_SUF . I got my own back though; wait till he finds out what kind of a BAD_NV mess I left in the EXP_WHERE_CMN
 PETTY_SUF . Actually, GENERIC_LASTNAME is a little bit of a `local hero' in the lab, with his DIEHARD PENCHANT for sourcing the \emph{highest-quality} pornos (god bless his soul), for research purposes only
-PETTY_SUF . A problem even though most DIEHARD Super Mario binge couldn't cure
+PETTY_SUF . A problem even the most DIEHARD Super Mario binge couldn't cure
 PETTY_SUF . LIT_MIDDLE we budgeted extensively for ILLEGAL magazine subscriptions, to make sure they really are of the highest standard. (Don't get the wrong idea, we didn't do any of... \emph{that})
 PETTY_SUF, which `just goes to show'
 
@@ -5999,6 +6004,11 @@ FILLER_SENTENCE+2 We know; it's confusing
 LAME_OBSERVATION We `shot the sheriff, but we did not shoot the deputy', so-to-speak
 LAME_OBSERVATION We couldn't agree more, but we will anyway
 LAME_OBSERVATION No head injury is too trivial to be ignored
+LAME_OBSERVATION You had to be there
+LAME_OBSERVATION You gotta believe us
+LAME_OBSERVATION Will you marry me? HEROIC_OVERSTATEMENT
+LAME_OBSERVATION Hi mum
+LAME_OBSERVATION Hi mum, I'm writing an article! HEROIC_OVERSTATEMENT
 LAME_OBSERVATION FUNPRE `Rome wasn't built in a day'
 LAME_OBSERVATION FUNPRE one can't break the laws of physics, but one \emph{can} be civilly disobedient towards them
 LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
@@ -6123,6 +6133,7 @@ SCI_RESPONSEX	we caution the reader to tread carefully here
 SCI_RESPONSE	it was a different time, and standards were different back then XXX
 SCI_RESPONSEX	As BAD as it seems, our sponsor just will not keep silent on the subject
 SCI_RESPONSE 	we are quite innocent in this matter, quite frankly XXX
+SCI_RESPONSE	yes, but only in the course of duty
 
 SCI_RESPONSE+14	SCI_RESPONSEX. 
 
@@ -9099,8 +9110,6 @@ ADJECTIVE symmetric
 ADJECTIVE tangential
 ADJECTIVE trivial
 ADJECTIVE uncountable
-ADJECTIVE unique
-ADJECTIVE universal
 ADJECTIVE FAMOUS
 
 SIGN positive
