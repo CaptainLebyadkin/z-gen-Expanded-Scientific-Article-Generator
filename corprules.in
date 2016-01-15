@@ -2348,6 +2348,7 @@ BAD+30 BAD_V
 BAD+30 DIFFERENT
 #BAD \textit{BAD}
 BAD_NV			boring
+BAD_NV			mind-numbing
 BAD_NV			crackpot
 BAD_NV			wacky
 BAD_NV			wack-job
