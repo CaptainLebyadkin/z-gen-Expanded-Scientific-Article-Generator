@@ -2384,6 +2384,7 @@ BAD_V			indecent
 BAD_V			unseemly
 BAD_V			untoward
 BAD_V			unflattering
+BAD_V			uninspired
 BAD_V			awkward
 BAD_NV			discreditable
 BAD_NV			clumsy
@@ -2395,6 +2396,15 @@ BAD_V			unhygenic
 BAD_NV			misanthropic
 BAD_NV			crazy
 BAD_NV			bourgeois
+BAD_NV			chauvinistic
+BAD_V			ill-mannered
+BAD_NV			gormless
+BAD_NV			weaselly
+BAD_NV			neanderthal
+BAD_NV			tiresome
+BAD_NV			wearisome
+BAD_NV			tedious
+BAD_NV			monotonous
 BAD_V	onerous 
 BAD_NV	dubious
 BAD_NV	difficult
@@ -5213,7 +5223,7 @@ LIT_REVERSAL+5 somewhat LREV
 LIT_REVERSAL+5 MORE LREV
 LIT_REVERSAL+5 perhaps MOST LREV
 LIT_REVERSAL to be critical
-LIT_REVERSAL though it does not behove us to do so
+LIT_REVERSAL though it does not behove us to say so
 LIT_REVERSAL despite this
 LIT_REVERSAL be that as it may
 LIT_REVERSAL in another light
@@ -5221,6 +5231,7 @@ LIT_REVERSAL to put it another way
 LIT_REVERSAL more explicitly
 LIT_REVERSAL for example
 LIT_REVERSAL more clearly
+LIT_REVERSAL relatively speaking
 LREV+10	interestingly
 LREV+10	importantly
 LREV+10	surprisingly
@@ -8744,11 +8755,11 @@ CONNECT+7 LIT_REVERSAL,
 CONNECT quite frankly,
 
 CONNECT quite \textit{frankly},
-
+CONNECT not to be a prude, but
 CONNECT not to put too fine a point on it,
-CONNECT not to be rude, but  
-CONNECT no PUN intended, but 
-CONNECT far be it of us to mock, but 
+CONNECT not to be rude, but
+CONNECT no PUN intended, but
+CONNECT far be it of us to mock, but
 CONNECT SCI_RESPONSEX, but
 
 PUN pun
