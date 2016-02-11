@@ -2347,11 +2347,13 @@ BAD+30 BAD_NV
 BAD+30 BAD_V
 BAD+30 DIFFERENT
 #BAD \textit{BAD}
+BAD_V			unprofessional
+BAD_V			immature
 BAD_NV			boring
 BAD_NV			mind-numbing
 BAD_NV			crackpot
 BAD_NV			wacky
-BAD_NV			wack-job
+BAD_NV			whack-job
 BAD_NV			nutjob
 BAD_V+20		incompatible
 BAD_V+20		inconvenient
@@ -3636,6 +3638,7 @@ RESOURCE_STARVATION	LAN congestion
 RESOURCE_STARVATION	access-link congestion
 RESOURCE_STARVATION	WAN congestion
 RESOURCE_STARVATION	the black smoke that results from hardware failure
+RESOURCE_STARVATION	the black smoke that results from hardware failure (that almost never happens)
 RESOURCE_STARVATION	paging 
 RESOURCE_STARVATION	NETWORK_TYPE congestion
 RESOURCE_STARVATION	noticable performance bottlenecks
@@ -5888,6 +5891,10 @@ FUNPRE At the end of the day,
 FUNPRE As luck would have it,
 FUNPRE In complete disregard of the facts,
 FUNPRE Thrusting into the future,
+FUNPRE Though it sounds unchristian,
+FUNPRE Though this almost never happens,
+FUNPRE Though we were careful `not to mention the war', so-to-speak,
+FUNPRE Though we were repeatedly told `we'd never had it so good',
 
 OURSELVES ourselves
 OURSELVES each other
@@ -5903,6 +5910,7 @@ THEPRESIDENT the vice-chancellor
 THEPRESIDENT the dean
 THEPRESIDENT the pope
 THEPRESIDENT the mayor
+THEPRESIDENT the Dalai Lama
 
 HEROIC_OVERSTATEMENT FUNPRE our FINDINGs are insanely LIT_GREAT
 HEROIC_OVERSTATEMENT FUNPRE our goal was to give posterity some high SCI_GOAL to ASPIRE to
@@ -5958,8 +5966,11 @@ PETTY_RES I'd had a bit more support from my supervisor
 PETTY_RES they hadn't been so naughty
 
 PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
-
-PETTY_EXCUSE FUNPRE the president was SCI_ADJ_ADV rude about our FINDINGs
+PETTY_EXCUSE FUNPRE we worked really hard but it still doesn't quite work
+PETTY_EXCUSE No one understands how I feel
+PETTY_EXCUSE FUNPRE others couldn't handle us because we're just `too real'
+PETTY_EXCUSE FUNPRE we're just `too real', so deal with it girlfriend 
+PETTY_EXCUSE FUNPRE THEPRESIDENT was SCI_ADJ_ADV rude about our FINDINGs
 PETTY_EXCUSE FUNPRE it \emph{would've} worked if PETTY_RES PETTY_SUF
 PETTY_EXCUSE EVAL_GUTS_EXP_SET Well, I \emph{meant} to, I just forgot, ok? ...If PETTY_RES
 PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
@@ -6075,6 +6086,7 @@ SCI_ACH_PRES	SCI_VERBING SCI_THING_MOD (which SCI_EFFECT)
 YESORNO yes
 YESORNO no
 
+SCI_RESPONSE	YESORNO, and we rather resent the question being asked at all.
 SCI_RESPONSE	yes. 
 SCI_RESPONSE	absolutely. 
 SCI_RESPONSE	oh yes.
@@ -6306,6 +6318,7 @@ LOWLY_PEOPLE	overpaid bureaucrats
 LOWLY_PEOPLE	quackademics
 LOWLY_PEOPLE	the BAD bourgeoisie
 LOWLY_PEOPLE	BAD unsophisticates
+LOWLY_PEOPLE	shameless whingers
 
 LOSERS losers
 LOSERS tards
@@ -7990,6 +8003,7 @@ CITE_INST The University of Washington
 CITE_INST The University of Adelaide
 CITE_INST Harvard University
 CITE_INST Snickers University
+CITE_INST Crazy John's Discount University
 CITE_INST {E}{C}{T}*
 CITE_INST The University of Melbourne
 CITE_INST The University of Sydney
