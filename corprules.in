@@ -9026,10 +9026,10 @@ CONST \emptyset
 
 FVAR+10 VVAR
 FVAR | VVAR |
-FVAR \mid VVAR \mid
+FVAR \mid\! VVAR \!\mid
 FVAR VVAR ( VVAR )
-FVAR \langle ONEVAR \mid
-FVAR \mid ONEVAR \rangle
+FVAR \langle ONEVAR \!\mid
+FVAR \mid\! ONEVAR \rangle
 FVAR \langle ONEVAR \rangle
 
 THISREL+5 =
