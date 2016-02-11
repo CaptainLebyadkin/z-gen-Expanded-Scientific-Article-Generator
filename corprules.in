@@ -9026,6 +9026,9 @@ FVAR+10 VVAR
 FVAR | VVAR |
 FVAR \mid VVAR \mid
 FVAR VVAR ( VVAR )
+FVAR {\langle{ONEVAR}\mid}
+FVAR {\mid{ONEVAR}\rangle}
+FVAR {\langle{ONEVAR}\rangle}
 
 THISREL+5 =
 THISREL+3 \ne
@@ -9799,6 +9802,7 @@ VVAR { ONEVAR'' }
 VVAR { \hat{ ONEVAR } }
 VVAR { \tilde{ ONEVAR } }
 VVAR { \bar{ ONEVAR } }
+
 
 ###########################################################
 ##### Equations
