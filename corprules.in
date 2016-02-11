@@ -9028,9 +9028,9 @@ FVAR+10 VVAR
 FVAR | VVAR |
 FVAR \mid VVAR \mid
 FVAR VVAR ( VVAR )
-FVAR {\langle{ONEVAR}\mid}
-FVAR {\mid{ONEVAR}\rangle}
-FVAR {\langle{ONEVAR}\rangle}
+FVAR \langle ONEVAR \mid
+FVAR \mid ONEVAR \rangle
+FVAR \langle ONEVAR \rangle
 
 THISREL+5 =
 THISREL+3 \ne
