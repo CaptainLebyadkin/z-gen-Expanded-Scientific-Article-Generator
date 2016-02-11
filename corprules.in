@@ -2969,6 +2969,7 @@ EMULATING	handling
 EMULATING	exploiting
 EMULATING	engaging
 EMULATING	manipulating
+EMULATING	abusing
 
 EMULATING_IT	simulating it in WARE
 EMULATING_IT	emulating it in WARE
@@ -3501,6 +3502,7 @@ EVAL_ANALYZE_ONE+10 error bars have been elided, since most of our data points f
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT EXP_FTG shows the \textit{ADJECTIVE} and not the \textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT
 EVAL_ANALYZE_ONE+10 the FEATURE in EXP_FIG should look familiar; it is better known as the SCI_STATUS_ADJ MNOUN, EVAL_MATH_EXPR ASSENDER
 EVAL_ANALYZE_ONE+15 we scarcely anticipated how ACCURATE our FINDINGs were in this SCI_STAGE of the EVALUATION
+EVAL_ANALYZE_ONE+5 we hardly imagined how ACCURATE our FINDINGs were in this SCI_STAGE of the EVALUATION, and quite frankly, it knocked our socks off
 EVAL_ANALYZE_ONE our FINDINGs in EXP_FTG are currently in `sty' formation
 EVAL_ANALYZE_ONE+15 of course, all sensitive data was anonymised during our EMULATION
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT SCI_THING_P have SMOOTHER HARDWARE_PROP_OR_MEASUREMENT curves than do HACKED SCI_THING_P
