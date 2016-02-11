@@ -233,6 +233,7 @@ SCI_AB_A_START SCI_IN_THIS_PAPER, we SCI_PROVE_VERB
 SCI_AB_A_START LIT_MIDDLE SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_DISAGREEWITH 
 SCI_AB_A_START given the current status of EXP_ADJ SCI_BUZZWORD_NOUN, SCI_PEOPLE SCI_ADJ_ADV SCI_ASSUME
 SCI_AB_A_START after TRACE_UNIT_LONGs of SCI_ADJ research into SCI_THING_MOD, we SCI_PROVE_VERB
+SCI_AB_A_START after TRACE_UNIT_LONGs of furious emailing about SCI_THING_MOD, we SCI_PROVE_VERB
 
 SCI_AB_A_END+10
 SCI_AB_A_END+2 , which embodies the SCI_ADJ principles of SCI_FIELD
@@ -5338,8 +5339,7 @@ SCI_PROVE_VERB solve
 SCI_PROVE_VERB address
 SCI_PROVE_VERB+3 EVAL_WHY_VERB
 SCI_PROVE_VERB book-learn
-SCI_PROVE_VERB photocopy
-SCI_PROVE_VERB email
+
 
 SCI_PROVE_VERBED+30 published
 SCI_PROVE_VERBED+30 demonstrated
@@ -5362,8 +5362,7 @@ SCI_PROVE_VERBED+30 solved
 SCI_PROVE_VERBED+30 addressed
 SCI_PROVE_VERBED orgasmed out
 SCI_PROVE_VERBED+30 book-learned
-SCI_PROVE_VERBED+30 photocopied
-SCI_PROVE_VERBED+30 emailed
+
 
 SCI_PROVE_VERBING demonstrating
 SCI_PROVE_VERBING arguing
@@ -5377,8 +5376,7 @@ SCI_PROVE_VERBING disconfirming
 SCI_PROVE_VERBING solving
 SCI_PROVE_VERBING addressing
 SCI_PROVE_VERBING book-learning
-SCI_PROVE_VERBING photocopying
-SCI_PROVE_VERBING emailing
+
 
 SCI_PRESENT_VERB present
 SCI_PRESENT_VERB introduce
@@ -5618,6 +5616,8 @@ SCI_SYS_VERBS	creates
 SCI_SYS_VERBS	observes
 SCI_SYS_VERBS	manages
 SCI_SYS_VERBS	induces
+SCI_SYS_VERBS	emails us about
+SCI_SYS_VERBS   photocopies
 SCI_SYS_VERBS+10	SCI_VERBS
 SCI_SYS_VERBING	locating
 SCI_SYS_VERBING	storing
@@ -5632,6 +5632,8 @@ SCI_SYS_VERBING	learning
 SCI_SYS_VERBING	observing
 SCI_SYS_VERBING	managing
 SCI_SYS_VERBING	inducing
+SCI_SYS_VERBING emailing us about
+SCI_SYS_VERBING photocopying
 SCI_SYS_VERBING+10	SCI_VERBING
 SCI_SYS_VERBED	located
 SCI_SYS_VERBED	stored
@@ -5646,7 +5648,12 @@ SCI_SYS_VERBED	learned
 SCI_SYS_VERBED	observed
 SCI_SYS_VERBED	managed
 SCI_SYS_VERBED	induced
+SCI_SYS_VERBED	emailed us about
+SCI_SYS_VERBED	photocopied
 SCI_SYS_VERBED+10	SCI_VERBED
+
+SCI_SYS_VERBION		email
+SCI_SYS_VERBION		photocopy
 SCI_SYS_VERBION+50	location
 SCI_SYS_VERBION+50	storage
 SCI_SYS_VERBION+50	prevention
@@ -5938,6 +5945,7 @@ PETTY_SUF . Actually, GENERIC_LASTNAME is a little bit of a `local hero' in the 
 PETTY_SUF . A problem even the most DIEHARD Super Mario binge couldn't cure
 PETTY_SUF . LIT_MIDDLE we budgeted extensively for ILLEGAL magazine subscriptions, to make sure they really are of the highest standard. (Don't get the wrong idea, we didn't do any of... \emph{that})
 PETTY_SUF, which `just goes to show'
+PETTY_SUF, resulting in that SCI_SYS_VERBION-induced surge we will never speak of
 
 STUPID stupid
 STUPID gay
