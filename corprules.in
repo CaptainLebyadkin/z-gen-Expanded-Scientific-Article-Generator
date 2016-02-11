@@ -5233,6 +5233,7 @@ LIT_REVERSAL more explicitly
 LIT_REVERSAL for example
 LIT_REVERSAL more clearly
 LIT_REVERSAL relatively speaking
+LIT_REVERSAL even though it seemed BAD at the time
 LREV+10	interestingly
 LREV+10	importantly
 LREV+10	surprisingly
@@ -5863,6 +5864,7 @@ PENCHANT taste
 PENCHANT passion
 PENCHANT proclivity
 PENCHANT sweet tooth
+PENCHANT tendency
 
 VERACITY veracity
 VERACITY believability
@@ -8756,6 +8758,10 @@ CONNECT+7 LIT_REVERSAL,
 CONNECT quite frankly,
 
 CONNECT quite \textit{frankly},
+APOLOGYFOR apology for
+APOLOGYFOR excuses for
+APOLOGYFOR secret of
+CONNECT while making no APOLOGYFOR our BAD tendencies,
 CONNECT not to be a prude, but
 CONNECT not to put too fine a point on it,
 CONNECT not to be rude, but
