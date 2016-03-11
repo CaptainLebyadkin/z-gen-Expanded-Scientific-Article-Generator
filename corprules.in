@@ -2656,6 +2656,7 @@ EXP_TREK		continuum
 EXP_TREK		PREFIXXverse
 
 #EXP_ADJ+1000 `GOOD_ADJ'
+EXP_ADJ			Cold-War era
 EXP_ADJ+10		GOOD_ADJ
 EXP_ADJ+30		SCI_BUZZWORD_ADJ
 EXP_ADJ+30		SOFTWARE_ADJ
@@ -2826,7 +2827,7 @@ MODEL_S design
 MODEL_S architecture
 MODEL_S construction
 MODEL_S delineation
-MODEL_S arragement
+MODEL_S arrangement
 MODEL_S treatment
 MODEL_S formation
 MODEL_S archetype
@@ -3136,6 +3137,7 @@ STORAGE_ITEM		STORAGE_TYPE
 EXPANSION_ITEMS		EXPANSION_ITEMs
 STORAGE_ITEMS		STORAGE_ITEMs
 
+EXPANSION_ITEM		styrofoam cup
 EXPANSION_ITEM		joystick
 EXPANSION_ITEM		2400 baud modem
 EXPANSION_ITEM		SoundBlaster 8-bit sound card
@@ -5144,6 +5146,9 @@ SCI_ADJ_NV+10 practical
 SCI_ADJ_NV+5 compelling
 SCI_ADJ_NV clever
 SCI_ADJ_NV judicious
+SCI_ADJ_NV sexually attractive
+SCI_ADJ_NV notable
+SCI_ADJ_NV fortuitous
 
 
 
@@ -5903,7 +5908,12 @@ FUNPRE Thrusting into the future,
 FUNPRE Though it sounds unchristian,
 FUNPRE Though this almost never happens,
 FUNPRE Though we were careful `not to mention the war', so-to-speak,
-FUNPRE Though we were repeatedly told `we'd never had it so good',
+FUNPRE Though we were repeatedly told ALLEG `we'd never had it so good',
+FUNPRE Even though I lost my fellowship ALLEG because I'm `too real',
+
+ALLEG 
+ALLEG , allegedly,
+ALLEG (allegedly)
 
 OURSELVES ourselves
 OURSELVES each other
@@ -5948,6 +5958,9 @@ PETTY_SUF . A problem even the most DIEHARD Super Mario binge couldn't cure
 PETTY_SUF . LIT_MIDDLE we budgeted extensively for ILLEGAL magazine subscriptions, to make sure they really are of the highest standard. (Don't get the wrong idea, we didn't do any of... \emph{that})
 PETTY_SUF, which `just goes to show'
 PETTY_SUF, resulting in that SCI_SYS_VERBION-induced surge we will never speak of
+PETTY_SUF . We think this is a bit much
+PETTY_SUF . They just go too far
+PETTY_SUF . This is sailing rather close to the wind
 
 STUPID stupid
 STUPID gay
