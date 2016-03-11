@@ -120,7 +120,7 @@ my $section;
 my $selector;
 my $partbool = 0;
 my $bbool = 0;
-my $nit = ($nsec-2)/2;
+my $nit = ($nsec-2)/1.5;
 my $sectol = ((int rand 3)*(10) + 1 );
 my $btol = ((int rand 2)*(50) + 50 );
 my $text_tr = "SCIPAPER_LATEX { ";
