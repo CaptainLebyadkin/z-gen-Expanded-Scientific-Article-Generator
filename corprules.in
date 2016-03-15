@@ -3431,6 +3431,11 @@ EVAL_GUTS_ANALYSIS_3_A  Lastly, we discuss WHICH_EXPERIMENTSMAYBEHERO
 MAYBEHERO+2
 MAYBEHERO . HEROIC_OVERSTATEMENT
 
+ANALYZE		calculate
+ANALYZE		expound
+ANALYZE		expostulate
+ANALYZE		enumerate
+ANALYZE		demonstrate
 ANALYZE		analyse
 ANALYZE		explain
 ANALYZE		shed light on
@@ -3693,10 +3698,13 @@ MAYBE_ESUF . SCI_RESPONSEX
 INTERJEC (as everyone keeps pointing out)
 INTERJEC (and let's face it, who doesn't)
 INTERJEC , at first glace,
-INTERJEC (and answered)
 INTERJEC (rhetorically)
 INTERJEC (LREV)
 INTERJEC+3 
+INTERJEC , putting it mildly
+INTERJEC , so-to-speak
+INTERJEC (and that's putting it mildly)
+INTERJEC (and the less said the better)
 
 EVAL_EXP	we asked INTERJEC what would happen if SCI_MATH_ADV SCI_MATH_ADJ SCI_THING_P were used instead of SCI_THING_P
 
@@ -5493,6 +5501,10 @@ SCI_VERB+50	COMP_VERB
 SCI_VERB+5	wank out 
 SCI_VERB+10	GOOD_VERB
 #SCI_VERB+10	function in the place of
+SCI_VERB+20	militarise
+SCI_VERB+20	industrialise
+SCI_VERB+20	incentivise
+SCI_VERB+10	bastardise
 
 SCI_VERBS	harnesses
 SCI_VERBS	explores
@@ -5520,6 +5532,10 @@ SCI_VERBS	optimises
 SCI_VERBS	establishes
 SCI_VERBS	activates
 SCI_VERBS	reflects
+SCI_VERBS	militarises
+SCI_VERBS	industrialises
+SCI_VERBS	incentivises
+
 SCI_VERBED	harnessed
 SCI_VERBED	explored
 SCI_VERBED	enabled
@@ -5547,6 +5563,10 @@ SCI_VERBED	optimised
 SCI_VERBED	established
 SCI_VERBED	activated
 SCI_VERBED	reflected
+SCI_VERBED	militarised
+SCI_VERBED	industrialised
+SCI_VERBED	incentivised
+
 SCI_VERBING	harnessing
 SCI_VERBING	exploring
 SCI_VERBING	enabling
@@ -5574,6 +5594,10 @@ SCI_VERBING	optimising
 SCI_VERBING	establishing
 SCI_VERBING	activating
 SCI_VERBING	reflecting
+SCI_VERBING	militarising
+SCI_VERBING	industrialising
+SCI_VERBING	incentivising
+
 SCI_VERBION	exploration
 SCI_VERBION	inception
 SCI_VERBION	proof
@@ -5597,6 +5621,9 @@ SCI_VERBION	visualisation
 SCI_VERBION	unification
 SCI_VERBION	comparison
 #SCI_VERBION	exactitude
+SCI_VERBION	militarisation
+SCI_VERBION	industrialisation
+SCI_VERBION	incentivisation
 
 SCI_SYS_VERB	locate
 SCI_SYS_VERB	store
@@ -5893,7 +5920,50 @@ FUNPRE After all,
 FUNPRE Even so,
 FUNPRE We don't often say this, but
 FUNPRE Not to be rude, but
-FUNPRE Though we don't wish to rub salt in the wound,
+FUNPRE+5 Though we don't wish to SCREWOVER,
+FUNPRE+5 Though we don't wish to SCREWOVER INTERJEC
+
+SCREWOVER rub salt in the wound
+SCREWOVER let the cat out of the bag
+SCREWOVER be inflammatory
+SCREWOVER start a whole `thing' here
+SCREWOVER come off as unsportsmanlike
+SCREWOVER go `too far'
+SCREWOVER put the cart before the horse
+SCREWOVER count our chickens before they hatch
+SCREWOVER go on record as whingers
+SCREWOVER make a song and dance
+SCREWOVER toot our own horn
+SCREWOVER play the `gender card'
+SCREWOVER get caught up in the heat of the moment
+SCREWOVER bang on about it
+SCREWOVER bang on and on about it
+SCREWOVER be one of `those people'
+SCREWOVER get on our SOAPBOX
+SCREWOVER dob people in
+SCREWOVER send the wrong message
+SCREWOVER seem NEEDY
+SCREWOVER flex our muscles
+SCREWOVER blame everyone else except us
+SCREWOVER blather on at length
+SCREWOVER stoop to this level
+SCREWOVER incriminate ourselves
+SCREWOVER get bogged down in the nitty-gritty
+SCREWOVER come off as aloof
+SCREWOVER resort to stereotypes
+SCREWOVER get silly about the whole thing
+SCREWOVER get too side-tracked
+
+NEEDY needy
+NEEDY cloying
+NEEDY desperete
+NEEDY too off-hand
+NEEDY slick
+
+SOAPBOX soap-box
+SOAPBOX high-horse
+SOAPBOX hobby-horse
+
 FUNPRE But \textit{quite frankly},
 FUNPRE While we're at it,
 FUNPRE SOSEEM
@@ -5907,9 +5977,29 @@ FUNPRE In complete disregard of the facts,
 FUNPRE Thrusting into the future,
 FUNPRE Though it sounds unchristian,
 FUNPRE Though this almost never happens,
-FUNPRE Though we were careful `not to mention the war', so-to-speak,
+FUNPRE Though we were careful `not to mention the war' INTERJEC
 FUNPRE Though we were repeatedly told ALLEG `we'd never had it so good',
 FUNPRE Even though I lost my fellowship ALLEG because I'm `too real',
+FUNPRE Face it,
+FUNPRE To be FRANK,
+FUNPRE Even though it's probably too late to change our minds,
+FUNPRE I honestly have no idea where I am going with this, but 
+FUNPRE CONSIDER, if you will, that
+FUNPRE Recalling the wise words of FAMOUSLAST, `BTEXT',
+
+CONSIDER consider
+CONSIDER picture
+CONSIDER envision
+CONSIDER visualise
+CONSIDER imagine
+CONSIDER mull
+CONSIDER demonstrate
+CONSIDER contrive
+CONSIDER devise
+
+FRANK frank
+FRANK clear
+FRANK fair
 
 ALLEG 
 ALLEG , allegedly,
@@ -5944,6 +6034,16 @@ HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
 HEROIC_OVERSTATEMENT I like speling. It makes me feel big
 HEROIC_OVERSTATEMENT We have drunk our wine and our milk
 HEROIC_OVERSTATEMENT Excuse us, but I think we know what we're doing
+HEROIC_OVERSTATEMENT FUNPRE you \textit{so} wish you could be us
+HEROIC_OVERSTATEMENT FUNPRE we think we're pretty DEDICATED INTERJEC
+HEROIC_OVERSTATEMENT FUNPRE we started with SCI_A_FACT, and just went from there really
+HEROIC_OVERSTATEMENT FUNPRE this WORK sets the TONE for SCI_THING
+
+TONE tone
+TONE standard
+TONE gold standard
+TONE industry standard
+TONE bar
 
 INFACE in your face
 INFACE sucked in
@@ -6018,6 +6118,8 @@ PETTY_EXCUSE And for the last time, that BUSINESS with the ILLEGAL SCI_PROBLEM, 
 PETTY_EXCUSE It was perfect before \emph{you} edited this..
 PETTY_EXCUSE It made sense in my mind anyway
 PETTY_EXCUSE It read well last night in the Professor's hot tub, anyway
+PETTY_EXCUSE Well, \textit{someone} got fired
+PETTY_EXCUSE FUNPRE the whole thing got out of hand
 
 FILLER_SENTENCE FILLER_SENTENCE FUNNEND
 
@@ -6064,7 +6166,7 @@ FILLER_SURPRISE_2	LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_
 FILLER_SENTENCE+3 LAME_OBSERVATION
 FILLER_SENTENCE+2 We know; it's confusing
 
-LAME_OBSERVATION We `shot the sheriff, but we did not shoot the deputy', so-to-speak
+LAME_OBSERVATION We `shot the sheriff, but we did not shoot the deputy' INTERJEC
 LAME_OBSERVATION We couldn't agree more, but we will anyway
 LAME_OBSERVATION No head injury is too trivial to be ignored
 LAME_OBSERVATION You had to be there
@@ -7227,6 +7329,8 @@ TEAM poindexters
 TEAM labrats
 TEAM lawyers
 TEAM bread-winners
+TEAM in-breds
+TEAM studs
 
 
 LAB_IMAGE_MAYBE+10
@@ -7293,6 +7397,15 @@ SCI_SUF LAME_OBSERVATION.
 SCI_SUF SCI_INTRO_FILLER.
 SCI_SUF Bringing home the bacon.
 SCI_SUF KEYTHE SCI_COUNTRY_MAYBE SCI_PEOPLE have a LIT_GREAT_NV PENCHANT for OVERVERBING SCI_GENERIC_NOUN. 
+SCI_SUF KEYTHE SCIENCE never thrusted so HARD.
+SCI_SUF Go team!
+
+HARD hard
+HARD fiercely
+HARD provocatively
+HARD blatantly
+HARD flagrantly
+HARD rudely
 
 LABRATS+3 lab rats
 LABRATS grad students
@@ -7535,6 +7648,9 @@ KEYTHE Regional
 KEYTHE Explicit
 KEYTHE Manifest
 KEYTHE Industrial
+KEYTHE Industrialised
+KEYTHE Militarised
+KEYTHE Incentivised
 
 GANTTCHARTTEXT Gantt chart:
 GANTTCHARTTEXT Gantt diagram:
