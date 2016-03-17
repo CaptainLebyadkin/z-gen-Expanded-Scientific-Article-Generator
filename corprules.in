@@ -6008,7 +6008,28 @@ FUNPRE To be FRANK,
 FUNPRE Even though it's probably too late to change our minds,
 FUNPRE I honestly have no idea where I am going with this, but 
 FUNPRE CONSIDER, if you will, that
-FUNPRE Recalling the wise words of FAMOUSLAST, `BTEXT',
+FUNPRE Recalling the wise words of FAMOUSLAST, `PROVERB',
+
+PROVERB BTEXT
+PROVERB LAME_OBSERVATION
+PROVERB one SCI_VERBION in the NETWORK_TYPE EXP_WHERE_CMN is worth WNUM in the IMPL_COMPONENT
+PROVERB too many SCI_PEOPLE SPOIL the HARDWARE_ITEMS
+PROVERB once OVERVERBED, twice SCI_ADJ
+PROVERB never let them see you OVERVERB
+PROVERB MPEOP in need are MPEOP indeed
+PROVERB to OVERVERB is BAD, to OVERVERB is LIT_GREAT
+
+MPEOP SCI_PEOPLE
+MPEOP SCI_PERSONs
+MPEOP LOWLY_PEOPLE
+
+SPOIL spoil
+SPOIL ruin
+SPOIL wreck
+SPOIL defile
+SPOIL decimate
+SPOIL devastate
+SPOIL harm
 
 CONSIDER consider
 CONSIDER picture
