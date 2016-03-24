@@ -2438,6 +2438,7 @@ BAD_NV	frustrating
 BAD_V+5	extensive
 BAD_V	exasperating
 BAD_V	infuriating
+BAD_V   unsightly
 
 
 EVAL_SEC_INTRO_C	we hope to make clear that our EVAL_MODING is the key to our EVALUATION.
@@ -6010,6 +6011,7 @@ FUNPRE Even though it's probably too late to change our minds,
 FUNPRE I honestly have no idea where I am going with this, but 
 FUNPRE CONSIDER, if you will, that
 FUNPRE Recalling the wise words of SCI_SOURCE, `PROVERB',
+FUNPRE And because I'm a `glass is half-full' kinda guy,
 
 PROVERB BTEXT
 PROVERB LAME_OBSERVATION
@@ -6098,13 +6100,28 @@ HEROIC_OVERSTATEMENT FUNPRE this is one for the history books
 HEROIC_OVERSTATEMENT FUNPRE only the MOST DIEHARD LOWLY_PEOPLE would doubt the VERACITY of our FINDINGs
 HEROIC_OVERSTATEMENT FUNPRE no one's ``accusing'' anyone; except for SCI_SOURCE, who did \emph{far} less work than usPETTY_SUF FUNNEND
 FUNNEND , thus forcing FAMOUSLAST Labs to eat humble pie; INFACE, losers
-HEROIC_OVERSTATEMENT FUNPRE some of us are more evolved than others
+HEROIC_OVERSTATEMENT FUNPRE some of us are more EVOLVED than others
 HEROIC_OVERSTATEMENT I like speling. It makes me feel big
 HEROIC_OVERSTATEMENT We have drunk our wine and our milk
 HEROIC_OVERSTATEMENT Excuse us, but I think we know what we're doing
 HEROIC_OVERSTATEMENT FUNPRE we think we're pretty DEDICATED INTERJEC
 HEROIC_OVERSTATEMENT FUNPRE we started with SCI_A_FACT, and just went from there really
 HEROIC_OVERSTATEMENT FUNPRE this WORK sets the TONE for SCI_THING
+
+EVOLVED evolved
+EVOLVED neanderthal
+EVOLVED monobrow
+EVOLVED agricultural
+EVOLVED agrarian
+EVOLVED pastoral
+EVOLVED plebeian
+EVOLVED rustic
+EVOLVED BAD
+EVOLVED redneck
+EVOLVED bogan
+EVOLVED bucolic
+EVOLVED parochial
+
 
 TONE tone
 TONE standard
@@ -6249,6 +6266,7 @@ LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
 LAME_OBSERVATION+5 SCI_B_LEADIN_C TAKE_NOTE_THAT if OBS_END, it SCI_MAY cause SCI_ADJ_ADV BAD EXP_ADJ FINDINGs
 LAME_OBSERVATION+5 We openly admit that, LIT_ALTHOUGH similar SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN are NOTED for their IMPACT AREA, OVERVERBING SCI_THING_P can be SCI_EXPENSIVE, which is not SCI_ADJ_ADV quite as SCI_FAIR as it might sound FUNNEND
 LAME_OBSERVATION By adopting a POSSIBLE_NV SCI_APPROACH, SCI_ADJ_ADV LIT_GOOD POSSIBILITY_PL are likely to ARISE
+LAME_OBSERVATION We had to risk it to get the biscuit
 
 OBS_END EXP_ADJ CONSTRAINT_TYPE is as AMBITIOUS as PEOPLE_SAY
 OBS_END the EXP_ADJ SCI_APPROACH we propose here represents a POSSIBLE_NV SOFTWARE_ADJ EVALUATION
@@ -6513,6 +6531,7 @@ LOWLY_PEOPLE	quackademics
 LOWLY_PEOPLE	the BAD bourgeoisie
 LOWLY_PEOPLE	BAD unsophisticates
 LOWLY_PEOPLE	shameless whingers
+LOWLY_PEOPLE    the BAD monobrow
 
 LOSERS losers
 LOSERS tards
@@ -10351,4 +10370,3 @@ AREANOUN probability
 AREANOUN representation theory
 AREANOUN set theory
 AREANOUN topology
-
