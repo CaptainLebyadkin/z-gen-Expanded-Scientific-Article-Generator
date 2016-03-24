@@ -2684,6 +2684,7 @@ EXP_ADJ+30		portable
 EXP_ADJ+5		edible
 EXP_ADJ+10		chiral
 EXP_ADJ+30		real-time
+EXP_ASJ+30              cloud-based
 EXP_ADJ+10		top-quality
 EXP_ADJ+5		`top-quality'
 EXP_ADJ+30		ultrafast
@@ -6012,6 +6013,8 @@ FUNPRE I honestly have no idea where I am going with this, but
 FUNPRE CONSIDER, if you will, that
 FUNPRE Recalling the wise words of SCI_SOURCE, `PROVERB',
 FUNPRE And because I'm a `glass is half-full' kinda guy,
+FUNPRE And even though I had to take my LABRATS to the vet,
+FUNPRE And even though everyone keeps pointing out I'm not very good at my job,
 
 PROVERB BTEXT
 PROVERB LAME_OBSERVATION
