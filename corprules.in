@@ -3552,11 +3552,11 @@ EVAL_ANALYZE_ONE our FINDINGs in EXP_FTG are currently in `sty' formation
 EVAL_ANALYZE_ONE+15 of course, all sensitive data was anonymised during our EMULATION
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT SCI_THING_P have SMOOTHER HARDWARE_PROP_OR_MEASUREMENT curves than do HACKED SCI_THING_P
 EVAL_ANALYZE_ONE+15 the key to EXP_FTG is SCI_VERBING the STORAGE_TYPE; EXP_FTG shows how SCI_OUR_SYSTEM's HARDWARE_PROP_OR_MEASUREMENT does not converge otherwise
-EVAL_ANALYZE_ONE+15 the data in EXP_FTG, in particular, proves that WNUM TRACE_UNIT_LONGs of hard work were wasted on this project
+EVAL_ANALYZE_ONE+15 the data in EXP_FTG, in particular, proves that WAMOUNT TRACE_UNIT_LONGs of hard work were wasted on this project
 EVAL_ANALYZE_ONE+15 in EXP_FIG, it is SCI_IMPORTANTV to keep in mind that we LIT_OFTEN found LIT_GREAT IMPROVEMENT in PERFORMANCE by SCI_VERBING SCI_GENERIC_NOUN
 EVAL_ANALYZE_ONE+1 it didn't actually occur to us until after the experiment how little work we did
-EVAL_ANALYZE_ONE+5 most of our equipment was on back-order from THESHOP for WNUM TRACE_UNIT_LONGs, in particular, for the NETWORK_TYPE EXP_WHERE_CMN
-EVAL_ANALYZE_ONE+5 we employed WNUM LOWLY_PEOPLE to SCI_GOAL_ACHIEVE the SCI_GOAL of OVERVERBING SCI_EXPENSIVE parts of our setup
+EVAL_ANALYZE_ONE+5 most of our equipment was on back-order from THESHOP for WAMOUNT TRACE_UNIT_LONGs, in particular, for the NETWORK_TYPE EXP_WHERE_CMN
+EVAL_ANALYZE_ONE+5 we employed WAMOUNT LOWLY_PEOPLE to SCI_GOAL_ACHIEVE the SCI_GOAL of OVERVERBING SCI_EXPENSIVE parts of our setup
 EVAL_ANALYZE_ONE+1 no one could have dreamed how successful our SCI_DIAGRAM_TYPE would be
 EVAL_ANALYZE_ONE+1 this part we are particularly proud of: HEROIC_OVERSTATEMENT
 EVAL_ANALYZE_ONE+5 we began by SCI_VERBING the EVAL_MEASUREMENT_UM of our SCI_THING_P and achieved NONZ EVAL_UNIT_UM
@@ -3658,7 +3658,7 @@ POSCASE the case
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we ran four AMBITIOUS experiments: (1) EVAL_EXP; (2) EVAL_EXP; (3) EVAL_EXP; and (4) EVAL_EXP XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we opened up the MOST INSTRUMENTAL HARDWARE_ITEMS to see what would happenOHNO XXX 
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we theorised on GENERAL OPINION in order to METAVERB INSTRUMENTAL SCI_THING_P XXX
-EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we SCI_PROVE_VERBED WNUM RECENT theorems in the field of SCI_FIELD XXX
+EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we SCI_PROVE_VERBED WAMOUNT RECENT theorems in the field of SCI_FIELD XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we realigned and recoupled the NETWORK_TYPE EXP_WHERE_CMN to SCI_GOAL_ACHIEVE ADJECTIVE PERFORMANCE XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we counted our eggs before they hatchedOHNO XXX
 EVAL_GUTS_EXP_SET+5 EXP_SET_LEADIN we conducted three AREAADJ tests: (a)  EVAL_EXP; (b) EVAL_EXP; and (c) EVAL_EXP XXX
@@ -6032,7 +6032,7 @@ FUNPRE And even though everyone keeps pointing out I'm not very good at my job,
 
 PROVERB BTEXT
 PROVERB LAME_OBSERVATION
-PROVERB one SCI_VERBION in the NETWORK_TYPE EXP_WHERE_CMN is worth WNUM in the IMPL_COMPONENT
+PROVERB one SCI_VERBION in the NETWORK_TYPE EXP_WHERE_CMN is worth WAMOUNT in the IMPL_COMPONENT
 PROVERB too many SCI_PEOPLE SPOIL the HARDWARE_ITEMS
 PROVERB once OVERVERBED, twice SCI_ADJ
 PROVERB never let them see you OVERVERB
@@ -6187,7 +6187,7 @@ BUSINESS business
 BUSINESS beeswax
 
 PETTY_RES Professor GENERIC_LASTNAME had minded his own STUPID BUSINESS 
-PETTY_RES they hadn't blown all our grant money on a WNUM TRACE_UNIT_LONG ``fact-finding'' trip to COU
+PETTY_RES they hadn't blown all our grant money on a WAMOUNT TRACE_UNIT_LONG ``fact-finding'' trip to COU
 PETTY_RES they hadn't made me do it ``properly''
 PETTY_RES I'd had a bit more support from my supervisor
 PETTY_RES they hadn't been so naughty
@@ -6326,6 +6326,13 @@ GCLAUSE SUBGP ACTGP OBJG DATG TIMPLG TIMPLG
 GCLAUSE TIMPLG SUBGP ACTGP OBJG TIMPLG DATG
 GCLAUSE TIMPLG SUBGP ACTGP OBJG DATG TIMPLG
 
+GCLAUSE TIMPLG TIMPLG IMPG OBJG DATG
+GCLAUSE TIMPLG TIMPLG SUBGP IMPG OBJG DATG
+GCLAUSE IMPG OBJG TIMPLG TIMPLG DATG
+GCLAUSE IMPG OBJG DATG TIMPLG TIMPLG
+GCLAUSE TIMPLG IMPG OBJG TIMPLG DATG
+GCLAUSE TIMPLG IMPG OBJG DATG TIMPLG
+
 CONJUNC , which GMOD
 CONJUNC , and GMOD
 CONJUNC ; this GMOD
@@ -6335,9 +6342,15 @@ CLSUFF+10
 CLSUFF PETTY_SUF
 CLSUFF FUNNEND
 
+MAYBE_AMOUNT+5
+MAYBE_AMOUNT SCI_MANY
+MAYBE_AMOUNT most
+MAYBE_AMOUNT all
+MAYBE_AMOUNT WAMOUNT percent of
+
 SUBGS \textit{SUBS}
 SUBGS `SUBS'
-SUBGS+10 SUBS
+SUBGS+10 MAYBE_AMOUNT SUBS
 SUBS I
 SUBS KEYTHE SCI_THING_S
 SUBS KEYTHE SCI_PERSON
@@ -6349,7 +6362,7 @@ SUBS KEYTHE SCI_MODEL_TYPE
 
 SUBGP \textit{SUBP}
 SUBGP `SUBP'
-SUBGP+10 SUBP
+SUBGP+10 MAYBE_AMOUNT SUBP
 SUBP we
 SUBP they
 SUBP SCI_THING_P
@@ -6421,6 +6434,10 @@ ACTGP \textit{ACTP}
 ACTGP `ACTP'
 ACTP MAYBE_ADV OVERVERB
 ACTP GMOD MAYBE_ADV OVERVERB
+
+IMPG+4 CONSIDER
+IMPG let
+IMPG let it be the case that
 
 DATG \textit{DAT}
 DATG `DAT'
@@ -6525,7 +6542,7 @@ SCI_RESPONSE	our best graduate student thinks so XXX
 SCI_RESPONSEX	we are inclined to debate the issue tooth and nail 
 SCI_RESPONSE	only LOWLY_PEOPLE would ask such a BAD_NV question XXX
 SCI_RESPONSE	only LOWLY_PEOPLE would ask such an BAD_V question XXX
-SCI_RESPONSE	in answering this question, rest assured that WNUM people have been fired accordingly XXX
+SCI_RESPONSE	in answering this question, rest assured that WAMOUNT people have been fired accordingly XXX
 SCI_RESPONSE	in answering this question, rest assured that LOWLY_PEOPLE have been laid-off as a result XXX
 SCI_RESPONSE	LREV, our sponsors will not let this issue rest XXX
 SCI_RESPONSE	LREV, it has not occurred to us to inquire too closely XXX
@@ -8717,11 +8734,31 @@ WNUM six
 WNUM seven
 WNUM eight
 WNUM nine
-WNUM ten
-WNUM eleven
-WNUM twelve
-WNUM thirteen
-WNUM fourteen
+
+WTEEN ten
+WTEEN eleven
+WTEEN twelve
+WTEEN thirteen
+WTEEN fourteen
+WTEEN fifteen
+WTEEN sixteen
+WTEEN seventeen
+WTEEN eighteen
+WTEEN nineteen
+
+WTENS twenty
+WTENS thirty
+WTENS forty
+WTENS fifty
+WTENS sixty
+WTENS seventy
+WTENS eighty
+WTENS ninety
+
+WAMOUNT WNUM
+WAMOUNT	WTEEN
+WAMOUNT WTENS
+WAMOUNT WTENS-WNUM
 
 POWER_OF_TWO 2
 POWER_OF_TWO 4
