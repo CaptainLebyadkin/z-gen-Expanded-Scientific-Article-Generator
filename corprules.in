@@ -1196,7 +1196,13 @@ OVERADV SCI_MATH_ADV
 
 IMPL_INTRO after SCI_MANY TRACE_UNITs of DIFFICULT_X PROGRAMMING_VERBING, we finally have a working implementation of SCI_OUR_SYSTEM XXX
 IMPL_INTRO our implementation of SCI_OUR_SYSTEM is ADJECTIVE, AREAADJ, and EXP_ADJ XXX
-IMPL_INTRO though SCI_ANUMBER skeptics said it couldn't be done (most notably SCI_BY_WHO), we SCI_PRESENT_VERB a fully-working version of SCI_OUR_SYSTEM XXX
+
+NOTABLY	notably
+NOTABLY	notoriously
+NOTABLY	infamously
+NOTABLY	recently
+
+IMPL_INTRO though SCI_ANUMBER skeptics said it couldn't be done (most NOTABLY SCI_BY_WHO), we SCI_PRESENT_VERB a fully-working version of SCI_OUR_SYSTEM XXX
 IMPL_INTRO in this section, we SCI_PRESENT_VERB version VERSION of SYSNAME, the culmination of TRACE_UNITs of PROGRAMMING_VERBING XXX 
 IMPL_INTRO SCI_OUR_SYSTEM is SOFTWARE_ADJ; LIT_LEADIN so, too, must be our implementation XXX
 IMPL_INTRO IMPL_MID_X XXX
@@ -5960,10 +5966,12 @@ FUNPRE After all,
 FUNPRE Even so,
 FUNPRE We don't often say this, but
 FUNPRE Not to be rude, but
-FUNPRE Though we don't wish to SCREWOVER
-FUNPRE Though we don't wish to SCREWOVER INTERJEC
+FUNPRE LIT_ALTHOUGH we don't wish to SCREWOVER
+FUNPRE LIT_ALTHOUGH we don't wish to SCREWOVER INTERJEC
 FUNPRE Heaven forbid
+FUNPRE LIT_ALTHOUGH we had to put on our thinking caps
 
+SCREWOVER quibble
 SCREWOVER rub salt in the wound
 SCREWOVER let the cat out of the bag
 SCREWOVER be inflammatory
@@ -6041,6 +6049,7 @@ PROVERB MPEOP in need are MPEOP indeed
 PROVERB to OVERVERB is BAD, to OVERVERB is LIT_GREAT
 PROVERB no hat, no play
 PROVERB no SCI_THING, no OVERVERB
+PROVERB	we CONSIDER there is a world EXP_WHERE_UM for at MOST WAMOUNT SCI_THING_P
 
 MPEOP SCI_PEOPLE
 MPEOP SCI_PERSONs
@@ -6282,6 +6291,7 @@ LAME_OBSERVATION Will you marry me? HEROIC_OVERSTATEMENT
 LAME_OBSERVATION Hi mum
 LAME_OBSERVATION Hi mum, I'm writing an article! HEROIC_OVERSTATEMENT
 LAME_OBSERVATION FUNPRE Rome wasn't built in a day
+LAME_OBSERVATION FUNPRE look at it this way: shut up
 LAME_OBSERVATION FUNPRE one can't break the laws of physics, but one \emph{can} be civilly disobedient towards them
 LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
 LAME_OBSERVATION+5 SCI_B_LEADIN_C TAKE_NOTE_THAT if OBS_END, it SCI_MAY cause SCI_ADJ_ADV BAD EXP_ADJ FINDINGs
@@ -6555,7 +6565,7 @@ SCI_RESPONSEX	we caution the reader to tread carefully here
 SCI_RESPONSE	it was a different time, and standards were different back then XXX
 SCI_RESPONSEX	As BAD as it seems, our sponsor just will not keep silent on the subject
 SCI_RESPONSE 	we are quite innocent in this matter, quite frankly XXX
-SCI_RESPONSE	yes, but only in the course of duty
+SCI_RESPONSE	yes, but only in the course of duty XXX
 
 SCI_RESPONSE+14	SCI_RESPONSEX. 
 
@@ -7086,7 +7096,7 @@ SCI_CAPTION see Figure~\ref{LATEX_FIG_LABEL_REF}.
 
 SCI_GRAPH_CAPTION+33 The STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, as a function of EVAL_MEASUREMENT_UM.
 SCI_GRAPH_CAPTION+33 The STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, compared with the other SCI_SYSTEM_PL.
-SCI_GRAPH_CAPTION+30 ABOVE, TAKE_NOTE_THAT EVAL_MEASUREMENT_UM grows as EVAL_MEASUREMENT_UM decreases -- a phenomenon worth SCI_VERBING in its own right.
+SCI_GRAPH_CAPTION+10 ABOVE, TAKE_NOTE_THAT EVAL_MEASUREMENT_UM grows as EVAL_MEASUREMENT_UM decreases -- a phenomenon worth SCI_VERBING in its own right.
 SCI_GRAPH_CAPTION+10 These results were obtained by SCI_BY_WHO CITATION; we reproduce them here for SCI_CLARITY.
 
 ABOVE Here
@@ -7577,6 +7587,7 @@ DEDICATED unhandicapped
 DEDICATED wanktacular
 DEDICATED dishy
 DEDICATED aroused
+DEDICATED macho
 DEDICATED GENERAL
 DEDICATED+3 SCI_STATUS_ADJ
 
@@ -7890,10 +7901,10 @@ TASKLIST TASKS TASKS TASKS TASKS TASKS TASKS TASKS TASKS
 #GANTTLINE SCI_MANNER
 GANTTLINE+10 SCI_STAGE
 #GANTTLINE SCI_VERBION
-GANTTKEY KEYTHE EXP_TYPE_UM GANTTLINE
-GANTTKEY KEYTHE SCI_MODEL_TYPE GANTTLINE
+GANTTKEY \titcap{KEYTHE EXP_TYPE_UM GANTTLINE}
+GANTTKEY \titcap{KEYTHE SCI_MODEL_TYPE GANTTLINE}
 #GANTTKEY KEYTHE HACKED SCI_VERBION GANTTLINE
-GANTTKEY KEYTHE SCI_VERBION GANTTLINE
+GANTTKEY \titcap{KEYTHE SCI_VERBION GANTTLINE}
 #GANTTKEY KEYTHE SCI_SYSTEM GANTTLINE
 
 KEYTHE+10 the
@@ -9203,7 +9214,6 @@ CONNECT SCI_RESPONSEX, but
 
 PUN pun
 PUN offense
-PUN 
 
 CREASON REASON
 CREASON CONNECT
