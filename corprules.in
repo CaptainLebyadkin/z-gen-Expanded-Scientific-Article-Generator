@@ -3525,7 +3525,8 @@ INTERESTING intricate
 INTERESTING troublesome
 INTERESTING crazy
 INTERESTING globular
-INTERESTING sort-of blobby
+INTERESTING sort-of `blobby'
+INTERESTING telltale
 
 FEATURE feature
 FEATURE artifice
@@ -4911,6 +4912,8 @@ RELATED				dated
 RELATED				disused
 RELATED+10			past
 RELATED+10			erstwhile
+RELATED+10			time-honoured
+RELATED+10			redundant
 
 RECENT RECENT_NV
 RECENT RECENT_V
@@ -6724,6 +6727,7 @@ LOWLY_PEOPLE	the BAD bourgeoisie
 LOWLY_PEOPLE	BAD unsophisticates
 LOWLY_PEOPLE	shameless whingers
 LOWLY_PEOPLE    the BAD monobrow
+LOWLY_PEOPLE	the BAD hoi polloi
 
 LOSERS losers
 LOSERS tards
