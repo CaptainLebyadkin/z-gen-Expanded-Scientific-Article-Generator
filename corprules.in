@@ -2384,6 +2384,9 @@ BAD+30 BAD_NV
 BAD+30 BAD_V
 BAD+30 DIFFERENT
 #BAD \textit{BAD}
+BAD_NV			deprecated
+BAD_NV			dubious
+BAD_V			opprobious
 BAD_V			unprofessional
 BAD_V			immature
 BAD_NV			boring
@@ -3751,6 +3754,7 @@ INTERJEC , putting it mildly
 INTERJEC , so-to-speak
 INTERJEC (and that's putting it mildly)
 INTERJEC (and the less said the better)
+INTERJEC (trust us on this)
 
 EVAL_EXP	we asked INTERJEC what would happen if SCI_MATH_ADV SCI_MATH_ADJ SCI_THING_P were used instead of SCI_THING_P
 
@@ -6042,6 +6046,9 @@ FUNPRE Recalling the wise words of SCI_SOURCE, `PROVERB',
 FUNPRE And because I'm a `glass is half-full' kinda guy,
 FUNPRE And even though I had to take my LABRATS to the vet,
 FUNPRE And even though everyone keeps pointing out I'm not very good at my job,
+FUNPRE LIT_ALTHOUGH, at first, it seemed like everything we did was BAD (it seemed that way to us too),
+FUNPRE LIT_ALTHOUGH at first it seemed like we were BAD people INTERJEC,
+FUNPRE LIT_ALTHOUGH it didn't smell too good to do this (at first),
 
 PROVERB BTEXT
 PROVERB LAME_OBSERVATION
@@ -6196,6 +6203,7 @@ ILLEGAL unbecoming
 ILLEGAL dodgy
 ILLEGAL shoddy
 ILLEGAL naughty
+ILLEGAL BAD
 
 BUSINESS business
 BUSINESS beeswax
@@ -6218,13 +6226,13 @@ PETTY_EXCUSE FUNPRE it wasn't the worst thing we did
 PETTY_EXCUSE FUNPRE I heard some BAD rumours about our supervisor, so let's just leave it at that PETTY_SUF
 PETTY_EXCUSE FUNPRE we may as well clear up that BAD BUSINESS about the `so-called' ILLEGAL WARE; look, they're not even mine, I'm just holding them for a friend
 PETTY_EXCUSE Look, it was one small ADJECTIVE equation; no one will know
-PETTY_EXCUSE I want my PEN back. KEEPMAYBE
+PETTY_EXCUSE I want my PEN back KEEPMAYBE
 PEN pen
 PEN biro
 PEN pencil
 PEN USB stick
 KEEPMAYBE 
-KEEPMAYBE It \emph{wasn't yours to keep}, SCI_SOURCE
+KEEPMAYBE . It \emph{wasn't yours to keep}, SCI_SOURCE
 PETTY_EXCUSE FUNPRE we're all just crawling around on this space-rock anyway
 PETTY_EXCUSE The final FINDINGs remain incomplete, as it got past my bedtime and THEYWEREMEAN
 
