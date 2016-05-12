@@ -21,7 +21,7 @@ use Reform qw( form tag break_at break_with break_wrap break_TeX );
 
 
 my %ignore = map {$_=>1} qw {
-	em
+	em th st rd
         align
         end
         begin
