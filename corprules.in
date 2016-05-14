@@ -1049,7 +1049,7 @@ MODEL_FILLER	LIT_MIDDLE LIT_ALTHOUGH SCI_COUNTRY_MAYBE SCI_PEOPLE LIT_OFTEN SCI_
 ####### Implementation #######
 #############################################################################
 
-IMPL_SEC_LATEX_HEADER	\section{Implementation of SYSNAME}
+IMPL_SEC_LATEX_HEADER	\section{IMPLEMENTATION of SYSNAME}
 IMPL_SEC_LATEX_HEADER		\section{EXP_ADJ SCI_BUZZWORD_NOUN}
 IMPL_SEC_LATEX_HEADER+4		\section{ADJECTIVE SCI_BUZZWORD_NOUN in Practice}
 IMPL_SEC_LATEX_HEADER+4		\section{EMULATING SCI_BUZZWORD_NOUN in AREA}
@@ -1194,17 +1194,38 @@ OVERADV SCI_ADV
 OVERADV LIT_GREAT_ADV
 OVERADV SCI_MATH_ADV
 
-IMPL_INTRO after SCI_MANY TRACE_UNITs of DIFFICULT_X PROGRAMMING_VERBING, we finally have a working implementation of SCI_OUR_SYSTEM XXX
-IMPL_INTRO our implementation of SCI_OUR_SYSTEM is ADJECTIVE, AREAADJ, and EXP_ADJ XXX
+IMPL_INTRO after SCI_MANY TRACE_UNITs of DIFFICULT_X PROGRAMMING_VERBING, we finally have a working IMPLEMENTATION of SCI_OUR_SYSTEM XXX
+IMPL_INTRO our IMPLEMENTATION of SCI_OUR_SYSTEM is ADJECTIVE, AREAADJ, and EXP_ADJ XXX
 
 NOTABLY	notably
 NOTABLY	notoriously
 NOTABLY	infamously
 NOTABLY	recently
+NOTABLY embarrassingly
 
-IMPL_INTRO though SCI_ANUMBER skeptics said it couldn't be done (most NOTABLY SCI_BY_WHO), we SCI_PRESENT_VERB a fully-working version of SCI_OUR_SYSTEM XXX
+MAYBEWHO+2 
+MAYBEWHO \,\,(most NOTABLY SCI_BY_WHO)
+
+SKEPTICS skeptics
+SKEPTICS critics
+SKEPTICS cynics
+SKEPTICS naysayers
+SKEPTICS pundits
+SKEPTICS SCI_PEOPLE
+SKEPTICS MPEOP
+
+WERESKEP said it couldn't be SCI_ACHIEVED
+WERESKEP thought it was BAD to SCI_TRY
+WERESKEP discouraged the pursuit of this THISIDEA
+
+IMPLEMENTATION implementation
+IMPLEMENTATION realisation
+IMPLEMENTATION application
+IMPLEMENTATION utilisation
+
+IMPL_INTRO though SCI_ANUMBER SKEPTICS WERESKEPMAYBEWHO, we SCI_PRESENT_VERB a fully-working version of SCI_OUR_SYSTEM XXX
 IMPL_INTRO in this section, we SCI_PRESENT_VERB version VERSION of SYSNAME, the culmination of TRACE_UNITs of PROGRAMMING_VERBING XXX 
-IMPL_INTRO SCI_OUR_SYSTEM is SOFTWARE_ADJ; LIT_LEADIN so, too, must be our implementation XXX
+IMPL_INTRO SCI_OUR_SYSTEM is SOFTWARE_ADJ; LIT_LEADIN so, too, must be our IMPLEMENTATION XXX
 IMPL_INTRO IMPL_MID_X XXX
 
 IMPL_MID LIT_MIDDLE_MAYBE IMPL_MID_X XXX
@@ -1221,7 +1242,7 @@ IMPL_MID_X the IMPL_COMPONENT and the IMPL_COMPONENT must run IMPL_RUN_TYPE
 
 IMPL_CONCL we SCI_AIM to release all of this research under a LICENSE_TYPE licence XXX
 IMPL_CONCL overall, SCI_OUR_SYSTEM adds only modest complexity to RELATED SCI_SYSTEM_PL XXX
-IMPL_CONCL one SCI_CANNOT imagine other SCI_APPROACH_PL to the implementation that would have made PROGRAMMING_VERBING it much simpler XXX
+IMPL_CONCL one SCI_CANNOT imagine other SCI_APPROACH_PL to the IMPLEMENTATION that would have made PROGRAMMING_VERBING it much simpler XXX
 IMPL_CONCL+3 IMPL_MID_X XXX
 
 
@@ -3658,10 +3679,10 @@ WHICH_EXPERIMENTS	the METHODOLOGY FROMABOVE
 EVAL_GUTS_INTRO	our hardware and software modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.
 EVAL_GUTS_INTRO we have taken great pains to SCI_PRESENT_VERB our EVALUATION SETUP; now, the payoff, is to discuss our FINDINGs.
 EVAL_GUTS_INTRO given these trivial configurations, we SCI_ACHIEVED non-trivial FINDINGs.
-EVAL_GUTS_INTRO WEASK is it POSSIBLE to justify the LIT_GREAT SCI_PROBLEM_PL we took in our implementation? SCI_RESPONSE
+EVAL_GUTS_INTRO WEASK is it POSSIBLE to justify the LIT_GREAT SCI_PROBLEM_PL we took in our IMPLEMENTATION? SCI_RESPONSE
 EVAL_GUTS_INTRO WEASK is it POSSIBLE for us to defend the THISIDEA that EXP_WHERE_RAREs were acceptable for this investigation? SCI_RESPONSE
 EVAL_GUTS_INTRO with respect, is it POSCASE that SCI_GENERIC_NOUN and SCI_GENERIC_NOUN should have been SCI_ADV SCI_VERBED by SCI_COUNTRY_MAYBE SCI_PEOPLE? SCI_RESPONSE
-EVAL_GUTS_INTRO is it POSSIBLE to justify having paid so little attention to our implementation and EXP_ADJ SETUP? SCI_RESPONSE
+EVAL_GUTS_INTRO is it POSSIBLE to justify having paid so little attention to our IMPLEMENTATION and EXP_ADJ SETUP? SCI_RESPONSE
 
 POSCASE POSSIBLE
 POSCASE the case
@@ -5507,6 +5528,7 @@ SCI_ACHIEVED fulfilled
 SCI_ACHIEVED accomplished
 SCI_ACHIEVED completed
 SCI_ACHIEVED discovered
+SCI_ACHIEVED done
 
 SCI_VERB_PL	interact
 SCI_VERB_PL	collaborate
