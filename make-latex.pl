@@ -22,6 +22,9 @@ use scigen;
 use IO::File;
 use Getopt::Long;
 use IO::Socket;
+use JSON;
+use WWW::Curl::Easy;
+
 
 use File::Temp qw/ tempfile tempdir /;
 
@@ -114,15 +117,40 @@ my $tmp_dir = tempdir( );
 my ($fhtex, $tex_file) = tempfile($template, DIR => $tmp_dir);
 
 
+sub get_url_contents{
+    my $url = $_[0];    
+    my $crl = WWW::Curl::Easy->new;
+    
+    $crl -> setopt(CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MS-RTC LM 8; .NET4.0C; .NET4.0E; InfoPath.3)');
+    $crl -> setopt(CURLOPT_URL,$url);
+    #$crl -> setopt(CURLOPT_RETURNTRANSFER,1);
+    $crl -> setopt(CURLOPT_CONNECTTIMEOUT,5);
+
+    my $ret = $crl->perform;
+
+    return $ret;
+}
+
+
+sub get_images{
+    
+    #my $json = get_url_contents('http://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=sausages');
+    my $json = get_url_contents('https://www.googleapis.com/customsearch/v1');
+    
+    my $data = decode_json($json);
+
+}
 
 #expand the length arbitrarily by repeating the sections by 'nit' iterations.
 my $section; 
 my $selector;
 my $partbool = 0;
 my $bbool = 0;
+my $vbool = 0;
 my $nit = ($nsec-2)/1.5;
 my $sectol = ((int rand 3)*(10) + 1 );
 my $btol = ((int rand 2)*(50) + 50 );
+my $vtol = (700 + (int rand 20)*(5) );
 my $text_tr = "SCIPAPER_LATEX { ";
 my $citpen = "
 CITATION+20 
@@ -138,12 +166,26 @@ LATEX_DIAGRAM
 LATEX_FIGURE 
 ";
 
+if($nsec > $vtol ) {
+ $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_VOL ";
+ $vbool = 1;
+
+if($nsec > $btol * (int rand 2) + 100) {
+ $text_tr = $text_tr . " SCI_BOOK ";
+ $bbool = 1;
+ }
+
+ } else { 
+     
 if($nsec > $btol * (int rand 2) + 100) {
  $text_tr = $text_tr . " WIDE_LATEX_HEADER WIDE_ABSTRACT SCI_TOC SCI_BOOK ";
  $bbool = 1;
  } else { 
      $text_tr = $text_tr . " LATEX_HEADER SCI_ABSTRACT ";
+   }
+
 }
+
 
 if($nit > $sectol * ((int rand 5) + 1) ){
 
@@ -164,8 +206,16 @@ $text_tr = $text_tr . " SCI_INTRO ";
 
 my $counter = 1;
 my $bc = 1;
+my $vc = 1;
 for( my $i = 1; $i <= $nit; $i++ ) {
     $selector = int rand 100; 
+
+#Add volumes for ultra long ones.
+    $vc++;
+	if(($vc > $vtol) && ($vbool == 1)){
+	    $text_tr = $text_tr . " SCI_VOL ";
+	    $vc = 0;
+    }
 
 
 #Add books for really long ones.
@@ -216,11 +266,11 @@ if($nsec > $cthresh) {
 
 open(TOPFILE,">","scitoprule.in") or die "Could not open file scitoprule.in";
 if( $picwank ) {
-my $ci="CORP_IMAGE_MAYBE CORP_IMAGE
+my $ci="CORP_IMAGE_MAYBE+2 CORP_IMAGE
 ";
-my $li="LAB_IMAGE_MAYBE LAB_IMAGE
+my $li="LAB_IMAGE_MAYBE+2 LAB_IMAGE
 ";
-my $si="SCI_IMAGE_MAYBE SCI_IMAGE
+my $si="SCI_IMAGE_MAYBE+2 SCI_IMAGE
 ";
      $text_tr = $text_tr.$ci.$li.$si;
 	    }
