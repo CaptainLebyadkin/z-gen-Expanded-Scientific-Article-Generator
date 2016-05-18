@@ -39,22 +39,49 @@ SCI_PARTCUSTOM {
 #
 #}
 
+SCI_VOL {
+
+\clearpage
+\onecolumn
+\vspace{40cm}
+\begin{center}
+\LARGE{\textbf{VOLUME VOLCOUNTER+}}\\
+\vspace{1cm}
+
+\renewcommand{\voltitle}{
+\titcap{SCI_THING_P}}
+
+\book{{\textbf{\Large{VOLUME LABVOLCOUNTER+ -- \voltitle}}}}
+
+\Large{\textbf{
+\voltitle}}\\
+\vspace{0cm}
+---
+\end{center}
+\clearpage
+
+
+\colenforce
+}
+VOLCOUNTER\+
+LABVOLCOUNTER\+
+
 SCI_BOOK {
 
 \clearpage
 \onecolumn
 \vspace{40cm}
 \begin{center}
-\LARGE{\textbf{VOLUME BOOKCOUNTER+}}\\
+\LARGE{\textbf{Book BOOKCOUNTER+}}\\
 \vspace{1cm}
 
-\renewcommand{\voltitle}{
+\renewcommand{\booktitle}{
 \titcap{SCI_ACT}}
 
-\book{{\textbf{\Large{VOLUME LABBOOKCOUNTER+ -- \voltitle}}}}
+\book{{\textbf{\Large{Book LABBOOKCOUNTER+ -- \booktitle}}}}
 
 \Large{\textbf{
-\voltitle}}\\
+\booktitle}}\\
 \vspace{0cm}
 ---
 \end{center}
@@ -7428,6 +7455,9 @@ LATEX_CITEPACK
 \newcommand\B{\rule[-1.4ex]{0pt}{0pt}}
 
 \newcommand{\voltitle}{
+SCI_THING_P}
+
+\newcommand{\booktitle}{
 SCI_ACT}
 
 \newcommand{\colenforce}{NCOL}
