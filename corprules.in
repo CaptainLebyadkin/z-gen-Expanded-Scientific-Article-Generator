@@ -5700,6 +5700,7 @@ SCI_VERBION	comparison
 SCI_VERBION	militarisation
 SCI_VERBION	industrialisation
 SCI_VERBION	incentivisation
+SCI_VERBION	establishment
 
 SCI_SYS_VERB	locate
 SCI_SYS_VERB	store
@@ -6081,7 +6082,7 @@ PROVERB never let them see you OVERVERB
 PROVERB MPEOP in need are MPEOP indeed
 PROVERB to OVERVERB is BAD, to OVERVERB is LIT_GREAT
 PROVERB no hat, no play
-PROVERB no SCI_THING, no OVERVERB
+PROVERB no SCI_THING, no SCI_VERBION
 PROVERB	we CONSIDER there is a world EXP_WHERE_UM for at MOST WAMOUNT SCI_THING_P
 PROVERB all roads lead to PLACE
 
