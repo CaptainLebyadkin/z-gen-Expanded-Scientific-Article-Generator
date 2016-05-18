@@ -212,7 +212,7 @@ for( my $i = 1; $i <= $nit; $i++ ) {
 
 #Add volumes for ultra long ones.
     $vc++;
-	if(($vc > $vtol) && ($vbool == 1)){
+	if(($vc > $vtol/2) && ($vbool == 1)){
 	    $text_tr = $text_tr . " SCI_VOL ";
 	    $vc = 0;
     }
