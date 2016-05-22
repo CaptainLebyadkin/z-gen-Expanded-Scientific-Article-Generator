@@ -3370,8 +3370,9 @@ LICENSE_TYPE		\titcap{CITE_INST}
 LICENSE_TYPE		write-only
 LICENSE_TYPE Public Licenses
 LICENSE_TYPE public domain
-LICENSE_TYPE the X11 license
-LICENSE_TYPE the BSD license
+LICENSE_TYPE free X11
+LICENSE_TYPE BSD
+LICENSE_TYPE GNU GPL
 LICENSE_TYPE Shared Source License
 LICENSE_TYPE University Intellectual Property
 
@@ -3601,7 +3602,7 @@ EVAL_ANALYZE_ONE+15 BAD bugs in SCI_OUR_SYSTEM caused the LIT_INCREASING behavio
 EVAL_ANALYZE_ONE+15 EXP_ADJ electromagnetic disturbances in our EXP_WHERE caused unstable EXP_ADJ FINDINGs
 EVAL_ANALYZE_ONE+15 operator error alone cannot account for these FINDINGs
 EVAL_ANALYZE_ONE these EVAL_MEASUREMENT observations contrast to those seen in earlier work CITATION, such as SCI_SOURCE's SCI_STATUS_ADJ LONGWORK on SCI_THING_P and observed HARDWARE_PROP_OR_MEASUREMENT
-EVAL_ANALYZE_ONE+15 note how EMULATING SCI_THING_P rather than EMULATING_THEM produce SMOOTHER, more reproducible FINDINGs
+EVAL_ANALYZE_ONE+15 note how EMULATING SCI_THING_P rather than EMULATING_THEM produces SMOOTHER, more reproducible FINDINGs
 EVAL_ANALYZE_ONE+15 the FINDINGs come from only NONZ trial runs, and were not reproducible
 EVAL_ANALYZE_ONE+10 error bars have been elided, since most of our data points fell outside of DIGIT standard deviations from observed means
 EVAL_ANALYZE_ONE+15 TAKE_NOTE_THAT EXP_FTG shows the \textit{ADJECTIVE} and not the \textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT
@@ -4171,7 +4172,6 @@ SCI_THING_S	biological immunopsychology
 SCI_THING_S+3	EXP_ADJ SCI_MANNER
 SCI_THING_S	quantum mechanics
 SCI_THING_S	statistical physics
-SCI_THING_P	medical SCI_BUZZWORD_NOUN
 #SCI_THING_S+5	medical MNOUN
 #SCI_THING_P+5	medical MNOUNS
 SCI_THING_S+6	EXP_ADJ immunology
@@ -4197,7 +4197,7 @@ SCI_THING_P+6	EXP_ADJ compilers
 SCI_THING_P+6	EXP_ADJ experiments
 SCI_THING_P	virtual machines
 SCI_THING_S	reinforcement-learning
-SCI_THING_P+6	EXP_ADJ encryption
+SCI_THING_S+6	EXP_ADJ encryption
 SCI_THING_S+6	EXP_ADJ replication
 SCI_THING_P	wide-area networks
 SCI_THING_S	the Lagrangian approach
@@ -6193,6 +6193,8 @@ THEPRESIDENT the pope
 THEPRESIDENT the mayor
 THEPRESIDENT the Dalai Lama
 
+HEROIC_OVERSTATEMENT FUNPRE we are going to massively `sort it'
+HEROIC_OVERSTATEMENT FUNPRE we are going to massively sort shiz out
 HEROIC_OVERSTATEMENT FUNPRE our FINDINGs are insanely LIT_GREAT
 HEROIC_OVERSTATEMENT FUNPRE our goal was to give posterity some high SCI_GOAL to ASPIRE to
 HEROIC_OVERSTATEMENT these results have even ascended to GLORY by being displayed on the fridge at home
@@ -6367,6 +6369,7 @@ LAME_OBSERVATION Will you marry me? HEROIC_OVERSTATEMENT
 LAME_OBSERVATION Hi mum
 LAME_OBSERVATION Hi mum, I'm writing an article! HEROIC_OVERSTATEMENT
 LAME_OBSERVATION FUNPRE Rome wasn't built in a day
+LAME_OBSERVATION Now that we have completed this thing, we must now do another thing
 LAME_OBSERVATION FUNPRE look at it this way: shut up
 LAME_OBSERVATION FUNPRE one can't break the laws of physics, but one \emph{can} be civilly disobedient towards them
 LAME_OBSERVATION+5 It CLEARLY remains to be SCI_VERBED whether OBS_END
