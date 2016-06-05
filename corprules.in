@@ -5024,9 +5024,10 @@ INSTRUMENTAL	SCI_FAIR
 UNIQUE		unique
 UNIQUE		conventional
 UNIQUE		expected
-UNIQUE		LIT_GOOD
-UNIQUE		LIT_GREAT
+UNIQUE+10	LIT_GOOD
+UNIQUE+5	LIT_GREAT
 UNIQUE		IDEAL
+UNIQUE+5	SCI_IMPORTANTV
 
 STAT_ADJ		effective
 STAT_ADJ		mean
@@ -6105,6 +6106,11 @@ FUNPRE And even though everyone keeps pointing out I'm not very good at my job,
 FUNPRE LIT_ALTHOUGH, at first, it seemed like everything we did was BAD (it seemed that way to us too),
 FUNPRE LIT_ALTHOUGH at first it seemed like we were BAD people INTERJEC,
 FUNPRE LIT_ALTHOUGH it didn't smell too good to do this (at first),
+FUNPRE We are honestly not pulling your leg when we say that
+FUNPRE And even though I accidentally ate part of the grant money on the way out POSSSILLY
+
+POSSSILLY (I was cold and hungry and they don't do good catering at the assessment place)
+POSSSILLY+3
 
 PROVERB BTEXT
 PROVERB LAME_OBSERVATION
@@ -6312,6 +6318,9 @@ PETTY_EXCUSE It made sense in my mind anyway
 PETTY_EXCUSE It read well last night in the Professor's hot tub, anyway
 PETTY_EXCUSE Well, \textit{someone} got fired
 PETTY_EXCUSE FUNPRE the whole thing got out of hand
+PETTY_EXCUSE We promised we wouldn't dob on our esteemed co-workers
+PETTY_EXCUSE We said we would not SCREWOVER
+PETTY_EXCUSE $DIGIT/10$ colleagues agreed our results were UNIQUE* (ish)
 
 FILLER_SENTENCE FILLER_SENTENCE FUNNEND
 
@@ -7765,6 +7774,7 @@ SCI_SUF Bringing home the bacon.
 SCI_SUF KEYTHE SCI_COUNTRY_MAYBE SCI_PEOPLE have a LIT_GREAT_NV PENCHANT for OVERVERBING SCI_GENERIC_NOUN. 
 SCI_SUF KEYTHE SCIENCE never thrusted so HARD.
 SCI_SUF Go team!
+SCI_SUF In person.
 
 HARD hard
 HARD fiercely
