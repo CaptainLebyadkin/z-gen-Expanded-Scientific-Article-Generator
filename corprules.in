@@ -2754,8 +2754,10 @@ EXP_ADJ+30		NETWORK_TYPE
 EXP_ADJ+30		portable
 EXP_ADJ+5		edible
 EXP_ADJ+10		chiral
+EXP_ADJ+10		in vivo
 EXP_ADJ+30		real-time
 EXP_ADJ+30              cloud-based
+EXP_ADJ+5		opinion-based
 EXP_ADJ+10		top-quality
 EXP_ADJ+5		`top-quality'
 EXP_ADJ+30		ultrafast
@@ -3805,6 +3807,7 @@ INTERJEC , so-to-speak
 INTERJEC (and that's putting it mildly)
 INTERJEC (and the less said the better)
 INTERJEC (trust us on this)
+INTERJEC (who'd have thought?)
 
 EVAL_EXP	we asked INTERJEC what would happen if SCI_MATH_ADV SCI_MATH_ADJ SCI_THING_P were used instead of SCI_THING_P
 
@@ -6030,6 +6033,7 @@ FUNPRE LIT_ALTHOUGH we don't wish to SCREWOVER
 FUNPRE LIT_ALTHOUGH we don't wish to SCREWOVER INTERJEC
 FUNPRE Heaven forbid
 FUNPRE LIT_ALTHOUGH we had to put on our thinking caps
+FUNPRE It seems BAD (I'd know), but
 
 SCREWOVER quibble
 SCREWOVER rub salt in the wound
@@ -6108,6 +6112,7 @@ FUNPRE LIT_ALTHOUGH at first it seemed like we were BAD people INTERJEC,
 FUNPRE LIT_ALTHOUGH it didn't smell too good to do this (at first),
 FUNPRE We are honestly not pulling your leg when we say that
 FUNPRE And even though I accidentally ate part of the grant money on the way out POSSSILLY
+FUNPRE After a great deal of hard work, and INTERJEC shedding not a few tears,
 
 POSSSILLY (I was cold and hungry and they don't do good catering at the assessment place)
 POSSSILLY+3
@@ -6124,6 +6129,7 @@ PROVERB no hat, no play
 PROVERB no SCI_THING, no SCI_VERBION
 PROVERB	we CONSIDER there is a world EXP_WHERE_UM for at MOST WAMOUNT SCI_THING_P
 PROVERB all roads lead to PLACE
+PROVERB the sooner you OVERVERB, the faster you OVERVERB
 
 PLACE TOWN
 PLACE COU
@@ -6199,6 +6205,8 @@ THEPRESIDENT the pope
 THEPRESIDENT the mayor
 THEPRESIDENT the Dalai Lama
 
+HEROIC_OVERSTATEMENT I am the ruler of the land, and they say that 'I'm the man'
+HEROIC_OVERSTATEMENT Not to boast or anything, but they say that 'I'm the man'
 HEROIC_OVERSTATEMENT FUNPRE we are going to massively `sort it'
 HEROIC_OVERSTATEMENT FUNPRE we are going to massively sort shiz out
 HEROIC_OVERSTATEMENT FUNPRE our FINDINGs are insanely LIT_GREAT
@@ -6286,6 +6294,7 @@ PETTY_RES they hadn't made me do it ``properly''
 PETTY_RES I'd had a bit more support from my supervisor
 PETTY_RES they hadn't been so naughty
 
+PETTY_EXCUSE That was our \emph{Woodstock}
 PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 PETTY_EXCUSE FUNPRE we worked really hard but it still doesn't quite work
 PETTY_EXCUSE No one understands how I feel
@@ -9482,13 +9491,13 @@ SDISCUSS+15 it was FAMOUSLAST who first asked whether OBJECTS can be METAVERBED 
 DISCUSS+15 this could shed INSTRUMENTAL light on a conjecture of FAMOUS XXX
 SDISCUSS we wish to extend the results of CITATION to OBJECTS XXX
 DISCUSS+15 unfortunately, we cannot assume that ASSERTION; although, we can certainly SCI_TRY XXX
-SDISCUSS+15 LIT_LEADIN every student is aware that ASSERTION. 
-SDISCUSS+15 LIT_LEADIN even the layman is aware that ASSERTION. 
-SDISCUSS+15 LIT_LEADIN SCI_ANUMBER SCI_PEOPLE SCI_MAY SCI_AGREE that ASSERTION. 
+SDISCUSS+15 every student is aware that ASSERTION. 
+SDISCUSS+15 even the layman is aware that ASSERTION. 
+SDISCUSS+15 SCI_ANUMBER SCI_PEOPLE SCI_MAY SCI_AGREE that ASSERTION. 
 SDISCUSS+15 recent SCI_VERBIONs in AREA CITATION have raised the question of whether ASSERTION. 
 DISCUSS in this context, the results of CITATION are highly relevant, specificall because they pertain to SOFTWARE_ADJ SCI_VERBIONs. 
 DISCUSS LIT_LEADIN this reduces the results of CITATION to BIGTHEOREM XXX
-SDISCUSS+15 LIT_LEADIN it has long been known that ASSERTION XXX 
+SDISCUSS+15 it has long been known that ASSERTION XXX 
 SDISCUSS+15 FAMOUSLAST's METANOUN of OBJECTS was a milestone in AREA XXX
 DISCUSS+15 this leaves open the question of PROPNOUN XXX
 SDISCUSS+15 it is well known that ASSERTION XXX
