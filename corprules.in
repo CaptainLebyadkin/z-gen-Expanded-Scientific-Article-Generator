@@ -6130,6 +6130,7 @@ PROVERB no SCI_THING, no SCI_VERBION
 PROVERB	we CONSIDER there is a world EXP_WHERE_UM for at MOST WAMOUNT SCI_THING_P
 PROVERB all roads lead to PLACE
 PROVERB the sooner you OVERVERB, the faster you OVERVERB
+PROVERB	those that live	by the SCI_THING_S, die by the SCI_THING_S
 
 PLACE TOWN
 PLACE COU
@@ -6205,6 +6206,7 @@ THEPRESIDENT the pope
 THEPRESIDENT the mayor
 THEPRESIDENT the Dalai Lama
 
+HEROIC_OVERSTATEMENT Go	ahead, make my day
 HEROIC_OVERSTATEMENT I am the ruler of the land, and they say that 'I'm the man'
 HEROIC_OVERSTATEMENT Not to boast or anything, but they say that 'I'm the man'
 HEROIC_OVERSTATEMENT FUNPRE we are going to massively `sort it'
