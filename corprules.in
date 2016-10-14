@@ -8321,7 +8321,6 @@ PIEFANCY {
 \pagecolor{white!50}
 \begin{figure*}[TABPOSp] 
 \begin{center}{\begin{tikzpicture} 
-\def\data{PIEFANCYLIST}    
 \piechartthreed[scale=0.PSCDIGIT, background color=white!50, mix color= darkgray, shift=SHIFTDIG.DIGIT] {PIEFANCYLIST} 
 \end{tikzpicture}}
 \end{center}\vspace{-2mm}\captionof{figure}{SCI_PIE_CAPTION}\label{LATEX_PIE_LABEL}\end{figure*}
