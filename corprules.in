@@ -496,6 +496,22 @@ SCI_AGE	20$^{th}$ Century
 SCI_AGE 21$^{st}$ Century
 SCI_AGE+5 Millenium
 SCI_INTRO_A+1 In the early part of the SCI_AGE, LIT_GREAT leaps forward in understanding SCI_A_FACT occurred by EMULATING the SCI_VERBION of SCI_GENERIC_NOUN in THE_WILD XXX
+SCI_INTRO_A	From the dawn of THETIME, mankind has SOUGHT to OVERVERB SCI_THING_P. THENOW, for the first time, we SCI_PRESENT_VERB our POSSIBLE SCI_APPROACH for SCI_PROVE_VERBING SCI_PEOPLE' SCI_PROBLEM_PL with SCI_GENERIC_NOUN in THE_WILD XXX
+
+THETIME the SCI_AGE
+THETIME time
+THETIME humanity
+THETIME the common era
+THETIME the present age
+THETIME civilisation
+THENOW Now
+THENOW Finally
+THENOW At last
+
+SOUGHT sought
+SOUGHT tried
+SOUGHT attempted
+SOUGHT endeavoured
 
 SCI_INTRO_A	SCI_ANUMBER SCI_COUNTRY_MAYBE SCI_PEOPLE would SCI_AGREE that, had it not been for SCI_GENERIC_NOUN , the SCI_ACT SCI_MAY never have occurred XXX
 SCI_INTRO_A+5	SCI_COUNTRY_MAYBE SCI_PEOPLE working SCI_TOGETHERWITH the field of SCI_FIELD today would SCI_AGREE that the SCI_ACT would not be possible without the SCI_SYS_VERBION of SOFTWARE_ADJ SCI_THING_P  XXX
@@ -2432,6 +2448,11 @@ BAD+30 BAD_NV
 BAD+30 BAD_V
 BAD+30 DIFFERENT
 #BAD \textit{BAD}
+BAD_V			upsetting
+BAD_NV			disastrous
+BAD_NV			pointy
+BAD_NV			``fresh''
+BAD_NV			whack
 BAD_NV			deprecated
 BAD_NV			dubious
 BAD_V			opprobious
@@ -2746,6 +2767,7 @@ EXP_TREK		continuum
 EXP_TREK		PREFIXXverse
 
 #EXP_ADJ+1000 `GOOD_ADJ'
+EXP_ADJ+30		hybrid
 EXP_ADJ			Cold-War era
 EXP_ADJ+10		GOOD_ADJ
 EXP_ADJ+30		SCI_BUZZWORD_ADJ
@@ -3098,6 +3120,7 @@ THE_WILD	a complex environment
 THE_WILD	a complex system
 THE_WILD	a biological environment
 THE_WILD	a biological setting
+THE_WILD	the cloud
 
 EVAL_WHO+25 	we
 EVAL_WHO 	SCI_COUNTRY SCI_PEOPLE
@@ -5282,6 +5305,7 @@ SCI_ADJ_V SCI_IDEAL_V
 SCI_ADJ_ADV+20	particularly
 SCI_ADJ_ADV+5	embarrassingly
 SCI_ADJ_ADV+5	amusingly
+SCI_ADJ_ADV+5	disastrously
 SCI_ADJ_ADV+10	ostensibly
 SCI_ADJ_ADV+10  exceptionally
 SCI_ADJ_ADV+10	surprisingly
@@ -5553,6 +5577,11 @@ SCI_GOAL_ACHIEVE fulfill
 SCI_GOAL_ACHIEVE accomplish
 SCI_GOAL_ACHIEVE complete
 SCI_GOAL_ACHIEVE discover
+SCI_GOAL_ACHIEVE obtain
+SCI_GOAL_ACHIEVE requisition
+SCI_GOAL_ACHIEVE co-opt
+SCI_GOAL_ACHIEVE commandeer
+SCI_GOAL_ACHIEVE procure
 
 SCI_ACHIEVED achieved
 SCI_ACHIEVED realised
@@ -5561,6 +5590,11 @@ SCI_ACHIEVED accomplished
 SCI_ACHIEVED completed
 SCI_ACHIEVED discovered
 SCI_ACHIEVED done
+SCI_ACHIEVED obtained
+SCI_ACHIEVED requisitioned
+SCI_ACHIEVED co-opted
+SCI_ACHIEVED commandeered
+SCI_ACHIEVED procured
 
 SCI_VERB_PL	interact
 SCI_VERB_PL	collaborate
@@ -5942,6 +5976,7 @@ SMARTASS+100
 SMARTASS (Though we are certainly thinking it loudly).
 
 FUNNEND+100
+FUNNEND ; and \emph{thensome}
 FUNNEND XXX We are, literally, \emph{frozen} with excitement
 FUNNEND , `uh-huh girlfriend'
 FUNNEND , you go girl
@@ -6085,7 +6120,8 @@ SOAPBOX hobby-horse
 FUNPRE But \textit{quite frankly},
 FUNPRE While we're at it,
 FUNPRE SOSEEM
-FUNPRE And even though we INTERJEC never cease to impress OURSELVES,
+FUNPRE And 
+we INTERJEC never cease to impress OURSELVES,
 FUNPRE Because, let's face it,
 FUNPRE And even though I didn't do any real work during my scholarship INTERJEC
 FUNPRE They don't want me to tell you this, but
@@ -6113,6 +6149,10 @@ FUNPRE LIT_ALTHOUGH it didn't smell too good to do this (at first),
 FUNPRE We are honestly not pulling your leg when we say that
 FUNPRE And even though I accidentally ate part of the grant money on the way out POSSSILLY
 FUNPRE After a great deal of hard work, and INTERJEC shedding not a few tears,
+FUNPRE And even though they took away my INNOCITEM,
+INNOCITEM blu-tac privileges
+INNOCITEM pen licence
+INNOCITEM construction paper
 
 POSSSILLY (I was cold and hungry and they don't do good catering at the assessment place)
 POSSSILLY+3
@@ -6577,7 +6617,7 @@ SCI_A_FACT	the SCI_COMPLEXNOUN of SCI_FIELD
 SCI_A_FACT	the work of SCI_COUNTRY SCI_PERSON SCI_SOURCE
 SCI_ACT+30	SCI_ACT_A SCI_THING_P 
 SCI_ACT		SCI_ACT_A SCI_THING_P that SCI_EFFECT
-SCI_ACT_A	the understanding of SCI_THING_P with respect to 
+SCI_ACT_A	understanding of SCI_THING_P with respect to 
 SCI_ACT_A	SCI_ADJ SCI_VERBION of SCI_THING and
 SCI_ACT_A+15	SCI_VERBION of 
 SCI_ACT_A+15	SCI_USE of 
