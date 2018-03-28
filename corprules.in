@@ -2780,6 +2780,7 @@ EXP_ADJ+10		in vivo
 EXP_ADJ+30		real-time
 EXP_ADJ+30              cloud-based
 EXP_ADJ+5		opinion-based
+EXP_ADJ+5		appearance-based
 EXP_ADJ+10		top-quality
 EXP_ADJ+5		`top-quality'
 EXP_ADJ+30		ultrafast
@@ -3370,7 +3371,7 @@ LINKER_SUFFIX		built on SCI_SOURCE's toolkit for SCI_MATH_ADV SCI_VERBING EVAL_I
 LINKER_SUFFIX		built on the SCI_COUNTRY toolkit for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS
 
 EVAL_SEC_SOFTWARE_END	we made all of our software is available under a LICENSE_TYPE licence.
-EVAL_SEC_SOFTWARE_END	TAKE_NOTE_THAT other researchers have tried and failed to enable this functionality.
+EVAL_SEC_SOFTWARE_END	TAKE_NOTE_THAT other researchers have SOUGHT and NEGLECTED to enable this functionality.
 EVAL_SEC_SOFTWARE_END	this concludes our discussion of modifications to SYSNAME.
 EVAL_SEC_SOFTWARE_END	all of these techniques are of interesting historical significance; SCI_SOURCE and SCI_SOURCE SCI_VERBED a SIMILAR SETUP in SCI_YEAR CITATION.
 
@@ -6117,6 +6118,7 @@ SOAPBOX soap-box
 SOAPBOX high-horse
 SOAPBOX hobby-horse
 
+FUNPRE By combining faux-authenticity with greed,
 FUNPRE But \textit{quite frankly},
 FUNPRE While we're at it,
 FUNPRE SOSEEM
@@ -6171,6 +6173,7 @@ PROVERB	we CONSIDER there is a world EXP_WHERE_UM for at MOST WAMOUNT SCI_THING_
 PROVERB all roads lead to PLACE
 PROVERB the sooner you OVERVERB, the faster you OVERVERB
 PROVERB	those that live	by the SCI_THING_S, die by the SCI_THING_S
+PROVERB patience is a virtue
 
 PLACE TOWN
 PLACE COU
@@ -6337,6 +6340,8 @@ PETTY_RES I'd had a bit more support from my supervisor
 PETTY_RES they hadn't been so naughty
 
 PETTY_EXCUSE That was our \emph{Woodstock}
+PETTY_EXCUSE FUNPRE we SOUGHT hard but in the end just didn't feel `that way' in court
+PETTY_EXCUSE FUNPRE I didn't know how to get out of it
 PETTY_EXCUSE FUNPRE we worked really hard and got nowhere
 PETTY_EXCUSE FUNPRE we worked really hard but it still doesn't quite work
 PETTY_EXCUSE No one understands how I feel
@@ -9892,12 +9897,11 @@ PREFIXX exo
 PREFIXX endo
 PREFIXX ambi
 
+PREFIXX hand
+PREFIXX space
+
 PREFIX+40 PREFIXX
 PREFIX \"{u}ber
-
-
-
-
 
 
 COMPPRE_+4 PREFIXX
