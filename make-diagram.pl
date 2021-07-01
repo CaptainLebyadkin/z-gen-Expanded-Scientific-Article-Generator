@@ -144,8 +144,9 @@ open( VIZ, ">$viz_file" ) or die( "Can't open $viz_file for writing" );
 print VIZ $graph_file;
 close( VIZ );
 
-system( "$program -Tps $viz_file > $ps_file; ps2epsi $ps_file $eps_file;" ) and
+system( "$program -Tps $viz_file > $ps_file; ps2epsi $ps_file $eps_file;" ) and # alternative: ps2eps $ps_file; cp $tmp_pre.eps $eps_file"
     die( "Can't run $program on $viz_file" );
+
 
 if( `uname` =~ /Linux/ ) {
     # fix bounding box of stupid linux's ps2epsi
