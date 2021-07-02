@@ -2519,6 +2519,8 @@ BAD_NV			tedious
 BAD_NV			monotonous
 BAD_NV			human
 BAD_NV			mediocre
+BAD_NV			mysterious
+BAD_V 			unexplained
 BAD_V	onerous 
 BAD_NV	dubious
 BAD_NV	difficult
@@ -2846,7 +2848,9 @@ EXP_ADJ+20		PREFIXXposable
 EXP_ADJ+20		contingent
 EXP_ADJ+20		reflexive
 EXP_ADJ+20		mechanical
-
+EXP_ADJ+20	SCIENCE-agnostic
+EXP_ADJ+10	tubular
+EXP_ADJ+10	boobular
 
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
 EXP_TYPE	EXP_TYPE_UM
@@ -3314,6 +3318,8 @@ STORAGE_TYPE		optical drive
 STORAGE_TYPE		AREAADJ disk
 STORAGE_TYPE		MNOUN drive
 STORAGE_TYPE		EXP_ADJ key
+STORAGE_TYPE		SCI_BUZZWORD_ADJ PREFIXX-coin
+STORAGE_TYPE		SCI_BUZZWORD_ADJ PREFIXX-chain
 STORAGE_TYPE		IMPL_COMPONENT
 
 MEMORY_TYPE		simulation RAM
@@ -3620,6 +3626,9 @@ FEATURE factor
 FEATURE `wow'-factor
 FEATURE angle
 FEATURE derivative
+FEATURE	anomaly
+FEATURE	discrepancy
+FEATURE	weirdness
 FEATURE EXP_WHERE_CMN
 
 EVAL_ANALYZE_ONE+15 note the INTERESTING FEATURE in EXP_FIG, exhibiting DIFFERENT EVAL_MEASUREMENT
@@ -4239,6 +4248,7 @@ SCI_THING_S    EXP_ADJ apparatus
 SCI_THING_S    EXP_ADJ resonance
 SCI_THING_P    EXP_ADJ apparatus
 SCI_THING_S+10    COMP_NOUN
+SCI_THING_S    gene sequencing
 
 SCI_THING_MOD+20	SCI_THING_P 
 SCI_THING_MOD+25 MNOUNS of SCI_THING_P  
@@ -4508,6 +4518,15 @@ SCI_FIELD	cyberinformatics
 SCI_FIELD	physics
 SCI_FIELD	theoretical physics
 SCI_FIELD	AREA
+SCI_FIELD	IVF
+SCI_FIELD	Embryology
+SCI_FIELD	EMID1nomics
+SCI_FIELD	EMID1netics
+SCI_FIELD	EMID1dynamics
+SCI_FIELD	EMID2omics
+SCI_FIELD	EMID2etics
+SCI_FIELD	EMID2odynamics
+
 SCI_COUNTRY+20	American
 SCI_COUNTRY+10	British
 SCI_COUNTRY+10	Canadian
@@ -6155,6 +6174,7 @@ FUNPRE And even though they took away my INNOCITEM,
 INNOCITEM blu-tac privileges
 INNOCITEM pen licence
 INNOCITEM construction paper
+FUNPRE And even though the MPEOP at CITE_CONF_NAME said I was a LOSER,	
 
 POSSSILLY (I was cold and hungry and they don't do good catering at the assessment place)
 POSSSILLY+3
@@ -6270,6 +6290,7 @@ HEROIC_OVERSTATEMENT Excuse us, but I think we know what we're doing
 HEROIC_OVERSTATEMENT FUNPRE we think we're pretty DEDICATED INTERJEC
 HEROIC_OVERSTATEMENT FUNPRE we started with SCI_A_FACT, and just went from there really
 HEROIC_OVERSTATEMENT FUNPRE this WORK sets the TONE for SCI_THING
+HEROIC_OVERSTATEMENT FUNPRE we are 100\% EXP_ADJ
 
 EVOLVED evolved
 EVOLVED neanderthal
@@ -6363,6 +6384,8 @@ KEEPMAYBE
 KEEPMAYBE . It \emph{wasn't yours to keep}, SCI_SOURCE
 PETTY_EXCUSE FUNPRE we're all just crawling around on this space-rock anyway
 PETTY_EXCUSE The final FINDINGs remain incomplete, as it got past my bedtime and THEYWEREMEAN
+PETTY_EXCUSE This BAD FEATURE caused the SCI_BUZZWORD_ADJ behaviour in the bedtime of one of the co-au\
+thors
 
 THEYWEREMEAN they were mean to me about it
 THEYWEREMEAN they made me switch the computer off
@@ -6377,6 +6400,12 @@ PETTY_EXCUSE FUNPRE the whole thing got out of hand
 PETTY_EXCUSE We promised we wouldn't dob on our esteemed co-workers
 PETTY_EXCUSE We said we would not SCREWOVER
 PETTY_EXCUSE $DIGIT/10$ colleagues agreed our results were UNIQUE* (ish)
+PETTY_EXCUSE One HOME claimed to get SIMILAR results but don't worry, they've been ``taken care of''. \
+(We won't be hearing from them again in a while).
+PETTY_EXCUSE in the end, we were unable to complete WHICH_EXPERIMENTS. We leave the reader (and our es\
+teemed colleagues) to surmise why this might be, SCI_BY_WHO
+PETTY_EXCUSE Well, it worked when \textit{we} did it
+PETTY_EXCUSE But for us, it was	different
 
 FILLER_SENTENCE FILLER_SENTENCE FUNNEND
 
@@ -6869,11 +6898,29 @@ LOWLY_PEOPLE	BAD unsophisticates
 LOWLY_PEOPLE	shameless whingers
 LOWLY_PEOPLE    the BAD monobrow
 LOWLY_PEOPLE	the BAD hoi polloi
+LOWLY_PEOPLE	fatcats	on Wall	Street
+LOWLY_PEOPLE	crypto-hodlers
+LOWLY_PEOPLE    crypto-hodlers
+LOWLY_PEOPLE	PERVERSE keyboard-warriors
+LOWLY_PEOPLE	PERVERSE redditors
+LOWLY_PEOPLE    PERVERSE meme-reposters
+LOWLY_PEOPLE	FAMOUSLAST fan-boys
+LOWLY_PEOPLE    FAMOUSLAST fanciers
+LOWLY_PEOPLE	LEVEL groupies
 
-LOSERS losers
-LOSERS tards
-LOSERS jerds
-LOSERS fards
+LOSER loser
+LOSER tard
+LOSER jerd
+LOSER fard
+LOSER wanker
+LOSER weirdo
+LOSER jerk
+LOSER fuddy-duddy
+LOSER dadbod
+LOSER jerk-wad
+LOSER nutjob
+LOSER wank-tard
+LOSERS LOSERs
 
 LEVEL high-school
 LEVEL undergraduate
@@ -7798,6 +7845,17 @@ HOME private holiday home
 HOME home-away-from-home
 HOME workplace environment
 HOME DEDICATED lab
+HOME Corporation
+HOME DEDICATED Organisation
+HOME DEDICATED Organization
+HOME group
+HOME work-group
+HOME PREFIXX-group
+HOME team
+HOME DEDICATED Team
+HOME lab
+HOME work-from-home setup
+HOME WFH office
 
 SCI_IMAGE_MAYBE+10
 
@@ -8493,7 +8551,7 @@ CITE_CONF_NAME NDSS
 CITE_CONF_NAME NOSSDAV 
 CITE_CONF_NAME ECOOP
 CITE_CONF_NAME IPTPS
-CITE_CONF_NAME the USENIX Security Conference
+CITE_CONF_NAME the USENIX Security CITE_CONF_TYPE
 CITE_CONF_NAME PODS
 CITE_CONF_NAME HPCA
 CITE_CONF_NAME SIGMETRICS
@@ -8501,6 +8559,11 @@ CITE_CONF_NAME FOCS
 CITE_CONF_NAME+15 the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN
 CITE_CONF_NAME+15 the CONFNUM Annual CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN
 CITE_CONF AMBITIOUS SCI_SYSTEM_PL
+CITE_CONF_NAME SPIE West
+CITE_CONF_NAME NIPS
+CITE_CONF_NAME the WHO CITE_CONF_TYPE
+CITE_CONF_NAME ESHRE
+CITE_CONF_NAME ASRM
 
 NUMEND 1st
 NUMEND 2nd
@@ -8525,6 +8588,8 @@ CITE_JOURNAL NTT Technical Review
 CITE_CONF_TYPE Workshop
 CITE_CONF_TYPE Conference
 CITE_CONF_TYPE Symposium
+CITE_CONF_TYPE Trade Show
+CITE_CONF_TYPE Convention
 
 CITE_MONTH jan
 CITE_MONTH feb
@@ -10596,6 +10661,9 @@ FAMOUSLAST Maxwell
 FAMOUSLAST Milnor
 FAMOUSLAST Minkowski
 FAMOUSLAST Monge
+FAMOUSLAST+10 Elon Musk
+FAMOUSLAST+10 Steve Jobs
+FAMOUSLAST+10 Bill Gates
 FAMOUSLAST Napier
 FAMOUSLAST Noether
 FAMOUSLAST Pappus
