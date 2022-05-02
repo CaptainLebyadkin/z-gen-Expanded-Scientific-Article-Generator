@@ -1,5 +1,10 @@
+SEE THE ONLINE APP! 
+http://goodscience.nfshost.com/
+
+Chock full of Easter Eggs 🐣, as described below.
+
 Title: 
-'z-gen' Article Generator
+The good*science 'z-gen' Scientific Article Generator
 
 Description:
 The robust, relevant, juicy and humorously functional interdisciplinary science article generator, "z-gen", combines the best parts of SCIgen and Mathgen, adding ever-volatile random rolls, in accordance with the ethos of the original author's intention- for the aid of amusement rather than strict believability (although, if you read a genuine government report, with its trendy-smarmy buzzwords, and happy and meaningless pictures and graphs, and overall bankruptcy of content, meaning, and sorts of honourable things sensible people care about, the line is actually really shockingly, scarily thin though, isn't it.)
@@ -94,5 +99,11 @@ My opto-awesome added functionality includes:
 -occasional wildcard words weaved in there, taken from an encyclopaedia, to keep things fresh
 
 -randomly-generated technical jargon
+
+-star trek terminology section
+
+-randomly generated proverbs
+
+-context-free language
 
 -many more easter eggs you will find.
